@@ -215,7 +215,7 @@ data class TmdbEpisodeDetail(
     @SerialName("vote_average") override val voteAverage: Float? = null,
     @SerialName("vote_count") override val voteCount: Int? = null,
     @SerialName("still_path") val stillPath: String? = null,
-    @SerialName("images") val images: TmdbResult<TmdbImages>? = null,
+    @SerialName("images") val images: TmdbImages? = null,
     @SerialName("crew") val crew: List<TmdbCrew>? = null,
     @SerialName("guest_stars") val guestStars: List<TmdbCast>? = null,
     @SerialName("external_ids") val externalIds: TmdbExternalIds? = null

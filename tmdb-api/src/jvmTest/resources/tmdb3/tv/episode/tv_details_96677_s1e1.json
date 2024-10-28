@@ -1,0 +1,2517 @@
+{
+  "air_date": "2021-01-08",
+  "crew": [
+    {
+      "job": "Director",
+      "department": "Directing",
+      "credit_id": "6005e750cb3084003ce05931",
+      "adult": false,
+      "gender": 2,
+      "id": 18865,
+      "known_for_department": "Directing",
+      "name": "Louis Leterrier",
+      "original_name": "Louis Leterrier",
+      "popularity": 8.971,
+      "profile_path": "/bpqqRRyCLeoAup2OAv1Dtm5C8Tn.jpg"
+    },
+    {
+      "job": "Director of Photography",
+      "department": "Camera",
+      "credit_id": "6074f8a765686e00296f5bec",
+      "adult": false,
+      "gender": 0,
+      "id": 1550381,
+      "known_for_department": "Camera",
+      "name": "Christophe Nuyens",
+      "original_name": "Christophe Nuyens",
+      "popularity": 0.44,
+      "profile_path": null
+    },
+    {
+      "job": "Second Unit Director of Photography",
+      "department": "Camera",
+      "credit_id": "6074f8c0ca835400408ea813",
+      "adult": false,
+      "gender": 0,
+      "id": 2116848,
+      "known_for_department": "Camera",
+      "name": "Martial Schmeltz",
+      "original_name": "Martial Schmeltz",
+      "popularity": 0.151,
+      "profile_path": null
+    },
+    {
+      "job": "Second Unit Director of Photography",
+      "department": "Camera",
+      "credit_id": "6074f8c718864b00439b220c",
+      "adult": false,
+      "gender": 2,
+      "id": 2210443,
+      "known_for_department": "Camera",
+      "name": "Thomas Lerebour",
+      "original_name": "Thomas Lerebour",
+      "popularity": 0.133,
+      "profile_path": null
+    },
+    {
+      "job": "Story",
+      "department": "Writing",
+      "credit_id": "60767722d8f44e00417730b5",
+      "adult": false,
+      "gender": 2,
+      "id": 1287248,
+      "known_for_department": "Creator",
+      "name": "George Kay",
+      "original_name": "George Kay",
+      "popularity": 2.696,
+      "profile_path": null
+    },
+    {
+      "job": "Story",
+      "department": "Writing",
+      "credit_id": "6076773419ab5900297cb895",
+      "adult": false,
+      "gender": 2,
+      "id": 1618156,
+      "known_for_department": "Writing",
+      "name": "François Uzan",
+      "original_name": "François Uzan",
+      "popularity": 8.174,
+      "profile_path": null
+    },
+    {
+      "job": "Story",
+      "department": "Writing",
+      "credit_id": "6076778f19ab59006ed7a4ee",
+      "adult": false,
+      "gender": 0,
+      "id": 2185863,
+      "known_for_department": "Creator",
+      "name": "Eliane Montane",
+      "original_name": "Eliane Montane",
+      "popularity": 0.153,
+      "profile_path": null
+    },
+    {
+      "job": "Story",
+      "department": "Writing",
+      "credit_id": "607677a518864b002cebf4ea",
+      "adult": false,
+      "gender": 0,
+      "id": 2557040,
+      "known_for_department": "Creator",
+      "name": "Anne Cissé",
+      "original_name": "Anne Cissé",
+      "popularity": 0.557,
+      "profile_path": null
+    },
+    {
+      "job": "Adaptation",
+      "department": "Writing",
+      "credit_id": "60767849b76cbb0079f9dcb5",
+      "adult": false,
+      "gender": 2,
+      "id": 1287248,
+      "known_for_department": "Creator",
+      "name": "George Kay",
+      "original_name": "George Kay",
+      "popularity": 2.696,
+      "profile_path": null
+    },
+    {
+      "job": "Dialogue",
+      "department": "Writing",
+      "credit_id": "60767851d4b9d90027d3e31e",
+      "adult": false,
+      "gender": 2,
+      "id": 1287248,
+      "known_for_department": "Creator",
+      "name": "George Kay",
+      "original_name": "George Kay",
+      "popularity": 2.696,
+      "profile_path": null
+    },
+    {
+      "job": "Adaptation",
+      "department": "Writing",
+      "credit_id": "6076785a9638640057355155",
+      "adult": false,
+      "gender": 2,
+      "id": 1618156,
+      "known_for_department": "Writing",
+      "name": "François Uzan",
+      "original_name": "François Uzan",
+      "popularity": 8.174,
+      "profile_path": null
+    },
+    {
+      "job": "Dialogue",
+      "department": "Writing",
+      "credit_id": "60767860fbe36f0029a5cda0",
+      "adult": false,
+      "gender": 2,
+      "id": 1618156,
+      "known_for_department": "Writing",
+      "name": "François Uzan",
+      "original_name": "François Uzan",
+      "popularity": 8.174,
+      "profile_path": null
+    },
+    {
+      "job": "Screenplay",
+      "department": "Writing",
+      "credit_id": "607678873103250040bd073e",
+      "adult": false,
+      "gender": 2,
+      "id": 1287248,
+      "known_for_department": "Creator",
+      "name": "George Kay",
+      "original_name": "George Kay",
+      "popularity": 2.696,
+      "profile_path": null
+    }
+  ],
+  "episode_number": 1,
+  "guest_stars": [
+    {
+      "character": "Kevin",
+      "credit_id": "6074f4edfb8346006f8a6db2",
+      "order": 501,
+      "adult": false,
+      "gender": 2,
+      "id": 2218461,
+      "known_for_department": "Acting",
+      "name": "Kamel Guenfoud",
+      "original_name": "Kamel Guenfoud",
+      "popularity": 3.069,
+      "profile_path": "/2No4vnSwvQuGaNYoIq3ipJWTh5L.jpg"
+    },
+    {
+      "character": "Vincent Morville",
+      "credit_id": "6074f518875d1a002aa97d9c",
+      "order": 502,
+      "adult": false,
+      "gender": 2,
+      "id": 136170,
+      "known_for_department": "Acting",
+      "name": "Grégoire Colin",
+      "original_name": "Grégoire Colin",
+      "popularity": 10.913,
+      "profile_path": "/jtolsceVVsMT1wWi8m8pdtaUE4f.jpg"
+    },
+    {
+      "character": "Rudy",
+      "credit_id": "6074f527ca835400580c7267",
+      "order": 503,
+      "adult": false,
+      "gender": 2,
+      "id": 1058064,
+      "known_for_department": "Acting",
+      "name": "Arthur Choisnet",
+      "original_name": "Arthur Choisnet",
+      "popularity": 3.032,
+      "profile_path": "/56tzwcW4vm4A0dZp4WQ8O2Qjrlc.jpg"
+    },
+    {
+      "character": "Ibrahim",
+      "credit_id": "6074f6b01da7a6003f15a71f",
+      "order": 505,
+      "adult": false,
+      "gender": 0,
+      "id": 1457841,
+      "known_for_department": "Acting",
+      "name": "Mohamed Nouar",
+      "original_name": "Mohamed Nouar",
+      "popularity": 1.407,
+      "profile_path": "/2PmsZeXswYqvgkUqsh6HuaZcAAn.jpg"
+    },
+    {
+      "character": "Louvre Museum Guide",
+      "credit_id": "6074f6d6fb8346002a54c5a1",
+      "order": 506,
+      "adult": false,
+      "gender": 1,
+      "id": 3050128,
+      "known_for_department": "Acting",
+      "name": "Charlotte Saliou",
+      "original_name": "Charlotte Saliou",
+      "popularity": 0.012,
+      "profile_path": null
+    },
+    {
+      "character": "Louvre Barrier Security Guard",
+      "credit_id": "6074f738ca8354006fbf487f",
+      "order": 507,
+      "adult": false,
+      "gender": 0,
+      "id": 2535180,
+      "known_for_department": "Acting",
+      "name": "Ary Gabison",
+      "original_name": "Ary Gabison",
+      "popularity": 0.949,
+      "profile_path": "/2rvGjQZYcs8AT4tyT130iFZturm.jpg"
+    },
+    {
+      "character": "Thomas in Control Room",
+      "credit_id": "6074f779f925320040fe2d08",
+      "order": 508,
+      "adult": false,
+      "gender": 2,
+      "id": 3050130,
+      "known_for_department": "Acting",
+      "name": "Martin Trouvé-Dugény",
+      "original_name": "Martin Trouvé-Dugény",
+      "popularity": 0.001,
+      "profile_path": null
+    },
+    {
+      "character": "Ferrari Police Officer",
+      "credit_id": "6074f7b1d8f44e0059e8c662",
+      "order": 509,
+      "adult": false,
+      "gender": 2,
+      "id": 2198186,
+      "known_for_department": "Acting",
+      "name": "Xavier Gojo",
+      "original_name": "Xavier Gojo",
+      "popularity": 0.157,
+      "profile_path": "/v0lvWqNhDX8F7nl7twoBPlCm2e0.jpg"
+    },
+    {
+      "character": "Mrs. Anne Pellegrini",
+      "credit_id": "6074f4602a09bc006e49771a",
+      "order": 519,
+      "adult": false,
+      "gender": 1,
+      "id": 24485,
+      "known_for_department": "Acting",
+      "name": "Nicole Garcia",
+      "original_name": "Nicole Garcia",
+      "popularity": 7.467,
+      "profile_path": "/kZWBVMLkxGhH97DgJ0uoUlSF5Z5.jpg"
+    },
+    {
+      "character": "Young Gabriel Dumont",
+      "credit_id": "6074f6293f483300571476d4",
+      "order": 521,
+      "adult": false,
+      "gender": 2,
+      "id": 1457800,
+      "known_for_department": "Acting",
+      "name": "Johann Dionnet",
+      "original_name": "Johann Dionnet",
+      "popularity": 5.709,
+      "profile_path": "/wJHARDUZRpJNWjfGL6dMMEs6j44.jpg"
+    },
+    {
+      "character": "Thibault Du Quenoy",
+      "credit_id": "6074f67e7776f000298159dd",
+      "order": 529,
+      "adult": false,
+      "gender": 2,
+      "id": 1493331,
+      "known_for_department": "Acting",
+      "name": "Xavier Lemaître",
+      "original_name": "Xavier Lemaître",
+      "popularity": 1.827,
+      "profile_path": "/48FFd6ARgXdYahnGjQxAvAV2nTY.jpg"
+    },
+    {
+      "character": "Aminata",
+      "credit_id": "6074f6a5d4b9d90027d1e74e",
+      "order": 530,
+      "adult": false,
+      "gender": 1,
+      "id": 1981383,
+      "known_for_department": "Acting",
+      "name": "Jocelyne Vignon",
+      "original_name": "Jocelyne Vignon",
+      "popularity": 1.201,
+      "profile_path": "/AgvAD7K9bHYktQwfYcLNwTeKZCZ.jpg"
+    },
+    {
+      "character": "Young Juliette Pellegrini",
+      "credit_id": "6074f837ca83540029fa6dc7",
+      "order": 557,
+      "adult": false,
+      "gender": 1,
+      "id": 3050133,
+      "known_for_department": "Acting",
+      "name": "Léa Bonneau",
+      "original_name": "Léa Bonneau",
+      "popularity": 2.705,
+      "profile_path": "/cUY4b4byEvPHbBZqtdFVF1jRLhL.jpg"
+    },
+    {
+      "character": "Sofia Belkacem",
+      "credit_id": "6005e625e942ee003fe65b7a",
+      "order": 560,
+      "adult": false,
+      "gender": 1,
+      "id": 2280476,
+      "known_for_department": "Acting",
+      "name": "Shirine Boutella",
+      "original_name": "Shirine Boutella",
+      "popularity": 35.592,
+      "profile_path": "/4qBT877sIjMLycDBmahEpL1nwEk.jpg"
+    },
+    {
+      "character": "Mr. Hubert Pellegrini",
+      "credit_id": "6074f46c78570e006e363872",
+      "order": 561,
+      "adult": false,
+      "gender": 2,
+      "id": 146720,
+      "known_for_department": "Acting",
+      "name": "Hervé Pierre",
+      "original_name": "Hervé Pierre",
+      "popularity": 7.655,
+      "profile_path": "/zrorzRqdKqbZVNws404U13Ypxf.jpg"
+    },
+    {
+      "character": "Benjamin Ferel",
+      "credit_id": "6074f4822a09bc00295a41df",
+      "order": 562,
+      "adult": false,
+      "gender": 2,
+      "id": 586916,
+      "known_for_department": "Acting",
+      "name": "Antoine Gouy",
+      "original_name": "Antoine Gouy",
+      "popularity": 6.628,
+      "profile_path": "/g0KnDyYzYHNY3TQgcX3B26ILnTu.jpg"
+    },
+    {
+      "character": "Babakar Diop",
+      "credit_id": "6074f4c0fb834600578f3f34",
+      "order": 563,
+      "adult": false,
+      "gender": 2,
+      "id": 2128717,
+      "known_for_department": "Acting",
+      "name": "Fargass Assandé",
+      "original_name": "Fargass Assandé",
+      "popularity": 5.776,
+      "profile_path": "/ox0jDG4i0dgZTMMkP6PXDUFY4cP.jpg"
+    },
+    {
+      "character": "Captain Romain Laugier",
+      "credit_id": "6074f58e2a09bc006e497a56",
+      "order": 564,
+      "adult": false,
+      "gender": 2,
+      "id": 1173028,
+      "known_for_department": "Acting",
+      "name": "Vincent Londez",
+      "original_name": "Vincent Londez",
+      "popularity": 11.685,
+      "profile_path": "/sVVveDFGIU9Llk5scvrHr9UQgPY.jpg"
+    },
+    {
+      "character": "Young Assane Diop",
+      "credit_id": "6074f7d42a09bc00404a4dcf",
+      "order": 565,
+      "adult": false,
+      "gender": 2,
+      "id": 3050131,
+      "known_for_department": "Acting",
+      "name": "Mamadou Haïdara",
+      "original_name": "Mamadou Haïdara",
+      "popularity": 3.564,
+      "profile_path": "/pEcfv4SuxqJ0GDjwW5IInb1ct8w.jpg"
+    },
+    {
+      "character": "Claire",
+      "credit_id": "60eedb55a44d090081a7d788",
+      "order": 571,
+      "adult": false,
+      "gender": 1,
+      "id": 4390,
+      "known_for_department": "Acting",
+      "name": "Ludivine Sagnier",
+      "original_name": "Ludivine Sagnier",
+      "popularity": 22.907,
+      "profile_path": "/hHYq2MfSF9R26pVNJBjVUZPCvMM.jpg"
+    },
+    {
+      "character": "Juliette Pellegrini",
+      "credit_id": "60eedbfbdcf87506a91762c8",
+      "order": 572,
+      "adult": false,
+      "gender": 1,
+      "id": 53429,
+      "known_for_department": "Acting",
+      "name": "Clotilde Hesme",
+      "original_name": "Clotilde Hesme",
+      "popularity": 8.004,
+      "profile_path": "/hPWDBjjk0OJaMdiVRaUBL7jeAcZ.jpg"
+    },
+    {
+      "character": "Youssef Guedira",
+      "credit_id": "60eedc780f0da500751a0848",
+      "order": 573,
+      "adult": false,
+      "gender": 2,
+      "id": 1372661,
+      "known_for_department": "Acting",
+      "name": "Soufiane Guerrab",
+      "original_name": "Soufiane Guerrab",
+      "popularity": 8.624,
+      "profile_path": "/hJIMDd7l4pK28aT8tPbJ6KoKxfz.jpg"
+    },
+    {
+      "character": "Léonard Koné",
+      "credit_id": "60eedd2db7abb5005e036a32",
+      "order": 574,
+      "adult": false,
+      "gender": 2,
+      "id": 586731,
+      "known_for_department": "Acting",
+      "name": "Adama Niane",
+      "original_name": "Adama Niane",
+      "popularity": 5.988,
+      "profile_path": "/r1mvrT2AXJwUFPBEzGPs1O1UdB7.jpg"
+    },
+    {
+      "character": "Raoul Diop",
+      "credit_id": "60eedce16dc507002e070d98",
+      "order": 587,
+      "adult": false,
+      "gender": 2,
+      "id": 3050132,
+      "known_for_department": "Acting",
+      "name": "Etan Simon",
+      "original_name": "Etan Simon",
+      "popularity": 4.096,
+      "profile_path": "/uXF3yPXMQhIMkv2VA3dkIQPN813.jpg"
+    }
+  ],
+  "name": "Chapter 1",
+  "overview": "Years after a tragic injustice, Assane seeks to settle a score — and a debt — by stealing a diamond necklace, but the heist takes an unexpected turn.",
+  "id": 2613188,
+  "production_code": "",
+  "runtime": 47,
+  "season_number": 1,
+  "still_path": "/edgLqKlZR1dB73duRSO3fgBqhOP.jpg",
+  "vote_average": 8.189,
+  "vote_count": 90,
+  "videos": {
+    "results": []
+  },
+  "external_ids": {
+    "imdb_id": "tt11366908",
+    "freebase_mid": null,
+    "freebase_id": null,
+    "tvdb_id": 8072765,
+    "tvrage_id": null,
+    "wikidata_id": "Q125246445"
+  },
+  "credits": {
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 78423,
+        "known_for_department": "Acting",
+        "name": "Omar Sy",
+        "original_name": "Omar Sy",
+        "popularity": 15.154,
+        "profile_path": "/laNZay6AfEzvEvY1NUH9UFiSD0a.jpg",
+        "character": "Assane Diop",
+        "credit_id": "60752e2cca8354006fbfa83e",
+        "order": 0
+      }
+    ],
+    "crew": [
+      {
+        "job": "Director",
+        "department": "Directing",
+        "credit_id": "6005e750cb3084003ce05931",
+        "adult": false,
+        "gender": 2,
+        "id": 18865,
+        "known_for_department": "Directing",
+        "name": "Louis Leterrier",
+        "original_name": "Louis Leterrier",
+        "popularity": 8.971,
+        "profile_path": "/bpqqRRyCLeoAup2OAv1Dtm5C8Tn.jpg"
+      },
+      {
+        "job": "Director of Photography",
+        "department": "Camera",
+        "credit_id": "6074f8a765686e00296f5bec",
+        "adult": false,
+        "gender": 0,
+        "id": 1550381,
+        "known_for_department": "Camera",
+        "name": "Christophe Nuyens",
+        "original_name": "Christophe Nuyens",
+        "popularity": 0.44,
+        "profile_path": null
+      },
+      {
+        "job": "Second Unit Director of Photography",
+        "department": "Camera",
+        "credit_id": "6074f8c0ca835400408ea813",
+        "adult": false,
+        "gender": 0,
+        "id": 2116848,
+        "known_for_department": "Camera",
+        "name": "Martial Schmeltz",
+        "original_name": "Martial Schmeltz",
+        "popularity": 0.151,
+        "profile_path": null
+      },
+      {
+        "job": "Second Unit Director of Photography",
+        "department": "Camera",
+        "credit_id": "6074f8c718864b00439b220c",
+        "adult": false,
+        "gender": 2,
+        "id": 2210443,
+        "known_for_department": "Camera",
+        "name": "Thomas Lerebour",
+        "original_name": "Thomas Lerebour",
+        "popularity": 0.133,
+        "profile_path": null
+      },
+      {
+        "job": "Story",
+        "department": "Writing",
+        "credit_id": "60767722d8f44e00417730b5",
+        "adult": false,
+        "gender": 2,
+        "id": 1287248,
+        "known_for_department": "Creator",
+        "name": "George Kay",
+        "original_name": "George Kay",
+        "popularity": 2.696,
+        "profile_path": null
+      },
+      {
+        "job": "Story",
+        "department": "Writing",
+        "credit_id": "6076773419ab5900297cb895",
+        "adult": false,
+        "gender": 2,
+        "id": 1618156,
+        "known_for_department": "Writing",
+        "name": "François Uzan",
+        "original_name": "François Uzan",
+        "popularity": 8.174,
+        "profile_path": null
+      },
+      {
+        "job": "Story",
+        "department": "Writing",
+        "credit_id": "6076778f19ab59006ed7a4ee",
+        "adult": false,
+        "gender": 0,
+        "id": 2185863,
+        "known_for_department": "Creator",
+        "name": "Eliane Montane",
+        "original_name": "Eliane Montane",
+        "popularity": 0.153,
+        "profile_path": null
+      },
+      {
+        "job": "Story",
+        "department": "Writing",
+        "credit_id": "607677a518864b002cebf4ea",
+        "adult": false,
+        "gender": 0,
+        "id": 2557040,
+        "known_for_department": "Creator",
+        "name": "Anne Cissé",
+        "original_name": "Anne Cissé",
+        "popularity": 0.557,
+        "profile_path": null
+      },
+      {
+        "job": "Adaptation",
+        "department": "Writing",
+        "credit_id": "60767849b76cbb0079f9dcb5",
+        "adult": false,
+        "gender": 2,
+        "id": 1287248,
+        "known_for_department": "Creator",
+        "name": "George Kay",
+        "original_name": "George Kay",
+        "popularity": 2.696,
+        "profile_path": null
+      },
+      {
+        "job": "Dialogue",
+        "department": "Writing",
+        "credit_id": "60767851d4b9d90027d3e31e",
+        "adult": false,
+        "gender": 2,
+        "id": 1287248,
+        "known_for_department": "Creator",
+        "name": "George Kay",
+        "original_name": "George Kay",
+        "popularity": 2.696,
+        "profile_path": null
+      },
+      {
+        "job": "Adaptation",
+        "department": "Writing",
+        "credit_id": "6076785a9638640057355155",
+        "adult": false,
+        "gender": 2,
+        "id": 1618156,
+        "known_for_department": "Writing",
+        "name": "François Uzan",
+        "original_name": "François Uzan",
+        "popularity": 8.174,
+        "profile_path": null
+      },
+      {
+        "job": "Dialogue",
+        "department": "Writing",
+        "credit_id": "60767860fbe36f0029a5cda0",
+        "adult": false,
+        "gender": 2,
+        "id": 1618156,
+        "known_for_department": "Writing",
+        "name": "François Uzan",
+        "original_name": "François Uzan",
+        "popularity": 8.174,
+        "profile_path": null
+      },
+      {
+        "job": "Screenplay",
+        "department": "Writing",
+        "credit_id": "607678873103250040bd073e",
+        "adult": false,
+        "gender": 2,
+        "id": 1287248,
+        "known_for_department": "Creator",
+        "name": "George Kay",
+        "original_name": "George Kay",
+        "popularity": 2.696,
+        "profile_path": null
+      }
+    ],
+    "guest_stars": [
+      {
+        "character": "Kevin",
+        "credit_id": "6074f4edfb8346006f8a6db2",
+        "order": 501,
+        "adult": false,
+        "gender": 2,
+        "id": 2218461,
+        "known_for_department": "Acting",
+        "name": "Kamel Guenfoud",
+        "original_name": "Kamel Guenfoud",
+        "popularity": 3.069,
+        "profile_path": "/2No4vnSwvQuGaNYoIq3ipJWTh5L.jpg"
+      },
+      {
+        "character": "Vincent Morville",
+        "credit_id": "6074f518875d1a002aa97d9c",
+        "order": 502,
+        "adult": false,
+        "gender": 2,
+        "id": 136170,
+        "known_for_department": "Acting",
+        "name": "Grégoire Colin",
+        "original_name": "Grégoire Colin",
+        "popularity": 10.913,
+        "profile_path": "/jtolsceVVsMT1wWi8m8pdtaUE4f.jpg"
+      },
+      {
+        "character": "Rudy",
+        "credit_id": "6074f527ca835400580c7267",
+        "order": 503,
+        "adult": false,
+        "gender": 2,
+        "id": 1058064,
+        "known_for_department": "Acting",
+        "name": "Arthur Choisnet",
+        "original_name": "Arthur Choisnet",
+        "popularity": 3.032,
+        "profile_path": "/56tzwcW4vm4A0dZp4WQ8O2Qjrlc.jpg"
+      },
+      {
+        "character": "Ibrahim",
+        "credit_id": "6074f6b01da7a6003f15a71f",
+        "order": 505,
+        "adult": false,
+        "gender": 0,
+        "id": 1457841,
+        "known_for_department": "Acting",
+        "name": "Mohamed Nouar",
+        "original_name": "Mohamed Nouar",
+        "popularity": 1.407,
+        "profile_path": "/2PmsZeXswYqvgkUqsh6HuaZcAAn.jpg"
+      },
+      {
+        "character": "Louvre Museum Guide",
+        "credit_id": "6074f6d6fb8346002a54c5a1",
+        "order": 506,
+        "adult": false,
+        "gender": 1,
+        "id": 3050128,
+        "known_for_department": "Acting",
+        "name": "Charlotte Saliou",
+        "original_name": "Charlotte Saliou",
+        "popularity": 0.012,
+        "profile_path": null
+      },
+      {
+        "character": "Louvre Barrier Security Guard",
+        "credit_id": "6074f738ca8354006fbf487f",
+        "order": 507,
+        "adult": false,
+        "gender": 0,
+        "id": 2535180,
+        "known_for_department": "Acting",
+        "name": "Ary Gabison",
+        "original_name": "Ary Gabison",
+        "popularity": 0.949,
+        "profile_path": "/2rvGjQZYcs8AT4tyT130iFZturm.jpg"
+      },
+      {
+        "character": "Thomas in Control Room",
+        "credit_id": "6074f779f925320040fe2d08",
+        "order": 508,
+        "adult": false,
+        "gender": 2,
+        "id": 3050130,
+        "known_for_department": "Acting",
+        "name": "Martin Trouvé-Dugény",
+        "original_name": "Martin Trouvé-Dugény",
+        "popularity": 0.001,
+        "profile_path": null
+      },
+      {
+        "character": "Ferrari Police Officer",
+        "credit_id": "6074f7b1d8f44e0059e8c662",
+        "order": 509,
+        "adult": false,
+        "gender": 2,
+        "id": 2198186,
+        "known_for_department": "Acting",
+        "name": "Xavier Gojo",
+        "original_name": "Xavier Gojo",
+        "popularity": 0.157,
+        "profile_path": "/v0lvWqNhDX8F7nl7twoBPlCm2e0.jpg"
+      },
+      {
+        "character": "Mrs. Anne Pellegrini",
+        "credit_id": "6074f4602a09bc006e49771a",
+        "order": 519,
+        "adult": false,
+        "gender": 1,
+        "id": 24485,
+        "known_for_department": "Acting",
+        "name": "Nicole Garcia",
+        "original_name": "Nicole Garcia",
+        "popularity": 7.467,
+        "profile_path": "/kZWBVMLkxGhH97DgJ0uoUlSF5Z5.jpg"
+      },
+      {
+        "character": "Young Gabriel Dumont",
+        "credit_id": "6074f6293f483300571476d4",
+        "order": 521,
+        "adult": false,
+        "gender": 2,
+        "id": 1457800,
+        "known_for_department": "Acting",
+        "name": "Johann Dionnet",
+        "original_name": "Johann Dionnet",
+        "popularity": 5.709,
+        "profile_path": "/wJHARDUZRpJNWjfGL6dMMEs6j44.jpg"
+      },
+      {
+        "character": "Thibault Du Quenoy",
+        "credit_id": "6074f67e7776f000298159dd",
+        "order": 529,
+        "adult": false,
+        "gender": 2,
+        "id": 1493331,
+        "known_for_department": "Acting",
+        "name": "Xavier Lemaître",
+        "original_name": "Xavier Lemaître",
+        "popularity": 1.827,
+        "profile_path": "/48FFd6ARgXdYahnGjQxAvAV2nTY.jpg"
+      },
+      {
+        "character": "Aminata",
+        "credit_id": "6074f6a5d4b9d90027d1e74e",
+        "order": 530,
+        "adult": false,
+        "gender": 1,
+        "id": 1981383,
+        "known_for_department": "Acting",
+        "name": "Jocelyne Vignon",
+        "original_name": "Jocelyne Vignon",
+        "popularity": 1.201,
+        "profile_path": "/AgvAD7K9bHYktQwfYcLNwTeKZCZ.jpg"
+      },
+      {
+        "character": "Young Juliette Pellegrini",
+        "credit_id": "6074f837ca83540029fa6dc7",
+        "order": 557,
+        "adult": false,
+        "gender": 1,
+        "id": 3050133,
+        "known_for_department": "Acting",
+        "name": "Léa Bonneau",
+        "original_name": "Léa Bonneau",
+        "popularity": 2.705,
+        "profile_path": "/cUY4b4byEvPHbBZqtdFVF1jRLhL.jpg"
+      },
+      {
+        "character": "Sofia Belkacem",
+        "credit_id": "6005e625e942ee003fe65b7a",
+        "order": 560,
+        "adult": false,
+        "gender": 1,
+        "id": 2280476,
+        "known_for_department": "Acting",
+        "name": "Shirine Boutella",
+        "original_name": "Shirine Boutella",
+        "popularity": 35.592,
+        "profile_path": "/4qBT877sIjMLycDBmahEpL1nwEk.jpg"
+      },
+      {
+        "character": "Mr. Hubert Pellegrini",
+        "credit_id": "6074f46c78570e006e363872",
+        "order": 561,
+        "adult": false,
+        "gender": 2,
+        "id": 146720,
+        "known_for_department": "Acting",
+        "name": "Hervé Pierre",
+        "original_name": "Hervé Pierre",
+        "popularity": 7.655,
+        "profile_path": "/zrorzRqdKqbZVNws404U13Ypxf.jpg"
+      },
+      {
+        "character": "Benjamin Ferel",
+        "credit_id": "6074f4822a09bc00295a41df",
+        "order": 562,
+        "adult": false,
+        "gender": 2,
+        "id": 586916,
+        "known_for_department": "Acting",
+        "name": "Antoine Gouy",
+        "original_name": "Antoine Gouy",
+        "popularity": 6.628,
+        "profile_path": "/g0KnDyYzYHNY3TQgcX3B26ILnTu.jpg"
+      },
+      {
+        "character": "Babakar Diop",
+        "credit_id": "6074f4c0fb834600578f3f34",
+        "order": 563,
+        "adult": false,
+        "gender": 2,
+        "id": 2128717,
+        "known_for_department": "Acting",
+        "name": "Fargass Assandé",
+        "original_name": "Fargass Assandé",
+        "popularity": 5.776,
+        "profile_path": "/ox0jDG4i0dgZTMMkP6PXDUFY4cP.jpg"
+      },
+      {
+        "character": "Captain Romain Laugier",
+        "credit_id": "6074f58e2a09bc006e497a56",
+        "order": 564,
+        "adult": false,
+        "gender": 2,
+        "id": 1173028,
+        "known_for_department": "Acting",
+        "name": "Vincent Londez",
+        "original_name": "Vincent Londez",
+        "popularity": 11.685,
+        "profile_path": "/sVVveDFGIU9Llk5scvrHr9UQgPY.jpg"
+      },
+      {
+        "character": "Young Assane Diop",
+        "credit_id": "6074f7d42a09bc00404a4dcf",
+        "order": 565,
+        "adult": false,
+        "gender": 2,
+        "id": 3050131,
+        "known_for_department": "Acting",
+        "name": "Mamadou Haïdara",
+        "original_name": "Mamadou Haïdara",
+        "popularity": 3.564,
+        "profile_path": "/pEcfv4SuxqJ0GDjwW5IInb1ct8w.jpg"
+      },
+      {
+        "character": "Claire",
+        "credit_id": "60eedb55a44d090081a7d788",
+        "order": 571,
+        "adult": false,
+        "gender": 1,
+        "id": 4390,
+        "known_for_department": "Acting",
+        "name": "Ludivine Sagnier",
+        "original_name": "Ludivine Sagnier",
+        "popularity": 22.907,
+        "profile_path": "/hHYq2MfSF9R26pVNJBjVUZPCvMM.jpg"
+      },
+      {
+        "character": "Juliette Pellegrini",
+        "credit_id": "60eedbfbdcf87506a91762c8",
+        "order": 572,
+        "adult": false,
+        "gender": 1,
+        "id": 53429,
+        "known_for_department": "Acting",
+        "name": "Clotilde Hesme",
+        "original_name": "Clotilde Hesme",
+        "popularity": 8.004,
+        "profile_path": "/hPWDBjjk0OJaMdiVRaUBL7jeAcZ.jpg"
+      },
+      {
+        "character": "Youssef Guedira",
+        "credit_id": "60eedc780f0da500751a0848",
+        "order": 573,
+        "adult": false,
+        "gender": 2,
+        "id": 1372661,
+        "known_for_department": "Acting",
+        "name": "Soufiane Guerrab",
+        "original_name": "Soufiane Guerrab",
+        "popularity": 8.624,
+        "profile_path": "/hJIMDd7l4pK28aT8tPbJ6KoKxfz.jpg"
+      },
+      {
+        "character": "Léonard Koné",
+        "credit_id": "60eedd2db7abb5005e036a32",
+        "order": 574,
+        "adult": false,
+        "gender": 2,
+        "id": 586731,
+        "known_for_department": "Acting",
+        "name": "Adama Niane",
+        "original_name": "Adama Niane",
+        "popularity": 5.988,
+        "profile_path": "/r1mvrT2AXJwUFPBEzGPs1O1UdB7.jpg"
+      },
+      {
+        "character": "Raoul Diop",
+        "credit_id": "60eedce16dc507002e070d98",
+        "order": 587,
+        "adult": false,
+        "gender": 2,
+        "id": 3050132,
+        "known_for_department": "Acting",
+        "name": "Etan Simon",
+        "original_name": "Etan Simon",
+        "popularity": 4.096,
+        "profile_path": "/uXF3yPXMQhIMkv2VA3dkIQPN813.jpg"
+      }
+    ]
+  },
+  "watch/providers": {
+    "results": {
+      "AD": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=AD",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AE": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=AE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AG": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=AG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AL": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=AL",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AO": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=AO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 4
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=AR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=AT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=AU",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix basic with Ads",
+            "display_priority": 52
+          }
+        ]
+      },
+      "AZ": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=AZ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 2
+          }
+        ]
+      },
+      "BA": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=BA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BB": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=BB",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=BE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=BG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BH": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=BH",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BM": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=BM",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=BO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix basic with Ads",
+            "display_priority": 47
+          }
+        ]
+      },
+      "BS": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=BS",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "BY": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=BY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 6
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=BZ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 7
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=CA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix basic with Ads",
+            "display_priority": 110
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=CH",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CI": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=CI",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=CL",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "CM": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=CM",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 4
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=CO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 2
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=CR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CU": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=CU",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=CV",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=CY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 7
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=CZ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=DE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix basic with Ads",
+            "display_priority": 102
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=DK",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "DO": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=DO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "DZ": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=DZ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=EC",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=EE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=EG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=ES",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 40
+          },
+          {
+            "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix basic with Ads",
+            "display_priority": 63
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=FI",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "FJ": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=FJ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=FR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix basic with Ads",
+            "display_priority": 71
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=GB",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix basic with Ads",
+            "display_priority": 99
+          }
+        ]
+      },
+      "GF": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=GF",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "GG": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=GG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=GH",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "GI": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=GI",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "GQ": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=GQ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=GR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=GT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=HK",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=HN",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "HR": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=HR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "HU": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=HU",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=ID",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=IE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=IL",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=IN",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "IQ": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=IQ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "IS": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=IS",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=IT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          },
+          {
+            "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix basic with Ads",
+            "display_priority": 64
+          }
+        ]
+      },
+      "JM": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=JM",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "JO": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=JO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=JP",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix basic with Ads",
+            "display_priority": 27
+          }
+        ]
+      },
+      "KE": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=KE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=KR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix basic with Ads",
+            "display_priority": 29
+          }
+        ]
+      },
+      "KW": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=KW",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "LB": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=LB",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "LC": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=LC",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "LI": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=LI",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=LT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=LU",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 8
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=LV",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "LY": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=LY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MA": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=MA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MC": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=MC",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MD": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=MD",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "ME": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=ME",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 4
+          }
+        ]
+      },
+      "MG": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=MG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 4
+          }
+        ]
+      },
+      "MK": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=MK",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "ML": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=ML",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 5
+          }
+        ]
+      },
+      "MT": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=MT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=MU",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=MX",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix basic with Ads",
+            "display_priority": 46
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=MY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=MZ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "NE": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=NE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "NG": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=NG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=NI",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 11
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=NL",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=NO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=NZ",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "OM": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=OM",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PA": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=PA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=PE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 2
+          }
+        ]
+      },
+      "PF": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=PF",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=PH",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PK": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=PK",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=PL",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "PS": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=PS",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=PT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=PY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "QA": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=QA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=RO",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "RS": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=RS",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=SA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SC": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=SC",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=SE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=SG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=SI",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=SK",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "SM": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=SM",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SN": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=SN",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "SV": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=SV",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "TC": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=TC",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "TD": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=TD",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 5
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=TH",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 1
+          }
+        ]
+      },
+      "TN": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=TN",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "TR": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=TR",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 3
+          }
+        ]
+      },
+      "TT": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=TT",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=TW",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "UA": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=UA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "UG": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=UG",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=US",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix basic with Ads",
+            "display_priority": 180
+          }
+        ]
+      },
+      "UY": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=UY",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=VE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "YE": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=YE",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=ZA",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "ZM": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=ZM",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/season/1/episode/1/watch?locale=ZW",
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 5
+          }
+        ]
+      }
+    }
+  }
+}
