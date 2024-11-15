@@ -2,15 +2,14 @@
 
 package app.moviebase.tmdb.api
 
+import app.moviebase.tmdb.core.mockHttpClient
 import app.moviebase.tmdb.model.AppendResponse
 import app.moviebase.tmdb.model.TmdbReleaseType
 import app.moviebase.tmdb.model.TmdbVideoType
 import app.moviebase.tmdb.model.getCertification
 import app.moviebase.tmdb.model.getReleaseDateBy
 import app.moviebase.tmdb.model.getReleaseDatesBy
-import app.moviebase.tmdb.core.mockHttpClient
 import com.google.common.truth.Truth.assertThat
-import kotlin.test.assertNotNull
 import kotlinx.coroutines.test.runTest
 import kotlinx.datetime.toInstant
 import org.junit.jupiter.api.Test
@@ -28,6 +27,8 @@ class TmdbMoviesApiTest {
                 to "movie/movie_details_607.json",
             "movie/526896?language=en-US&append_to_response=release_dates"
                 to "movie/movie_images_526896.json",
+            "movie/37799?language=en-US"
+                to "movie/movie_details_37799.json",
             "movie/popular?page=1&language=en-US"
                 to "movie/movie_popular.json",
         )
@@ -135,5 +136,16 @@ class TmdbMoviesApiTest {
 
         assertThat(popular.results).isNotEmpty()
         assertThat(popular.page).isEqualTo(1)
+    }
+
+    @Test
+    fun `it has the origin country`() = runTest {
+        val movieDetails = classToTest.getDetails(
+            movieId = 37799,
+            language = "en-US",
+        )
+
+        assertThat(movieDetails.originCountry.size).isEqualTo(1)
+        assertThat(movieDetails.originCountry.first()).isEqualTo("US")
     }
 }
