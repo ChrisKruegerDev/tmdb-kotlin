@@ -8,9 +8,9 @@
 ***Get movies and TV shows from the largest community database.***
 
 [![Maven Central](https://img.shields.io/maven-central/v/app.moviebase/tmdb-api?label=Maven%20Central)](https://search.maven.org/artifact/app.moviebase/tmdb-api)
-![Github Actions](https://github.com/MoviebaseApp/tmdb-api/actions/workflows/build.yml/badge.svg)
-[![Issues](https://img.shields.io/github/issues/MoviebaseApp/tmdb-api)](https://github.com/MoviebaseApp/tmdb-api/issues)
-[![Kotlin](https://img.shields.io/badge/kotlin-1.9.22-blue.svg?logo=kotlin)](http://kotlinlang.org)
+![Github Actions](https://github.com/ChrisKruegerDev/tmdb-api/actions/workflows/build.yml/badge.svg)
+[![Issues](https://img.shields.io/github/issues/ChrisKruegerDev/tmdb-api)](https://github.com/ChrisKruegerDev/tmdb-api/issues)
+[![Kotlin](https://img.shields.io/badge/kotlin-2.0.21-blue.svg?logo=kotlin)](http://kotlinlang.org)
 [![Gradle](https://img.shields.io/badge/Gradle-8-green?style=flat)](https://gradle.org)
 [![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
 [![GitHub Account](https://img.shields.io/static/v1?label=GitHub&message=chrisnkrueger&color=C51162)](https://github.com/chrisnkrueger)
@@ -27,10 +27,10 @@ TMDB Kotlin is a **Kotlin Multiplatform** library for fetching movies, TV shows,
 
 Sample projects:
 
-* [tivi](https://github.com/chrisbanes/tivi)
 * [Moviebase](https://play.google.com/store/apps/details?id=com.moviebase)
 * [StreamGuide](https://play.google.com/store/apps/details?id=app.streamguide)
-
+* [tivi](https://github.com/chrisbanes/tivi)
+*
 ## Adding to your project
 
 The library is available on Maven Central.
@@ -49,7 +49,7 @@ To use the library in a single-platform project, add a dependency.
 
 ```kotlin
 dependencies {
-    implementation("app.moviebase:tmdb-api:1.3.3")
+    implementation("app.moviebase:tmdb-api:1.4.0")
 }
 ```
 
@@ -58,7 +58,7 @@ In Kotlin Multiplatform projects, add the dependency to your commonMain source-s
 ```kotlin
 commonMain {
     dependencies {
-        implementation("app.moviebase:tmdb-api:1.3.3")
+        implementation("app.moviebase:tmdb-api:1.4.0")
     }
 }
 ```
@@ -210,7 +210,7 @@ val vimeoTmdbVideo = TmdbVideo(id = "123", key = "qwerasdf", site = TmdbVideoSit
 val url = TmdbImageUrlBuilder.build(vimeoTmdbVideo) // It will return `https://vimeo.com/qwerasdf`
 ```
 ## Contributing 🤝
-Please feel free to [open an issue](https://github.com/MoviebaseApp/tmdb-api/issues/new/choose) if you have any questions or suggestions. Or participate in the [discussion](https://github.com/MoviebaseApp/tmdb-api/discussions). If you want to contribute, please read the [contribution guidelines](https://github.com/MoviebaseApp/tmdb-api/blob/main/CONTRIBUTING.md) for more information.
+Please feel free to [open an issue](https://github.com/ChrisKruegerDev/tmdb-api/issues/new/choose) if you have any questions or suggestions. Or participate in the [discussion](https://github.com/ChrisKruegerDev/tmdb-api/discussions). If you want to contribute, please read the [contribution guidelines](https://github.com/ChrisKruegerDev/tmdb-api/blob/main/CONTRIBUTING.md) for more information.
 
 <br>
 
