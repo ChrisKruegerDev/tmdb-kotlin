@@ -1,17 +1,17 @@
 [versions]
-kotlin = "1.9.23"
+kotlin = "2.0.21"
 spotless = "6.23.3"
-ben-manes-versions = "0.50.0"
+ben-manes-versions = "0.51.0"
 dokka = "1.9.20"
-kotlinx-datetime = "0.5.0"
-kotlinx-serialization = "1.6.3"
-coroutines = "1.8.0"
-ktor = "2.3.10"
+kotlinx-datetime = "0.6.1"
+kotlinx-serialization = "1.7.3"
+coroutines = "1.9.0"
+ktor = "3.0.1"
 ktlint = "1.1.1"
-junit-jupiter = "5.10.2"
-truth = "1.4.2"
+junit-jupiter = "5.11.3"
+truth = "1.4.4"
 junit = "4.13.2"
-maven-publish = "0.25.3"
+maven-publish = "0.30.0"
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }

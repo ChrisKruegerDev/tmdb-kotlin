@@ -18,13 +18,13 @@ class TmdbClientConfig {
 
     internal var httpClientConfigBlock: (HttpClientConfig<*>.() -> Unit)? = null
     internal var httpClientBuilder: (() -> HttpClient)? = null
-    internal var httpClientLoggingBlock: (Logging.Config.() -> Unit)? = null
+    internal var httpClientLoggingBlock: (LoggingConfig.() -> Unit)? = null
 
     fun userAuthentication(block: TmdbAuthCredentials.() -> Unit) {
         tmdbAuthCredentials = TmdbAuthCredentials().apply(block)
     }
 
-    fun logging(block: Logging.Config.() -> Unit) {
+    fun logging(block: LoggingConfig.() -> Unit) {
         httpClientLoggingBlock = block
     }
 
