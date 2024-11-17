@@ -3,7 +3,7 @@ Thank 🙏 you for your interest in contributing to this project! Please read th
 
 The following steps will give a short guide on how to contribute to this project:
 
-- Create a personal [fork](https://github.com/ChrisKruegerDev/tmdb-api/fork) of the project on [GitHub](https://github.com/).
+- Create a personal [fork](https://github.com/ChrisKruegerDev/tmdb-kotlin/fork) of the project on [GitHub](https://github.com/).
 - Clone the fork on your local machine. Your remote repo on [GitHub](https://github.com/) is called `origin`.
 - Add the original repository as a remote called `upstream`.
 - If you created your fork a while ago be sure to pull upstream changes into your local repository.
