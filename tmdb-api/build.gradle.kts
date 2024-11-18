@@ -139,9 +139,3 @@ fun isNonStable(version: String): Boolean {
     val isStable = stableKeyword || regex.matches(version)
     return isStable.not()
 }
-
-publishing {
-    publications.withType<MavenPublication> {
-        signing.isRequired = false
-    }
-}
