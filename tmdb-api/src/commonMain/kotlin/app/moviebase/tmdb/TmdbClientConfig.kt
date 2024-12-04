@@ -12,9 +12,9 @@ class TmdbClientConfig {
     internal var tmdbAuthCredentials: TmdbAuthCredentials? = null
 
     var expectSuccess: Boolean = true
-    var useCache: Boolean = false
-    var useTimeout: Boolean = false
-    var maxRetriesOnException: Int? = null
+    var useCache: Boolean = true
+    var useTimeout: Boolean = true
+    var maxRequestRetries: Int? = 5
 
     internal var httpClientConfigBlock: (HttpClientConfig<*>.() -> Unit)? = null
     internal var httpClientBuilder: (() -> HttpClient)? = null

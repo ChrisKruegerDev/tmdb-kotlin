@@ -82,10 +82,16 @@ internal object HttpClientFactory {
             }
 
             // see https://ktor.io/docs/client-retry.html
-            config.maxRetriesOnException?.let {
+            config.maxRequestRetries?.let {
                 install(HttpRequestRetry) {
                     exponentialDelay()
-                    retryOnServerErrors(maxRetries = it)
+                    retryIf(it) { _, httpResponse ->
+                        when {
+                            httpResponse.status.value in 500..599 -> true
+                            httpResponse.status == HttpStatusCode.TooManyRequests -> true
+                            else -> false
+                        }
+                    }
 
                     retryOnExceptionIf(maxRetries = it) { _, cause ->
                         when {

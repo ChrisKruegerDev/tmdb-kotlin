@@ -44,7 +44,7 @@ fun defaultTmdbConfiguration(
 
     useCache = true
     useTimeout = true
-    maxRetriesOnException = 3
+    maxRequestRetries = 3
 
     httpClient(OkHttp) {
         logging {
