@@ -34,7 +34,9 @@ class TmdbSearchApiTest {
             "search/keyword?query=future&page=1"
               to "search/search_keyword_future.json",
             "search/multi?query=Brad&include_adult=false&page=1&region=US&language=en"
-              to "search/search_multi_brad.json"
+              to "search/search_multi_brad.json",
+            "search/movie?query=ralph&include_adult=false&page=4&region=US&language=en"
+              to "search/search_movie_ralph_with_collection.json"
         )
     )
 
@@ -181,5 +183,33 @@ class TmdbSearchApiTest {
         val company = pageResult.results.first()
         assertThat(company.id).isEqualTo(797559)
         assertThat(company.name).isEqualTo("Future Collection")
+    }
+
+    @Test
+    fun `it can handle movie collections in search results without crashing`() = runTest {
+        val pageResult = classToTest.findMovies("ralph", 4, "en", "US", false)
+
+        assertThat(pageResult.page).isEqualTo(4)
+        assertThat(pageResult.totalPages).isEqualTo(4)
+        assertThat(pageResult.totalResults).isEqualTo(30)
+        assertThat(pageResult.results).hasSize(2)
+        
+        val regularMovie = pageResult.results[0]
+        assertThat(regularMovie.id).isEqualTo(123456)
+        assertThat(regularMovie.title).isEqualTo("Test Movie")
+        assertThat(regularMovie.genresIds).containsExactly(28, 878)
+        assertThat(regularMovie.popularity).isEqualTo(75.5f)
+        assertThat(regularMovie.voteCount).isEqualTo(100)
+        assertThat(regularMovie.video).isFalse()
+        assertThat(regularMovie.voteAverage).isEqualTo(7.5f)
+        
+        val collection = pageResult.results[1]
+        assertThat(collection.id).isEqualTo(1468084)
+        assertThat(collection.title).isEqualTo("The Ralph Mouse Collection")
+        assertThat(collection.genresIds).isEmpty()
+        assertThat(collection.popularity).isEqualTo(0f)
+        assertThat(collection.voteCount).isEqualTo(0)
+        assertThat(collection.video).isFalse()
+        assertThat(collection.voteAverage).isEqualTo(0f)
     }
 }

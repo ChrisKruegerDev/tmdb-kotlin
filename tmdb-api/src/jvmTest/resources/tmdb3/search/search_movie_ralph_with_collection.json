@@ -1,0 +1,33 @@
+{
+  "page": 4,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/test.jpg",
+      "genre_ids": [28, 878],
+      "id": 123456,
+      "original_language": "en",
+      "original_title": "Test Movie",
+      "overview": "A regular movie with all required fields",
+      "popularity": 75.5,
+      "poster_path": "/test_poster.jpg",
+      "release_date": "2023-01-01",
+      "title": "Test Movie",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 100
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 1468084,
+      "original_language": "en",
+      "original_title": "The Ralph Mouse Collection",
+      "overview": "Ralph S. Mouse, a house mouse who can speak to humans, goes on adventures riding his miniature motorcycle, and longs for excitement and independence while living with his family in a run-down hotel.",
+      "poster_path": null,
+      "title": "The Ralph Mouse Collection"
+    }
+  ],
+  "total_pages": 4,
+  "total_results": 30
+}
