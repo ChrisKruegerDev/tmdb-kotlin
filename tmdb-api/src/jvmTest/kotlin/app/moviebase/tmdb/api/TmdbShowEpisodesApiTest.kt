@@ -1,5 +1,3 @@
-@file:Suppress("ktlint")
-
 package app.moviebase.tmdb.api
 
 import app.moviebase.tmdb.model.AppendResponse
