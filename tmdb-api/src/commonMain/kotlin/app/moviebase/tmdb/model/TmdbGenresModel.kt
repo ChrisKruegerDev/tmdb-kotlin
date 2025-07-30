@@ -1,5 +1,13 @@
 package app.moviebase.tmdb.model
 
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class TmdbGenresResponse(
+    @SerialName("genres") val genres: List<TmdbGenre>
+)
+
 object TmdbGenreId {
 
     object Movie {

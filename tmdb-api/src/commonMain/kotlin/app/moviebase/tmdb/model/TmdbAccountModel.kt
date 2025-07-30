@@ -31,6 +31,26 @@ data class TmdbAvatarPath(
 )
 
 @Serializable
+data class TmdbAccountStates(
+    @SerialName("id") val id: Int,
+    @SerialName("favorite") val favorite: Boolean = false,
+    @SerialName("rated") val rated: TmdbRated? = null,
+    @SerialName("watchlist") val watchlist: Boolean = false
+)
+
+@Serializable
+data class TmdbRated(
+    @SerialName("value") val value: Float
+)
+
+@Serializable
+data class TmdbStatusResponse(
+    @SerialName("success") val success: Boolean,
+    @SerialName("status_code") val statusCode: Int,
+    @SerialName("status_message") val statusMessage: String
+)
+
+@Serializable
 data class TmdbFavoriteRequestBody(
     @SerialName("media_type") val mediaType: TmdbMediaType,
     @SerialName("media_id") val mediaId: Int,

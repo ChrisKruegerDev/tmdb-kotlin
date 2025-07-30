@@ -26,3 +26,22 @@ data class TmdbConfigurationCountry(
     @SerialName("english_name") val englishName: String,
     @SerialName("native_name") val nativeName: String,
 )
+
+@Serializable
+data class TmdbConfigurationJob(
+    @SerialName("department") val department: String,
+    @SerialName("jobs") val jobs: List<String>
+)
+
+@Serializable
+data class TmdbLanguage(
+    @SerialName("iso_639_1") val iso639: String,
+    @SerialName("english_name") val englishName: String,
+    @SerialName("name") val name: String
+)
+
+@Serializable
+data class TmdbTimezone(
+    @SerialName("iso_3166_1") val iso3166: String,
+    @SerialName("zones") val zones: List<String>
+)

@@ -3,10 +3,8 @@ package app.moviebase.tmdb.api
 import app.moviebase.tmdb.core.endPointV3
 import app.moviebase.tmdb.core.parameterAppendResponses
 import app.moviebase.tmdb.core.parameterLanguage
-import app.moviebase.tmdb.model.AppendResponse
-import app.moviebase.tmdb.model.TmdbPersonDetail
-import app.moviebase.tmdb.model.TmdbPersonMovieCredits
-import app.moviebase.tmdb.model.TmdbPersonShowCredits
+import app.moviebase.tmdb.core.parameterPage
+import app.moviebase.tmdb.model.*
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.request.HttpRequestBuilder
@@ -38,6 +36,50 @@ class TmdbPeopleApi internal constructor(private val client: HttpClient) {
     ): TmdbPersonMovieCredits = client.get {
         endPointPerson(personId, "movie_credits")
         parameterLanguage(language)
+    }.body()
+
+    suspend fun getCombinedCredits(
+        personId: Int,
+        language: String? = null
+    ): TmdbPersonMovieCredits = client.get {
+        endPointPerson(personId, "combined_credits")
+        parameterLanguage(language)
+    }.body()
+
+    suspend fun getExternalIds(personId: Int): TmdbExternalIds = client.get {
+        endPointPerson(personId, "external_ids")
+    }.body()
+
+    suspend fun getImages(personId: Int): TmdbImages = client.get {
+        endPointPerson(personId, "images")
+    }.body()
+
+    suspend fun getTaggedImages(
+        personId: Int,
+        language: String? = null,
+        page: Int = 1
+    ): TmdbPersonTaggedImages = client.get {
+        endPointPerson(personId, "tagged_images")
+        parameterLanguage(language)
+        parameterPage(page)
+    }.body()
+
+    suspend fun getTranslations(personId: Int): TmdbTranslations = client.get {
+        endPointPerson(personId, "translations")
+    }.body()
+
+    suspend fun getLatest(language: String? = null): TmdbPersonDetail = client.get {
+        endPointV3("person", "latest")
+        parameterLanguage(language)
+    }.body()
+
+    suspend fun getPopular(
+        language: String? = null,
+        page: Int = 1
+    ): TmdbPersonPageResult = client.get {
+        endPointV3("person", "popular")
+        parameterLanguage(language)
+        parameterPage(page)
     }.body()
 
     private fun HttpRequestBuilder.endPointPerson(personId: Int, vararg paths: String) {

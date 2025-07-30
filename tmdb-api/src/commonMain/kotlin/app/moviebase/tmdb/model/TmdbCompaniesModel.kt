@@ -40,3 +40,14 @@ data class TmdbCompanyDetail(
     @SerialName("name") val name: String? = null,
     @SerialName("origin_country") val originCountry: String? = null // e. g. US
 )
+
+@Serializable
+data class TmdbAlternativeName(
+    @SerialName("name") val name: String,
+    @SerialName("type") val type: String
+)
+
+@Serializable
+data class TmdbCompanyImages(
+    @SerialName("logos") val logos: List<TmdbFileImage>
+)
