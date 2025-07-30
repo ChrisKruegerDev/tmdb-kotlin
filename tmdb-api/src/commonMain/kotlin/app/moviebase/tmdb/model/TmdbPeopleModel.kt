@@ -247,6 +247,7 @@ data class TmdbPersonImages(
 typealias TmdbPersonShowCredits = TmdbPersonCredits<TmdbPersonCredit.Show>
 typealias TmdbPersonMovieCredits = TmdbPersonCredits<TmdbPersonCredit.Movie>
 typealias TmdbPersonCombinedCredits = TmdbPersonCredits<TmdbPersonCredit>
+typealias TmdbPersonTaggedImages = TmdbImagePageResult
 
 @Serializable
 data class TmdbPersonCredits<T : TmdbPersonCredit>(

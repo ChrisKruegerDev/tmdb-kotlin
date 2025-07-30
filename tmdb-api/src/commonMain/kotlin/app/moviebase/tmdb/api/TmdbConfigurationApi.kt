@@ -1,8 +1,7 @@
 package app.moviebase.tmdb.api
 
-import app.moviebase.tmdb.model.TmdbConfiguration
+import app.moviebase.tmdb.model.*
 import app.moviebase.tmdb.core.endPointV3
-import app.moviebase.tmdb.model.TmdbConfigurationCountry
 import io.ktor.client.*
 import io.ktor.client.call.*
 import io.ktor.client.request.*
@@ -23,5 +22,21 @@ class TmdbConfigurationApi internal constructor(private val client: HttpClient) 
      */
     suspend fun getCountries(): List<TmdbConfigurationCountry> = client.get {
         endPointV3("configuration", "countries")
+    }.body()
+
+    suspend fun getJobs(): List<TmdbConfigurationJob> = client.get {
+        endPointV3("configuration", "jobs")
+    }.body()
+
+    suspend fun getLanguages(): List<TmdbLanguage> = client.get {
+        endPointV3("configuration", "languages")
+    }.body()
+
+    suspend fun getPrimaryTranslations(): List<String> = client.get {
+        endPointV3("configuration", "primary_translations")
+    }.body()
+
+    suspend fun getTimezones(): List<TmdbTimezone> = client.get {
+        endPointV3("configuration", "timezones")
     }.body()
 }

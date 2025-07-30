@@ -176,3 +176,10 @@ data class TmdbReview(
     val content: String,
     val url: String
 )
+
+@Serializable
+data class TmdbAlternativeTitle(
+    @SerialName("iso_3166_1") val iso3166: String,
+    @SerialName("title") val title: String,
+    @SerialName("type") val type: String? = null
+)
