@@ -1,5 +1,3 @@
-@file:Suppress("ktlint")
-
 package app.moviebase.tmdb.model
 
 import kotlinx.datetime.LocalDate

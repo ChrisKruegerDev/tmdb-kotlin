@@ -1,5 +1,3 @@
-// ktlint-disable filename
-
 package app.moviebase.tmdb.model
 
 import app.moviebase.tmdb.core.TmdbInstantSerializer
