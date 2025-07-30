@@ -153,6 +153,7 @@ data class TmdbSeason(
     @SerialName("poster_path") override val posterPath: String?,
     @SerialName("season_number") val seasonNumber: Int,
     @SerialName("overview") val overview: String? = null,
+    @SerialName("vote_average") val voteAverage: Float? = null,
     @SerialName("episodes")
     val episodes: List<TmdbEpisode>? = null,
 ) : TmdbAnyItem, TmdbPosterItem {
