@@ -49,7 +49,7 @@ To use the library in a single-platform project, add a dependency.
 
 ```kotlin
 dependencies {
-    implementation("app.moviebase:tmdb-api:1.4.0")
+    implementation("app.moviebase:tmdb-api:1.5.0")
 }
 ```
 
@@ -58,7 +58,7 @@ In Kotlin Multiplatform projects, add the dependency to your commonMain source-s
 ```kotlin
 commonMain {
     dependencies {
-        implementation("app.moviebase:tmdb-api:1.4.0")
+        implementation("app.moviebase:tmdb-api:1.5.0")
     }
 }
 ```
