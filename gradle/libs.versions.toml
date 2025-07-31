@@ -9,7 +9,7 @@ ktor = "3.0.1"
 junit-jupiter = "5.11.3"
 truth = "1.4.4"
 junit = "4.13.2"
-maven-publish = "0.30.0"
+maven-publish = "0.34.0"
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }

@@ -73,7 +73,6 @@ kotlin {
         val jsTest by getting
 
         val iosMain by creating {
-            dependsOn(commonMain)
 
             dependencies {
                 implementation(libs.ktor.darwin)
@@ -81,19 +80,15 @@ kotlin {
         }
 
         val iosX64Main by getting {
-            dependsOn(iosMain)
         }
 
         val iosArm64Main by getting {
-            dependsOn(iosMain)
         }
 
         val iosSimulatorArm64Main by getting {
-            dependsOn(iosMain)
         }
 
         val iosTest by creating {
-            dependsOn(commonTest)
 
             dependencies {
                 implementation(libs.ktor.darwin)
@@ -101,15 +96,12 @@ kotlin {
         }
 
         val iosX64Test by getting {
-            dependsOn(iosTest)
         }
 
         val iosArm64Test by getting {
-            dependsOn(iosTest)
         }
 
         val iosSimulatorArm64Test by getting {
-            dependsOn(iosTest)
         }
     }
 }
