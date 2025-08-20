@@ -2,7 +2,7 @@ package app.moviebase.tmdb.model
 
 import app.moviebase.tmdb.image.TmdbImage
 import app.moviebase.tmdb.core.LocalDateSerializer
-import kotlinx.datetime.Instant
+import kotlin.time.Instant
 import kotlinx.datetime.LocalDate
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

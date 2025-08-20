@@ -30,7 +30,8 @@ allprojects {
             // Enable experimental coroutines APIs, including Flow
             freeCompilerArgs.addAll(
                 "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
-                "-opt-in=kotlinx.coroutines.FlowPreview"
+                "-opt-in=kotlinx.coroutines.FlowPreview",
+                "-opt-in=kotlin.time.ExperimentalTime",
             )
         }
     }
