@@ -1,5 +1,6 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 import org.gradle.kotlin.dsl.withType
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
@@ -12,8 +13,8 @@ plugins {
 
 kotlin {
     jvm {
-        compilations.all {
-            kotlinOptions.jvmTarget = "17"
+        compilerOptions {
+            jvmTarget.set(JvmTarget.JVM_17)
         }
     }
 

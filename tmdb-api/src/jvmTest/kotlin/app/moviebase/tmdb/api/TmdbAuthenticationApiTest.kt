@@ -2,9 +2,9 @@ package app.moviebase.tmdb.api
 
 import app.moviebase.tmdb.core.mockHttpClient
 import com.google.common.truth.Truth.assertThat
+import kotlin.time.Instant
 import kotlinx.coroutines.test.runTest
 import kotlinx.datetime.TimeZone
-import kotlinx.datetime.toInstant
 import kotlinx.datetime.toLocalDateTime
 import org.junit.jupiter.api.Test
 
@@ -22,7 +22,7 @@ class TmdbAuthenticationApiTest {
     @Test
     fun `it should return request token`() = runTest {
         val requestToken = classToTest.requestToken()
-        val currentDateTime = "2023-03-05T10:38:01Z".toInstant()
+        val currentDateTime = Instant.parse("2023-03-05T10:38:01Z")
 
         assertThat(requestToken.success).isTrue()
         // 2007-12-31T23:59:01
