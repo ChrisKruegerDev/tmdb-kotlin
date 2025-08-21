@@ -1,7 +1,6 @@
 package app.moviebase.tmdb.core
 
-import kotlinx.datetime.Instant
-import kotlinx.datetime.toInstant
+import kotlin.time.Instant
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.descriptors.PrimitiveKind
 import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
@@ -21,7 +20,7 @@ internal class TmdbInstantSerializer : KSerializer<Instant> {
         val string = decoder.decodeString()
         val splits = string.split(" ")
         val isoString = "${splits[0]}T${splits[1]}Z"
-        return isoString.toInstant()
+        return Instant.parse(isoString)
     }
 
     override fun serialize(encoder: Encoder, value: Instant) {

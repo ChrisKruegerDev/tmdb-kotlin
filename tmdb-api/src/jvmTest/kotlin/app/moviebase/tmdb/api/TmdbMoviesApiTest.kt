@@ -8,8 +8,8 @@ import app.moviebase.tmdb.model.getCertification
 import app.moviebase.tmdb.model.getReleaseDateBy
 import app.moviebase.tmdb.model.getReleaseDatesBy
 import com.google.common.truth.Truth.assertThat
+import kotlin.time.Instant
 import kotlinx.coroutines.test.runTest
-import kotlinx.datetime.toInstant
 import org.junit.jupiter.api.Test
 
 class TmdbMoviesApiTest {
@@ -119,7 +119,7 @@ class TmdbMoviesApiTest {
             "2024-03-01T00:00:00.000Z",
             "2022-06-14T00:00:00.000Z",
             "2024-03-20T00:00:00.000Z"
-        ).map { it.toInstant() }
+        ).map { Instant.parse(it) }
 
         val releaseDateInstants = releaseDates?.map { it.releaseDate }
         assertThat(releaseDateInstants).isEqualTo(expectedReleaseDates)
