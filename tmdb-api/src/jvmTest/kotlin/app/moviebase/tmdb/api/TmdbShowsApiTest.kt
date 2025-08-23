@@ -120,7 +120,7 @@ class TmdbShowsApiTest {
         val poster = images.posters.first()
         assertThat(poster.height).isEqualTo(1500)
         assertThat(poster.width).isEqualTo(1000)
-        assertThat(poster.aspectRation).isEqualTo(0.667f)
+        assertThat(poster.aspectRatio).isEqualTo(0.667f)
         assertThat(poster.iso639).isEqualTo("en")
         assertThat(poster.filePath).isEqualTo("/sOUWRai0215iUSMackrZx3Y1j05.jpg")
         assertThat(poster.voteAverage).isEqualTo(5.312f)
