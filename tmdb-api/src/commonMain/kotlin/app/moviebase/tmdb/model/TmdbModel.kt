@@ -185,7 +185,7 @@ data class TmdbImages(
 @Serializable
 data class TmdbFileImage(
     @SerialName("file_path") val filePath: String,
-    @SerialName("aspect_ratio") val aspectRation: Float,
+    @SerialName("aspect_ratio") val aspectRatio: Float,
     @SerialName("height") val height: Int,
     @SerialName("width") val width: Int,
     @SerialName("iso_639_1") val iso639: String? = null,
