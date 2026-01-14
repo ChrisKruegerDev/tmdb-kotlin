@@ -6,7 +6,7 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class TmdbReviewDetail(
+data class TmdbReview(
     @SerialName("id") val id: String,
     @SerialName("author") val author: String,
     @SerialName("author_details") val authorDetails: TmdbReviewAuthor? = null,

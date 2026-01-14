@@ -134,6 +134,7 @@ data class TmdbShowDetail(
     @SerialName("videos") val videos: TmdbResult<TmdbVideo>? = null,
     @SerialName("content_ratings") val contentRatings: TmdbResult<TmdbContentRating>? = null,
     @SerialName("images") val images: TmdbImages? = null,
+    @SerialName("reviews") val reviews: TmdbResult<TmdbReview>? = null,
     @SerialName("created_by") val createdBy: List<TmdbShowCreatedBy>? = null,
 ) : TmdbAnyItem, TmdbBackdropItem, TmdbPosterItem, TmdbRatingItem
 
