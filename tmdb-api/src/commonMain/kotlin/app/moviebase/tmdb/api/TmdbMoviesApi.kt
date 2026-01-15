@@ -1,18 +1,34 @@
 package app.moviebase.tmdb.api
 
-import app.moviebase.tmdb.model.*
 import app.moviebase.tmdb.core.endPointV3
 import app.moviebase.tmdb.core.getByPaths
 import app.moviebase.tmdb.core.parameterAppendResponses
 import app.moviebase.tmdb.core.parameterIncludeImageLanguage
 import app.moviebase.tmdb.core.parameterLanguage
 import app.moviebase.tmdb.core.parameterPage
-import io.ktor.client.*
+import app.moviebase.tmdb.model.AppendResponse
+import app.moviebase.tmdb.model.TmdbAccountStates
+import app.moviebase.tmdb.model.TmdbAlternativeTitle
+import app.moviebase.tmdb.model.TmdbCredits
+import app.moviebase.tmdb.model.TmdbExternalIds
+import app.moviebase.tmdb.model.TmdbImages
+import app.moviebase.tmdb.model.TmdbKeyword
+import app.moviebase.tmdb.model.TmdbMovieDetail
+import app.moviebase.tmdb.model.TmdbMoviePageResult
+import app.moviebase.tmdb.model.TmdbPageResult
+import app.moviebase.tmdb.model.TmdbReleaseDates
+import app.moviebase.tmdb.model.TmdbResult
+import app.moviebase.tmdb.model.TmdbReview
+import app.moviebase.tmdb.model.TmdbStatusResponse
+import app.moviebase.tmdb.model.TmdbTranslations
+import app.moviebase.tmdb.model.TmdbVideo
+import app.moviebase.tmdb.model.TmdbWatchProviderResult
+import io.ktor.client.HttpClient
 import io.ktor.client.call.body
-import io.ktor.client.request.get
-import io.ktor.client.request.post
 import io.ktor.client.request.delete
+import io.ktor.client.request.get
 import io.ktor.client.request.parameter
+import io.ktor.client.request.post
 import io.ktor.client.request.setBody
 import io.ktor.http.ContentType
 import io.ktor.http.contentType
@@ -26,16 +42,18 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
     suspend fun getDetails(
         movieId: Int,
         language: String? = null,
-        appendResponses: Iterable<AppendResponse>? = null
+        appendResponses: Iterable<AppendResponse>? = null,
+        includeImageLanguages: String? = null,
     ): TmdbMovieDetail = client.getByPaths(*moviePath(movieId)) {
         parameterLanguage(language)
         parameterAppendResponses(appendResponses)
+        parameterIncludeImageLanguage(includeImageLanguages)
     }
 
     suspend fun getImages(
         movieId: Int,
         language: String? = null,
-        includeImageLanguage: String? = null
+        includeImageLanguage: String? = null,
     ): TmdbImages = client.getByPaths(*moviePath(movieId, "images")) {
         parameterLanguage(language)
         parameterIncludeImageLanguage(includeImageLanguage)
@@ -45,7 +63,8 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
 
     suspend fun getTranslations(movieId: Int): TmdbTranslations = client.getByPaths(*moviePath(movieId, "translations"))
 
-    suspend fun getWatchProviders(movieId: Int): TmdbWatchProviderResult = client.getByPaths(*moviePath(movieId, "watch", "providers"))
+    suspend fun getWatchProviders(movieId: Int): TmdbWatchProviderResult =
+        client.getByPaths(*moviePath(movieId, "watch", "providers"))
 
     suspend fun popular(
         page: Int,
@@ -59,7 +78,7 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
     suspend fun getNowPlaying(
         page: Int = 1,
         language: String? = null,
-        region: String? = null
+        region: String? = null,
     ): TmdbMoviePageResult = client.get {
         endPointV3("movie", "now_playing")
         parameterPage(page)
@@ -70,7 +89,7 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
     suspend fun getTopRated(
         page: Int = 1,
         language: String? = null,
-        region: String? = null
+        region: String? = null,
     ): TmdbMoviePageResult = client.get {
         endPointV3("movie", "top_rated")
         parameterPage(page)
@@ -81,7 +100,7 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
     suspend fun getUpcoming(
         page: Int = 1,
         language: String? = null,
-        region: String? = null
+        region: String? = null,
     ): TmdbMoviePageResult = client.get {
         endPointV3("movie", "upcoming")
         parameterPage(page)
@@ -92,7 +111,7 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
     suspend fun getSimilar(
         movieId: Int,
         page: Int = 1,
-        language: String? = null
+        language: String? = null,
     ): TmdbMoviePageResult = client.get {
         endPointV3("movie", movieId.toString(), "similar")
         parameterPage(page)
@@ -102,19 +121,19 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
     suspend fun getRecommendations(
         movieId: Int,
         page: Int = 1,
-        language: String? = null
+        language: String? = null,
     ): TmdbMoviePageResult = client.get {
         endPointV3("movie", movieId.toString(), "recommendations")
         parameterPage(page)
         parameterLanguage(language)
     }.body()
 
-    suspend fun getCredits(movieId: Int, language: String? = null): TmdbCredits = 
+    suspend fun getCredits(movieId: Int, language: String? = null): TmdbCredits =
         client.getByPaths(*moviePath(movieId, "credits")) {
             parameterLanguage(language)
         }
 
-    suspend fun getVideos(movieId: Int, language: String? = null): TmdbResult<TmdbVideo> = 
+    suspend fun getVideos(movieId: Int, language: String? = null): TmdbResult<TmdbVideo> =
         client.getByPaths(*moviePath(movieId, "videos")) {
             parameterLanguage(language)
         }
@@ -122,30 +141,30 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
     suspend fun getReviews(
         movieId: Int,
         page: Int = 1,
-        language: String? = null
+        language: String? = null,
     ): TmdbPageResult<TmdbReview> = client.get {
         endPointV3("movie", movieId.toString(), "reviews")
         parameterPage(page)
         parameterLanguage(language)
     }.body()
 
-    suspend fun getKeywords(movieId: Int): TmdbResult<TmdbKeyword> = 
+    suspend fun getKeywords(movieId: Int): TmdbResult<TmdbKeyword> =
         client.getByPaths(*moviePath(movieId, "keywords"))
 
     suspend fun getAlternativeTitles(
         movieId: Int,
-        country: String? = null
+        country: String? = null,
     ): TmdbResult<TmdbAlternativeTitle> = client.getByPaths(*moviePath(movieId, "alternative_titles")) {
         country?.let { parameter("country", it) }
     }
 
-    suspend fun getReleaseDates(movieId: Int): TmdbResult<TmdbReleaseDates> = 
+    suspend fun getReleaseDates(movieId: Int): TmdbResult<TmdbReleaseDates> =
         client.getByPaths(*moviePath(movieId, "release_dates"))
 
     suspend fun getAccountStates(
         movieId: Int,
         sessionId: String? = null,
-        guestSessionId: String? = null
+        guestSessionId: String? = null,
     ): TmdbAccountStates = client.get {
         endPointV3("movie", movieId.toString(), "account_states")
         sessionId?.let { parameter("session_id", it) }
@@ -156,7 +175,7 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
         movieId: Int,
         rating: Float,
         sessionId: String? = null,
-        guestSessionId: String? = null
+        guestSessionId: String? = null,
     ): TmdbStatusResponse = client.post {
         endPointV3("movie", movieId.toString(), "rating")
         contentType(ContentType.Application.Json)
@@ -168,7 +187,7 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
     suspend fun deleteRating(
         movieId: Int,
         sessionId: String? = null,
-        guestSessionId: String? = null
+        guestSessionId: String? = null,
     ): TmdbStatusResponse = client.delete {
         endPointV3("movie", movieId.toString(), "rating")
         sessionId?.let { parameter("session_id", it) }
@@ -182,7 +201,7 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
 
     @Serializable
     private data class RatingRequest(
-        val value: Float
+        val value: Float,
     )
 
     private fun moviePath(movieId: Int, vararg paths: String) = arrayOf("movie", movieId.toString(), *paths)
