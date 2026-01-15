@@ -10,17 +10,17 @@ enum class TmdbShowStatus(val value: String, val filterKey: Int) {
     @SerialName("Returning Series")
     RETURNING_SERIES("Returning Series", 0),
 
-    @SerialName("In Production")
-    IN_PRODUCTION("In Production", 2),
-
     @SerialName("Planned")
     PLANNED("Planned", 1),
 
-    @SerialName("Canceled")
-    CANCELED("Canceled", 4),
+    @SerialName("In Production")
+    IN_PRODUCTION("In Production", 2),
 
     @SerialName("Ended")
     ENDED("Ended", 3),
+
+    @SerialName("Canceled")
+    CANCELED("Canceled", 4),
 
     @SerialName("Pilot")
     PILOT("Pilot", 5);
