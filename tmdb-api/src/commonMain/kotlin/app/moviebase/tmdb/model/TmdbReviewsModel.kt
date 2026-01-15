@@ -1,6 +1,5 @@
 package app.moviebase.tmdb.model
 
-import app.moviebase.tmdb.core.TmdbInstantSerializer
 import kotlin.time.Instant
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
@@ -11,8 +10,8 @@ data class TmdbReview(
     @SerialName("author") val author: String,
     @SerialName("author_details") val authorDetails: TmdbReviewAuthor? = null,
     @SerialName("content") val content: String,
-    @SerialName("created_at") @Serializable(TmdbInstantSerializer::class) val createdAt: Instant? = null,
-    @SerialName("updated_at") @Serializable(TmdbInstantSerializer::class) val updatedAt: Instant? = null,
+    @SerialName("created_at") val createdAt: Instant? = null,
+    @SerialName("updated_at") val updatedAt: Instant? = null,
     @SerialName("url") val url: String
 )
 

@@ -26,7 +26,7 @@ enum class TmdbDiscoverSeparator(val value: String) {
 
 data class TmdbDiscoverFilter<T>(
     val separator: TmdbDiscoverSeparator = TmdbDiscoverSeparator.AND,
-    val items: Collection<T>
+    val items: Collection<T>,
 ) {
     fun build(transform: (T) -> String): String {
         return items.joinToString(separator = separator.value, transform = transform)
@@ -37,19 +37,19 @@ sealed interface TmdbDiscoverTimeRange {
 
     data class BetweenYears(
         private val from: Int,
-        private val to: Int
+        private val to: Int,
     ) : TmdbDiscoverTimeRange {
         val firstDayOfYear: String get() = LocalDate(from, 1, 1).toString()
         val lastDayOfYear: String get() = LocalDate(to, 12, 31).toString()
     }
 
     data class OneYear(
-        val year: Int
+        val year: Int,
     ) : TmdbDiscoverTimeRange
 
     data class Custom(
         val firstDate: String? = null,
-        val lastDate: String? = null
+        val lastDate: String? = null,
     ) : TmdbDiscoverTimeRange
 }
 
@@ -86,11 +86,11 @@ sealed interface TmdbDiscover {
             params[DiscoverParam.VOTE_COUNT_LTE] = it.toString()
         }
 
-        withGenres?.let{
+        withGenres?.let {
             params[DiscoverParam.WITH_GENRES] = it.items.joinToString(it.separator.value)
         }
 
-       withoutGenres?.let {
+        withoutGenres?.let {
             params[DiscoverParam.WITHOUT_GENRES] = it.items.joinToString(it.separator.value)
         }
 
@@ -103,7 +103,8 @@ sealed interface TmdbDiscover {
         }
 
         if (withWatchMonetizationTypes.isNotEmpty()) {
-            params[DiscoverParam.WITH_WATCH_MONETIZATION_TYPES] = withWatchMonetizationTypes.joinToString(",") { it.value }
+            params[DiscoverParam.WITH_WATCH_MONETIZATION_TYPES] =
+                withWatchMonetizationTypes.joinToString(",") { it.value }
         }
 
         return params
@@ -145,15 +146,20 @@ sealed interface TmdbDiscover {
         override val withWatchProviders: TmdbDiscoverFilter<Int>? = null,
         val withoutWatchProviders: TmdbDiscoverFilter<Int>? = null,
         override val watchRegion: String? = null,
-        override val withWatchMonetizationTypes: List<TmdbWatchMonetizationType> = emptyList()
+        override val withWatchMonetizationTypes: List<TmdbWatchMonetizationType> = emptyList(),
     ) : TmdbDiscover {
 
         override fun buildParameters(): Map<String, String?> {
             val params = newParameterMap()
             params[DiscoverParam.SORT_BY] = sortBy.value + "." + sortOrder.value
 
-            params[DiscoverParam.Movie.INCLUDE_ADULT] = includeAdult.toString()
-            params[DiscoverParam.Movie.INCLUDE_VIDEO] = includeVideo.toString()
+            if (includeAdult) {
+                params[DiscoverParam.Movie.INCLUDE_ADULT] = includeAdult.toString()
+            }
+
+            if (includeVideo) {
+                params[DiscoverParam.Movie.INCLUDE_VIDEO] = includeVideo.toString()
+            }
 
             language?.let { params[DiscoverParam.LANGUAGE] = it }
             region?.let { params[DiscoverParam.Movie.REGION] = it }
@@ -217,13 +223,16 @@ sealed interface TmdbDiscover {
                     params[DiscoverParam.Movie.RELEASE_DATE_GTE] = releaseDate.firstDayOfYear
                     params[DiscoverParam.Movie.RELEASE_DATE_LTE] = releaseDate.lastDayOfYear
                 }
+
                 is TmdbDiscoverTimeRange.OneYear -> {
                     params[DiscoverParam.Movie.YEAR] = releaseDate.year.toString()
                 }
+
                 is TmdbDiscoverTimeRange.Custom -> {
                     params[DiscoverParam.Movie.RELEASE_DATE_GTE] = releaseDate.firstDate
                     params[DiscoverParam.Movie.RELEASE_DATE_LTE] = releaseDate.lastDate
                 }
+
                 else -> {
                     // do nothing
                 }
@@ -234,13 +243,16 @@ sealed interface TmdbDiscover {
                     params[DiscoverParam.Movie.PRIMARY_RELEASE_DATE_GTE] = primaryReleaseDate.firstDayOfYear
                     params[DiscoverParam.Movie.PRIMARY_RELEASE_DATE_LTE] = primaryReleaseDate.lastDayOfYear
                 }
+
                 is TmdbDiscoverTimeRange.OneYear -> {
                     params[DiscoverParam.Movie.PRIMARY_RELEASE_YEAR] = primaryReleaseDate.year.toString()
                 }
+
                 is TmdbDiscoverTimeRange.Custom -> {
                     params[DiscoverParam.Movie.PRIMARY_RELEASE_DATE_GTE] = primaryReleaseDate.firstDate
                     params[DiscoverParam.Movie.PRIMARY_RELEASE_DATE_LTE] = primaryReleaseDate.lastDate
                 }
+
                 else -> {
                     // do nothing
                 }
@@ -284,15 +296,21 @@ sealed interface TmdbDiscover {
         override val watchRegion: String? = null,
         override val withWatchMonetizationTypes: List<TmdbWatchMonetizationType> = emptyList(),
         val timezone: String? = null,
-        val screenedTheatrically: Boolean? = null
+        val screenedTheatrically: Boolean? = null,
     ) : TmdbDiscover {
 
         override fun buildParameters(): Map<String, String?> {
             val params = newParameterMap()
             params[DiscoverParam.SORT_BY] = sortBy.value + "." + sortOrder.value
 
-            params[DiscoverParam.Movie.INCLUDE_ADULT] = includeAdult.toString()
-            params[DiscoverParam.Show.INCLUDE_NULL_FIRST_AIR_DATES] = includeNullFirstAirDates.toString()
+            if (includeAdult) {
+                params[DiscoverParam.Movie.INCLUDE_ADULT] = includeAdult.toString()
+            }
+
+            if (includeNullFirstAirDates) {
+                params[DiscoverParam.Show.INCLUDE_NULL_FIRST_AIR_DATES] = includeNullFirstAirDates.toString()
+            }
+
             language?.let { params[DiscoverParam.LANGUAGE] = it }
 
             airDateGte?.let {
@@ -356,13 +374,16 @@ sealed interface TmdbDiscover {
                     params[DiscoverParam.Show.FIRST_AIR_DATE_GTE] = firstAirDate.firstDayOfYear
                     params[DiscoverParam.Show.FIRST_AIR_DATE_LTE] = firstAirDate.lastDayOfYear
                 }
+
                 is TmdbDiscoverTimeRange.OneYear -> {
                     params[DiscoverParam.Show.FIRST_AIR_DATE_YEAR] = firstAirDate.year.toString()
                 }
+
                 is TmdbDiscoverTimeRange.Custom -> {
                     params[DiscoverParam.Show.FIRST_AIR_DATE_GTE] = firstAirDate.firstDate
                     params[DiscoverParam.Show.FIRST_AIR_DATE_LTE] = firstAirDate.lastDate
                 }
+
                 else -> {
                     // do nothing
                 }

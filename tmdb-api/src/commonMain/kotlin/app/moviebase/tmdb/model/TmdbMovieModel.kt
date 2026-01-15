@@ -166,7 +166,7 @@ data class TmdbBelongsToCollection(
     @SerialName("id") val id: Int,
     @SerialName("name") val name: String,
     @SerialName("backdrop_path") val backdropPath: String? = null,
-    @SerialName("parts") val parts: List<TmdbMovie>
+    @SerialName("parts") val parts: List<TmdbMovie> = emptyList()
 )
 
 @Serializable
