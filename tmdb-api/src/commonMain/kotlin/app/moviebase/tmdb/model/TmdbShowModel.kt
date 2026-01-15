@@ -193,6 +193,7 @@ data class TmdbEpisode(
     @Serializable(LocalDateSerializer::class)
     val airDate: LocalDate? = null,
     @SerialName("name") val name: String? = null,
+    @SerialName("runtime") val runtime: Int? = null,
     @SerialName("vote_average") val voteAverage: Float? = null,
     @SerialName("vote_count") val voteCount: Int? = null,
     @SerialName("still_path") val stillPath: String? = null,
