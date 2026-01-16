@@ -96,6 +96,7 @@ data class TmdbShowPageResult(
 @Serializable
 data class TmdbShowDetail(
     @SerialName("id") override val id: Int,
+    @SerialName("adult") val adult: Boolean = false,
     val name: String,
     @SerialName("poster_path") override val posterPath: String?,
     @SerialName("backdrop_path") override val backdropPath: String?,
@@ -172,8 +173,8 @@ data class TmdbSeasonDetail(
     @SerialName("season_number") val seasonNumber: Int,
     @SerialName("overview") val overview: String,
     @SerialName("vote_average") val voteAverage: Float? = null,
-    @SerialName("episodes")
-    val episodes: List<TmdbEpisode>? = null,
+    @SerialName("vote_count") val voteCount: Int,
+    @SerialName("episodes") val episodes: List<TmdbEpisode>? = null,
     @SerialName("external_ids") val externalIds: TmdbExternalIds? = null,
     @SerialName("videos") val videos: TmdbResult<TmdbVideo>? = null,
     @SerialName("images") val images: TmdbImages? = null,
@@ -207,6 +208,7 @@ data class TmdbEpisode(
 @Serializable
 data class TmdbEpisodeDetail(
     @SerialName("id") override val id: Int,
+    @SerialName("runtime") val runtime: Int,
     @SerialName("overview") val overview: String,
     @SerialName("episode_number") val episodeNumber: Int,
     @SerialName("season_number") val seasonNumber: Int,
