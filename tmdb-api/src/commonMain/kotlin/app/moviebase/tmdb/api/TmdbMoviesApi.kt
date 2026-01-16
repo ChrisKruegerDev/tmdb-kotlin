@@ -9,6 +9,7 @@ import app.moviebase.tmdb.core.parameterPage
 import app.moviebase.tmdb.model.AppendResponse
 import app.moviebase.tmdb.model.TmdbAccountStates
 import app.moviebase.tmdb.model.TmdbAlternativeTitle
+import app.moviebase.tmdb.model.TmdbAlternativeTitles
 import app.moviebase.tmdb.model.TmdbCredits
 import app.moviebase.tmdb.model.TmdbExternalIds
 import app.moviebase.tmdb.model.TmdbImages
@@ -154,7 +155,7 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
     suspend fun getAlternativeTitles(
         movieId: Int,
         country: String? = null,
-    ): TmdbResult<TmdbAlternativeTitle> = client.getByPaths(*moviePath(movieId, "alternative_titles")) {
+    ): TmdbResult<TmdbAlternativeTitles> = client.getByPaths(*moviePath(movieId, "alternative_titles")) {
         country?.let { parameter("country", it) }
     }
 

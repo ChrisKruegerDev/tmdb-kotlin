@@ -9,6 +9,7 @@ import app.moviebase.tmdb.model.AppendResponse
 import app.moviebase.tmdb.model.TmdbAccountStates
 import app.moviebase.tmdb.model.TmdbAggregateCredits
 import app.moviebase.tmdb.model.TmdbAlternativeTitle
+import app.moviebase.tmdb.model.TmdbAlternativeTitles
 import app.moviebase.tmdb.model.TmdbContentRating
 import app.moviebase.tmdb.model.TmdbCredits
 import app.moviebase.tmdb.model.TmdbEpisodeGroup
@@ -168,7 +169,7 @@ class TmdbShowApi internal constructor(private val client: HttpClient) {
         endPointShow(showId, "keywords")
     }.body()
 
-    suspend fun getAlternativeTitles(showId: Int): TmdbResult<TmdbAlternativeTitle> = client.get {
+    suspend fun getAlternativeTitles(showId: Int): TmdbResult<TmdbAlternativeTitles> = client.get {
         endPointShow(showId, "alternative_titles")
     }.body()
 

@@ -136,9 +136,6 @@ enum class TmdbVideoType(val value: String) {
     @SerialName("Clip")
     CLIP("Clip"),
 
-    @SerialName("Recap")
-    RECAP("Recap"),
-
     @SerialName("Featurette")
     FEATURETTE("Featurette"),
 

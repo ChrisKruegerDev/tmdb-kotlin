@@ -175,3 +175,9 @@ data class TmdbAlternativeTitle(
     @SerialName("title") val title: String,
     @SerialName("type") val type: String? = null
 )
+
+@Serializable
+data class TmdbAlternativeTitles(
+    @SerialName("id") val id: Int,
+    @SerialName("titles") val titles: List<TmdbAlternativeTitle>,
+)
