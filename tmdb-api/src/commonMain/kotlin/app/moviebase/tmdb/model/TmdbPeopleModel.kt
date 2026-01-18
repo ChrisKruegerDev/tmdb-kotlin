@@ -39,8 +39,8 @@ enum class TmdbGender(val value: Int) {
 
 @Serializable
 data class TmdbCredits(
-    @SerialName("cast") val cast: List<TmdbCast>,
-    @SerialName("crew") val crew: List<TmdbCrew>,
+    @SerialName("cast") val cast: List<TmdbCast> = emptyList(),
+    @SerialName("crew") val crew: List<TmdbCrew> = emptyList(),
 ) {
 
     /**
@@ -69,20 +69,20 @@ interface TmdbAnyPerson : TmdbAnyItem, TmdbProfileItem {
 
 @Serializable
 data class TmdbAggregateCredits(
-    @SerialName("cast") val cast: List<TmdbAggregateCast>,
-    @SerialName("crew") val crew: List<TmdbAggregateCrew>,
+    @SerialName("cast") val cast: List<TmdbAggregateCast> = emptyList(),
+    @SerialName("crew") val crew: List<TmdbAggregateCrew> = emptyList(),
 )
 
 @Serializable
 @SerialName("person")
 data class TmdbPerson(
-    @SerialName("adult") val adult: Boolean,
-    @SerialName("gender") val gender: TmdbGender,
+    @SerialName("adult") val adult: Boolean = false,
+    @SerialName("gender") val gender: TmdbGender = TmdbGender.UNKNOWN,
     @SerialName("id") override val id: Int,
     @SerialName("known_for_department") val knownForDepartment: TmdbDepartment? = null,
     @SerialName("name") override val name: String,
     @SerialName("profile_path") override val profilePath: String? = null,
-    @SerialName("popularity") override val popularity: Float
+    @SerialName("popularity") override val popularity: Float = 0f
 ) : TmdbAnyPerson, TmdbSearchableListItem
 
 @Serializable
@@ -95,8 +95,8 @@ data class TmdbPersonPageResult(
 
 @Serializable
 data class TmdbPersonDetail(
-    @SerialName("adult") val adult: Boolean,
-    @SerialName("also_known_as") val alsoKnownAs: List<String>,
+    @SerialName("adult") val adult: Boolean = false,
+    @SerialName("also_known_as") val alsoKnownAs: List<String> = emptyList(),
     @SerialName("biography") val biography: String? = null,
     @SerialName("birthday") val birthday: LocalDate? = null,
     @SerialName("deathday") val deathday: LocalDate? = null,
@@ -136,7 +136,7 @@ data class TmdbCrew(
 @Serializable
 data class TmdbCast(
     @SerialName("adult") val adult: Boolean = false,
-    @SerialName("gender") val gender: TmdbGender,
+    @SerialName("gender") val gender: TmdbGender = TmdbGender.UNKNOWN,
     @SerialName("id") override val id: Int,
     @SerialName("known_for_department") val knownForDepartment: TmdbDepartment? = null,
     @SerialName("name") override val name: String,
@@ -144,39 +144,39 @@ data class TmdbCast(
     @SerialName("popularity") override val popularity: Float? = null,
     @SerialName("profile_path") override val profilePath: String? = null,
     @SerialName("cast_id") val castId: Int? = null,
-    @SerialName("character") val character: String,
-    @SerialName("credit_id") val creditId: String,
-    @SerialName("order") val order: Int,
+    @SerialName("character") val character: String = "",
+    @SerialName("credit_id") val creditId: String = "",
+    @SerialName("order") val order: Int = 0,
 ) : TmdbAnyPerson
 
 @Serializable
 data class TmdbAggregateCast(
     @SerialName("adult") val adult: Boolean = false,
-    @SerialName("gender") val gender: TmdbGender,
+    @SerialName("gender") val gender: TmdbGender = TmdbGender.UNKNOWN,
     @SerialName("id") val id: Int,
     @SerialName("known_for_department") val knownForDepartment: TmdbDepartment? = null,
     @SerialName("name") val name: String,
     @SerialName("original_name") val originalName: String? = null,
     @SerialName("popularity") val popularity: Float? = null,
     @SerialName("profile_path") val profilePath: String? = null,
-    @SerialName("roles") val roles: List<TmdbRole>,
-    @SerialName("total_episode_count") val totalEpisodeCount: Int,
-    @SerialName("order") val order: Int,
+    @SerialName("roles") val roles: List<TmdbRole> = emptyList(),
+    @SerialName("total_episode_count") val totalEpisodeCount: Int = 0,
+    @SerialName("order") val order: Int = 0,
 )
 
 @Serializable
 data class TmdbAggregateCrew(
     @SerialName("adult") val adult: Boolean = false,
-    @SerialName("gender") val gender: TmdbGender,
+    @SerialName("gender") val gender: TmdbGender = TmdbGender.UNKNOWN,
     @SerialName("id") override val id: Int,
     @SerialName("known_for_department") val knownForDepartment: TmdbDepartment? = null,
     @SerialName("name") override val name: String,
     @SerialName("original_name") val originalName: String? = null,
     @SerialName("popularity") override val popularity: Float? = null,
     @SerialName("profile_path") override val profilePath: String? = null,
-    @SerialName("jobs") val jobs: List<TmdbJob>,
+    @SerialName("jobs") val jobs: List<TmdbJob> = emptyList(),
     @SerialName("department") val department: TmdbDepartment? = null,
-    @SerialName("total_episode_count") val totalEpisodeCount: Int,
+    @SerialName("total_episode_count") val totalEpisodeCount: Int = 0,
 ) : TmdbAnyPerson
 
 @Serializable
@@ -251,8 +251,8 @@ typealias TmdbPersonTaggedImages = TmdbImagePageResult
 
 @Serializable
 data class TmdbPersonCredits<T : TmdbPersonCredit>(
-    @SerialName("cast") val cast: List<T>,
-    @SerialName("crew") val crew: List<T>,
+    @SerialName("cast") val cast: List<T> = emptyList(),
+    @SerialName("crew") val crew: List<T> = emptyList(),
 )
 
 @Polymorphic

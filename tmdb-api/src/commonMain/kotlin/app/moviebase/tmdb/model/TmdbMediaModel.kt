@@ -50,7 +50,7 @@ interface TmdbRatingItem {
 @Polymorphic
 @Serializable
 sealed interface TmdbMediaListItem : TmdbAnyItem, TmdbBackdropItem, TmdbPosterItem, TmdbRatingItem {
-    val overview: String
+    val overview: String?
     val genresIds: List<Int>
     val popularity: Float
     val originalLanguage: String
