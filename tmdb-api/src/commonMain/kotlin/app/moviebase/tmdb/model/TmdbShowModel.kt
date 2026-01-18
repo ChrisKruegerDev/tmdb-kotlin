@@ -208,7 +208,7 @@ data class TmdbEpisode(
 @Serializable
 data class TmdbEpisodeDetail(
     @SerialName("id") override val id: Int,
-    @SerialName("runtime") val runtime: Int,
+    @SerialName("runtime") val runtime: Int? = null,
     @SerialName("overview") val overview: String,
     @SerialName("episode_number") val episodeNumber: Int,
     @SerialName("season_number") val seasonNumber: Int,
