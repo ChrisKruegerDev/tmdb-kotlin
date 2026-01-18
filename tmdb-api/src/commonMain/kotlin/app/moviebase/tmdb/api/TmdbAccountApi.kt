@@ -1,7 +1,6 @@
 package app.moviebase.tmdb.api
 
 import app.moviebase.tmdb.core.endPointV3
-import app.moviebase.tmdb.core.getByPaths
 import app.moviebase.tmdb.core.json
 import app.moviebase.tmdb.model.TmdbAccountDetails
 import app.moviebase.tmdb.model.TmdbFavoriteRequestBody
@@ -12,6 +11,7 @@ import app.moviebase.tmdb.model.TmdbWatchlistRequestBody
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.request.HttpRequestBuilder
+import io.ktor.client.request.get
 import io.ktor.client.request.post
 import io.ktor.client.request.setBody
 
@@ -21,7 +21,7 @@ class TmdbAccountApi internal constructor(private val client: HttpClient) {
      * Get your account details.
      * @see [Documentation](https://developers.themoviedb.org/3/account)
      */
-    suspend fun getDetails(): TmdbAccountDetails = client.getByPaths("account")
+    suspend fun getDetails(): TmdbAccountDetails = client.get("account").body()
 
     suspend fun getFavorites(accountId: Int, mediaType: TmdbMediaType): TmdbMoviePageResult = when (mediaType) {
         TmdbMediaType.MOVIE -> getFavoriteMovies(accountId)
@@ -29,9 +29,9 @@ class TmdbAccountApi internal constructor(private val client: HttpClient) {
         else -> throw IllegalArgumentException("Only movies and shows are supported.")
     }
 
-    suspend fun getFavoriteMovies(accountId: Int): TmdbMoviePageResult = client.getByPaths(*pathAccount(accountId, "favorite", "movies"))
+    suspend fun getFavoriteMovies(accountId: Int): TmdbMoviePageResult = client.get(pathAccount(accountId, "favorite", "movies").joinToString(separator = "/")).body()
 
-    suspend fun getFavoriteShows(accountId: Int): TmdbMoviePageResult = client.getByPaths(*pathAccount(accountId, "favorite", "tv"))
+    suspend fun getFavoriteShows(accountId: Int): TmdbMoviePageResult = client.get(pathAccount(accountId, "favorite", "tv").joinToString(separator = "/")).body()
 
     /**
      * POST /account/{account_id}/favorite
