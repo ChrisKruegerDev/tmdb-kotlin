@@ -173,7 +173,7 @@ data class TmdbSeasonDetail(
     @SerialName("season_number") val seasonNumber: Int,
     @SerialName("overview") val overview: String,
     @SerialName("vote_average") val voteAverage: Float? = null,
-    @SerialName("vote_count") val voteCount: Int,
+    @SerialName("vote_count") val voteCount: Int? = null,
     @SerialName("episodes") val episodes: List<TmdbEpisode>? = null,
     @SerialName("external_ids") val externalIds: TmdbExternalIds? = null,
     @SerialName("videos") val videos: TmdbResult<TmdbVideo>? = null,
