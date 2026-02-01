@@ -6,6 +6,7 @@ import app.moviebase.tmdb.model.TmdbExternalIds
 import app.moviebase.tmdb.core.endPointV3
 import app.moviebase.tmdb.core.parameterAppendResponses
 import app.moviebase.tmdb.core.parameterIncludeImageLanguage
+import app.moviebase.tmdb.core.parameterIncludeVideoLanguage
 import app.moviebase.tmdb.core.parameterLanguage
 import io.ktor.client.*
 import io.ktor.client.call.*
@@ -19,12 +20,14 @@ class TmdbShowEpisodesApi(private val client: HttpClient) {
         episodeNumber: Int,
         language: String? = null,
         appendResponses: Iterable<AppendResponse>? = null,
-        includeImageLanguages: String? = null
+        includeImageLanguages: String? = null,
+        includeVideoLanguages: String? = null,
     ): TmdbEpisodeDetail = client.get {
         endPointEpisode(showId, seasonNumber, episodeNumber)
         parameterLanguage(language)
         parameterAppendResponses(appendResponses)
         parameterIncludeImageLanguage(includeImageLanguages)
+        parameterIncludeVideoLanguage(includeVideoLanguages)
     }.body()
 
     suspend fun getExternalIds(showId: Int, seasonNumber: Int, episodeNumber: Int): TmdbExternalIds = client.get {

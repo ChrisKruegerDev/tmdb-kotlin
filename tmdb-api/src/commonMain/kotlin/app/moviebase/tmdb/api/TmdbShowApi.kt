@@ -3,6 +3,7 @@ package app.moviebase.tmdb.api
 import app.moviebase.tmdb.core.endPointV3
 import app.moviebase.tmdb.core.parameterAppendResponses
 import app.moviebase.tmdb.core.parameterIncludeImageLanguage
+import app.moviebase.tmdb.core.parameterIncludeVideoLanguage
 import app.moviebase.tmdb.core.parameterLanguage
 import app.moviebase.tmdb.core.parameterPage
 import app.moviebase.tmdb.model.AppendResponse
@@ -46,11 +47,13 @@ class TmdbShowApi internal constructor(private val client: HttpClient) {
         language: String? = null,
         appendResponses: Iterable<AppendResponse>? = null,
         includeImageLanguages: String? = null,
+        includeVideoLanguages: String? = null,
     ): TmdbShowDetail = client.get {
         endPointShow(showId)
         parameterLanguage(language)
         parameterAppendResponses(appendResponses)
         parameterIncludeImageLanguage(includeImageLanguages)
+        parameterIncludeVideoLanguage(includeVideoLanguages)
     }.body()
 
     suspend fun getTranslations(showId: Int): TmdbTranslations = client.get {

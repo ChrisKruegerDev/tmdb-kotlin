@@ -41,6 +41,10 @@ internal fun HttpRequestBuilder.parameterIncludeImageLanguage(language: String?)
     language?.let { parameter("include_image_language", it) }
 }
 
+internal fun HttpRequestBuilder.parameterIncludeVideoLanguage(language: String?) {
+    language?.let { parameter("include_video_language", it) }
+}
+
 internal fun HttpRequestBuilder.parameterRegion(region: String?) {
     region?.let { parameter("region", it) }
 }

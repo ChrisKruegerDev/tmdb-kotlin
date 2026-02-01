@@ -3,11 +3,11 @@ package app.moviebase.tmdb.api
 import app.moviebase.tmdb.core.endPointV3
 import app.moviebase.tmdb.core.parameterAppendResponses
 import app.moviebase.tmdb.core.parameterIncludeImageLanguage
+import app.moviebase.tmdb.core.parameterIncludeVideoLanguage
 import app.moviebase.tmdb.core.parameterLanguage
 import app.moviebase.tmdb.core.parameterPage
 import app.moviebase.tmdb.model.AppendResponse
 import app.moviebase.tmdb.model.TmdbAccountStates
-import app.moviebase.tmdb.model.TmdbAlternativeTitle
 import app.moviebase.tmdb.model.TmdbAlternativeTitles
 import app.moviebase.tmdb.model.TmdbCredits
 import app.moviebase.tmdb.model.TmdbExternalIds
@@ -44,10 +44,12 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
         language: String? = null,
         appendResponses: Iterable<AppendResponse>? = null,
         includeImageLanguages: String? = null,
+        includeVideoLanguages: String? = null,
     ): TmdbMovieDetail = client.get(moviePath(movieId).joinToString(separator = "/")) {
         parameterLanguage(language)
         parameterAppendResponses(appendResponses)
         parameterIncludeImageLanguage(includeImageLanguages)
+        parameterIncludeVideoLanguage(includeVideoLanguages)
     }.body()
 
     suspend fun getImages(
@@ -59,9 +61,11 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
         parameterIncludeImageLanguage(includeImageLanguage)
     }.body()
 
-    suspend fun getExternalIds(movieId: Int): TmdbExternalIds = client.get(moviePath(movieId, "external_ids").joinToString(separator = "/")).body()
+    suspend fun getExternalIds(movieId: Int): TmdbExternalIds =
+        client.get(moviePath(movieId, "external_ids").joinToString(separator = "/")).body()
 
-    suspend fun getTranslations(movieId: Int): TmdbTranslations = client.get(moviePath(movieId, "translations").joinToString(separator = "/")).body()
+    suspend fun getTranslations(movieId: Int): TmdbTranslations =
+        client.get(moviePath(movieId, "translations").joinToString(separator = "/")).body()
 
     suspend fun getWatchProviders(movieId: Int): TmdbWatchProviderResult =
         client.get(moviePath(movieId, "watch", "providers").joinToString(separator = "/")).body()
@@ -154,9 +158,10 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
     suspend fun getAlternativeTitles(
         movieId: Int,
         country: String? = null,
-    ): TmdbResult<TmdbAlternativeTitles> = client.get(moviePath(movieId, "alternative_titles").joinToString(separator = "/")) {
-        country?.let { parameter("country", it) }
-    }.body()
+    ): TmdbResult<TmdbAlternativeTitles> =
+        client.get(moviePath(movieId, "alternative_titles").joinToString(separator = "/")) {
+            country?.let { parameter("country", it) }
+        }.body()
 
     suspend fun getReleaseDates(movieId: Int): TmdbResult<TmdbReleaseDates> =
         client.get(moviePath(movieId, "release_dates").joinToString(separator = "/")).body()
