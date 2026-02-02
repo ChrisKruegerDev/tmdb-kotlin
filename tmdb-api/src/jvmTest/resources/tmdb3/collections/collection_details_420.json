@@ -1,0 +1,629 @@
+{
+  "id": 420,
+  "name": "The Chronicles of Narnia Collection",
+  "original_language": "en",
+  "original_name": "The Chronicles of Narnia Collection",
+  "overview": "Modern theatrical film productions based on the book series «The Chronicles of Narnia» by C. S. Lewis.",
+  "poster_path": "/sh6Kn8VBfXotJ6qsvJkdfscxXKR.jpg",
+  "backdrop_path": "/ojjzZUQlqKTsN1T7s5OAVZSjYMH.jpg",
+  "parts": [
+    {
+      "adult": false,
+      "backdrop_path": "/tuDhEdza074bA497bO9WFEPs6O6.jpg",
+      "id": 411,
+      "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "original_title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "overview": "Siblings Lucy, Edmund, Susan and Peter step through a magical wardrobe and find the land of Narnia. There, they discover a charming, once peaceful kingdom that has been plunged into eternal winter by the evil White Witch, Jadis. Aided by the wise and magnificent lion, Aslan, the children lead Narnia into a spectacular, climactic battle to be free of the Witch's glacial powers forever.",
+      "poster_path": "/iREd0rNCjYdf5Ar0vfaW32yrkm.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        12,
+        10751,
+        14
+      ],
+      "popularity": 17.7117,
+      "release_date": "2005-12-07",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 11285
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9pBv1BOSloAUgAkF0meJWdnbV4Q.jpg",
+      "id": 2454,
+      "title": "The Chronicles of Narnia: Prince Caspian",
+      "original_title": "The Chronicles of Narnia: Prince Caspian",
+      "overview": "One year after their incredible adventures in the Lion, the Witch and the Wardrobe, Peter, Edmund, Lucy and Susan Pevensie return to Narnia to aid a young prince whose life has been threatened by the evil King Miraz. Now, with the help of a colorful cast of new characters, including Trufflehunter the badger and Nikabrik the dwarf, the Pevensie clan embarks on an incredible quest to ensure that Narnia is returned to its rightful heir.",
+      "poster_path": "/qxz3WIyjZiSKUhaTIEJ3c1GcC9z.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        12,
+        10751,
+        14
+      ],
+      "popularity": 5.8072,
+      "release_date": "2008-05-15",
+      "video": false,
+      "vote_average": 6.629,
+      "vote_count": 6656
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oc3be3waruLd0PB9h4bomN7Le3v.jpg",
+      "id": 10140,
+      "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
+      "original_title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
+      "overview": "This time around Edmund and Lucy Pevensie, along with their pesky cousin Eustace Scrubb find themselves swallowed into a painting and on to a fantastic Narnian ship headed for the very edges of the world.",
+      "poster_path": "/pP27zlm9yeKrCeDZLFLP2HKELot.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        12,
+        10751,
+        14
+      ],
+      "popularity": 6.1562,
+      "release_date": "2010-12-02",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 5804
+    }
+  ],
+  "images": {
+    "backdrops": [
+      {
+        "aspect_ratio": 1.778,
+        "height": 1080,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/vlv2skpXYg02TRg1iyXGvDvZSZ9.jpg",
+        "vote_average": 3.334,
+        "vote_count": 1,
+        "width": 1920
+      },
+      {
+        "aspect_ratio": 1.778,
+        "height": 1080,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/3dPVWuhk0MpnDkxUeNcYvUmsRTK.jpg",
+        "vote_average": 2.334,
+        "vote_count": 1,
+        "width": 1920
+      },
+      {
+        "aspect_ratio": 1.778,
+        "height": 1080,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/bLdAkD5NEtnNL1pvQtccYvsxvmG.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 1920
+      }
+    ],
+    "posters": [
+      {
+        "aspect_ratio": 0.667,
+        "height": 1500,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/sh6Kn8VBfXotJ6qsvJkdfscxXKR.jpg",
+        "vote_average": 8.034,
+        "vote_count": 5,
+        "width": 1000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 1500,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/kNNgUS9NgxAC5nKSF9et68Cqq1d.jpg",
+        "vote_average": 3.334,
+        "vote_count": 1,
+        "width": 1000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 3000,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/zvWq6MBVS6o7h3sWONhXB1RCycm.jpg",
+        "vote_average": 3.334,
+        "vote_count": 1,
+        "width": 2000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 1500,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/6Mz8zLC2jHhmdH5xjS0yjrwnXzt.jpg",
+        "vote_average": 2.25,
+        "vote_count": 6,
+        "width": 1000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 1500,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/q5pLW65Rd2PeWmL0SjAxl06fU9R.jpg",
+        "vote_average": 1.75,
+        "vote_count": 2,
+        "width": 1000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 1500,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/d0sKhHZRXpPnGO4NDx437yrfk9j.jpg",
+        "vote_average": 1.75,
+        "vote_count": 2,
+        "width": 1000
+      },
+      {
+        "aspect_ratio": 0.7,
+        "height": 1000,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/6kCHHx9facvx8UFg7VKihjxlwaL.jpg",
+        "vote_average": 1.542,
+        "vote_count": 4,
+        "width": 700
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 1500,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/tmf8ruemyuAgEgWeaTmx4ERsvTV.jpg",
+        "vote_average": 0.958,
+        "vote_count": 4,
+        "width": 1000
+      },
+      {
+        "aspect_ratio": 0.67,
+        "height": 1000,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/44dKzGtSDw0oFHEvAduduwjyVSZ.jpg",
+        "vote_average": 0.888,
+        "vote_count": 3,
+        "width": 670
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 1500,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/ju5DqYM1jJbZPL5Q105ivuq8MXa.jpg",
+        "vote_average": 0.834,
+        "vote_count": 4,
+        "width": 1000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 1500,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/zmGrYACJao3nvUSosRM443uIizV.jpg",
+        "vote_average": 0.166,
+        "vote_count": 1,
+        "width": 1000
+      },
+      {
+        "aspect_ratio": 0.701,
+        "height": 1426,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/lIU9mwzxKlHeRmagOfsMAVMUffU.jpg",
+        "vote_average": 0.166,
+        "vote_count": 1,
+        "width": 1000
+      },
+      {
+        "aspect_ratio": 0.667,
+        "height": 1500,
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "file_path": "/4ksaQQpggw5gvS7tH4tRBWd4eA1.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "width": 1000
+      }
+    ]
+  },
+  "translations": {
+    "translations": [
+      {
+        "iso_3166_1": "NO",
+        "iso_639_1": "nb",
+        "name": "Bokmål",
+        "english_name": "Norwegian Bokmål",
+        "data": {
+          "title": "Legenden om Narnia",
+          "overview": "",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "ES",
+        "iso_639_1": "es",
+        "name": "Español",
+        "english_name": "Spanish",
+        "data": {
+          "title": "Las crónicas de Narnia - Colección",
+          "overview": "Una serie de películas basadas en una serie de libros de la década de 1950 llamada Las Crónicas de Narnia de CS Lewis.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "RU",
+        "iso_639_1": "ru",
+        "name": "Pусский",
+        "english_name": "Russian",
+        "data": {
+          "title": "Хроники Нарнии (Коллекция)",
+          "overview": "Современные театральные кинопродукции по мотивам книжной серии» Хроники Нарнии \" К. С. Льюиса.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "RO",
+        "iso_639_1": "ro",
+        "name": "Română",
+        "english_name": "Romanian",
+        "data": {
+          "title": "Colecția Cronicile din Narnia",
+          "overview": "Producții cinematografice moderne bazate pe seria de cărți „Cronicile din Narnia” de C. S. Lewis.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "TR",
+        "iso_639_1": "tr",
+        "name": "Türkçe",
+        "english_name": "Turkish",
+        "data": {
+          "title": "Narnia Günlükleri [Seri]",
+          "overview": "C. S. Lewis'in \"Narnia Günlükleri\" kitap serisinden uyarlanan modern sinema filmi yapımları.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "NO",
+        "iso_639_1": "no",
+        "name": "Norsk",
+        "english_name": "Norwegian",
+        "data": {
+          "title": "",
+          "overview": "",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "BG",
+        "iso_639_1": "bg",
+        "name": "български език",
+        "english_name": "Bulgarian",
+        "data": {
+          "title": "Хрониките на Нарния (поредица)",
+          "overview": "Екранизация на популярната поредица от седем романа за деца, която разказват за приключенията на група деца, играещи ключова роля в историята на митичната страна Нарния, където магията е ежедневие, а доброто води вечна борба със злото.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "CN",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "title": "纳尼亚传奇（系列）",
+          "overview": "《纳尼亚传奇》讲述了孩子们在纳尼亚王国的冒险经历，这个地方魔法很普遍，动物会说话，善恶之间的战斗接踵而至。 在所有电影中，主角都是我们世界的孩子，他们被神奇地运送到纳尼亚，接受名为阿斯兰的大狮子的帮助和指导。  纳尼亚传奇 (1950-56) 由小说家和诗人克莱夫·斯台普斯·刘易斯 (Clive Staples Lewis) 撰写，通常被称为 C. S. 刘易斯。",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "DK",
+        "iso_639_1": "da",
+        "name": "Dansk",
+        "english_name": "Danish",
+        "data": {
+          "title": "Narnia (Samling)",
+          "overview": "",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "IL",
+        "iso_639_1": "he",
+        "name": "עִבְרִית",
+        "english_name": "Hebrew",
+        "data": {
+          "title": "סיפורי נרניה - אוסף",
+          "overview": "",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "FR",
+        "iso_639_1": "fr",
+        "name": "Français",
+        "english_name": "French",
+        "data": {
+          "title": "Le Monde de Narnia - Saga",
+          "overview": "Productions cinématographiques théâtrales modernes basé sur la série de livres de 1950 de la série de livres «Les Chroniques de Narnia» par CS Lewis.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "CZ",
+        "iso_639_1": "cs",
+        "name": "Český",
+        "english_name": "Czech",
+        "data": {
+          "title": "Letopisy Narnie (kolekce)",
+          "overview": "Výpravy dětí do světa fantazie a úžasných stvoření.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "SK",
+        "iso_639_1": "sk",
+        "name": "Slovenčina",
+        "english_name": "Slovak",
+        "data": {
+          "title": "Narnia (kolekcia)",
+          "overview": "Filmové spracovanie fantasy románov od spisovateľa C. S. Lewisa.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "PT",
+        "iso_639_1": "pt",
+        "name": "Português",
+        "english_name": "Portuguese",
+        "data": {
+          "title": "As Crónicas de Nárnia - Colecção",
+          "overview": "As Crônicas de Nárnia apresentam as aventuras de crianças no Reino de Nárnia, um lugar onde a magia é corriqueira, os animais falam, e ocorrem batalhas entre o bem e o mal. Em todos os filmes as personagens principais são crianças do nosso mundo, que são magicamente transportadas para Nárnia a fim de serem ajudadas e instruídas pelo Grande Leão conhecido como Aslam.  A obra \"As Crônicas de Nárnia (1950-56)\", foram escritas pelo escritor romancista e poeta Clive Staples Lewis, comumente referido como C. S. Lewis.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "NL",
+        "iso_639_1": "nl",
+        "name": "Nederlands",
+        "english_name": "Dutch",
+        "data": {
+          "title": "De Kronieken van Narnia Collectie",
+          "overview": "",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "JP",
+        "iso_639_1": "ja",
+        "name": "日本語",
+        "english_name": "Japanese",
+        "data": {
+          "title": "ナルニア国物語 シリーズ",
+          "overview": "C. S. ルイスの小説シリーズ「ナルニア国物語」に基づいた現代の劇場映画作品。",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "KR",
+        "iso_639_1": "ko",
+        "name": "한국어/조선말",
+        "english_name": "Korean",
+        "data": {
+          "title": "나니아 연대기 시리즈",
+          "overview": "C. S. 루이스의 소설 시리즈 '나니아 연대기'를 원작으로 한 현대 연극 영화 제작.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "IT",
+        "iso_639_1": "it",
+        "name": "Italiano",
+        "english_name": "Italian",
+        "data": {
+          "title": "Le cronache di Narnia - Collezione",
+          "overview": "La saga delle Cronache di Narnia racconta di quattro fratelli (Lucy, Susan, Edmund e Peter) che scoprono un mondo parallelo a cui si accede attraverso un guardaroba. In questa nuova realtà affrontano avventure fantastiche per salvare il regno di Narnia.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "DE",
+        "iso_639_1": "de",
+        "name": "Deutsch",
+        "english_name": "German",
+        "data": {
+          "title": "Die Chroniken von Narnia Filmreihe",
+          "overview": "Die Chroniken von Narnia (orig. The Chronicles of Narnia) ist eine sieben Bücher umfassende Serie von Fantasyromanen, die zwischen 1939 und 1954 vom britischen Schriftsteller Clive Staples Lewis geschrieben und 1950–1956 veröffentlicht wurden und sein mit Abstand bekanntestes Werk darstellen. Bislang wurden mehr als 100 Millionen Exemplare verkauft und die Bücher in 47 Sprachen übersetzt.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "HU",
+        "iso_639_1": "hu",
+        "name": "Magyar",
+        "english_name": "Hungarian",
+        "data": {
+          "title": "Narnia Krónikái gyűjtemény",
+          "overview": "",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "name": "English",
+        "english_name": "English",
+        "data": {
+          "title": "",
+          "overview": "Modern theatrical film productions based on the book series «The Chronicles of Narnia» by C. S. Lewis.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "PL",
+        "iso_639_1": "pl",
+        "name": "Polski",
+        "english_name": "Polish",
+        "data": {
+          "title": "Opowieści z Narnii  - Kolekcja",
+          "overview": "Kolekcja filmów \"Opowieści z Narnii\" adaptuje czarujące powieści fantasy C.S. Lewisa, zapraszając widzów do magicznego świata Narnii. W tej krainie dzieci walczą z czarownicami, mitycznymi stworzeniami oraz przeżywają podróż odkrywania siebie. Poprzez ich przygody, seria bada tematy odwagi, lojalności i triumfu dobra nad złem, urzekając widzów w każdym wieku swoją bogatą narracją i zachwycającą oprawą wizualną.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "BR",
+        "iso_639_1": "pt",
+        "name": "Português",
+        "english_name": "Portuguese",
+        "data": {
+          "title": "As Crônicas de Nárnia: Coleção",
+          "overview": "Produções cinematográficas teatrais modernas baseadas na série de livros \"As Crônicas de Nárnia\" de C. S. Lewis.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "SE",
+        "iso_639_1": "sv",
+        "name": "svenska",
+        "english_name": "Swedish",
+        "data": {
+          "title": "Berättelsen om Narnia (samling)",
+          "overview": "Fyra syskons äventyr när de av misstag eller nyfikenhet råkar hamna i landet Narnia, och om kampen mellan gott och ont. Lejonet Aslan, som likt en skapargud tillverkar Narnia på något dygn genom att sjunga fram det. Ondskan, finns i många olika sorters skepnader, ibland i form av en häxa…",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "TW",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "title": "納尼亞傳奇（系列）",
+          "overview": "納尼亞王國的創造者獅子王亞斯藍，代表著基督教中上帝的兒子耶穌，故事中亞斯藍為了換取背叛者艾德蒙性命而犧牲自己的精神，正好象徵耶穌被釘十字架受難及復活的真理，而最後與白女巫的大戰，更是寓意著上帝與邪惡勢力的終極一戰。至於四位少年在納尼亞的奇幻之旅，也刻畫出基督徒天路歷程的起跌進退，信徒如何在王者的帶領下生命得著改變。",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "HK",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "title": "《魔幻王國》系列",
+          "overview": "",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "MX",
+        "iso_639_1": "es",
+        "name": "Español",
+        "english_name": "Spanish",
+        "data": {
+          "title": "Las crónicas de Narnia - Colección",
+          "overview": "Las Crónicas de Narnia presentan las aventuras de los niños en el Reino de Narnia, un lugar donde la magia es un lugar común, los animales hablan y ocurren batallas entre el bien y el mal. En todas las películas, los personajes principales son niños de nuestro mundo, que son transportados mágicamente a Narnia para ser ayudados e instruidos por el Gran León conocido como Aslam.  La obra \"Las Crónicas de Narnia (1950-56)\", fue escrita por el novelista y escritor poeta Clive Staples Lewis, comúnmente conocido como C. S. Lewis.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "UA",
+        "iso_639_1": "uk",
+        "name": "Український",
+        "english_name": "Ukrainian",
+        "data": {
+          "title": "Хроніки Нарнії | Колекція",
+          "overview": "",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "TH",
+        "iso_639_1": "th",
+        "name": "ภาษาไทย",
+        "english_name": "Thai",
+        "data": {
+          "title": "อภินิหารตํานานแห่งนาร์เนีย คอลเลคชั่น",
+          "overview": "",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "GR",
+        "iso_639_1": "el",
+        "name": "ελληνικά",
+        "english_name": "Greek",
+        "data": {
+          "title": "Το Χρονικό της Νάρνια",
+          "overview": "Τα Χρονικά της Νάρνια είναι μια σειρά μυθιστορημάτων φαντασίας επτά βιβλίων που γράφτηκαν μεταξύ 1939 και 1954 από τον Βρετανό συγγραφέα Κλάιβ Στέιπλς Λιούις και εκδόθηκαν 1950-1956, και είναι μακράν το πιο γνωστό έργο του. Μέχρι σήμερα έχουν πωληθεί περισσότερα από 100 εκατομμύρια αντίτυπα και τα βιβλία έχουν μεταφραστεί σε 47 γλώσσες.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "GE",
+        "iso_639_1": "ka",
+        "name": "ქართული",
+        "english_name": "Georgian",
+        "data": {
+          "title": "ნარნიის ქრონიკები კოლექცია",
+          "overview": "",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "VN",
+        "iso_639_1": "vi",
+        "name": "Tiếng Việt",
+        "english_name": "Vietnamese",
+        "data": {
+          "title": "Loạt phim Biên Niên Sử Narnia",
+          "overview": "",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "IR",
+        "iso_639_1": "fa",
+        "name": "فارسی",
+        "english_name": "Persian",
+        "data": {
+          "title": "مجموعه سرگذشت نارنیا",
+          "overview": "",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "CA",
+        "iso_639_1": "fr",
+        "name": "Français",
+        "english_name": "French",
+        "data": {
+          "title": "Les Chroniques de Narnia - Collection",
+          "overview": "Productions cinématographiques théâtrales modernes basé sur la série de livres de 1950 de la série de livres «Les Chroniques de Narnia» par CS Lewis.",
+          "homepage": ""
+        }
+      },
+      {
+        "iso_3166_1": "HR",
+        "iso_639_1": "hr",
+        "name": "Hrvatski",
+        "english_name": "Croatian",
+        "data": {
+          "title": "Kronike iz Narnije kolekcija",
+          "overview": "",
+          "homepage": ""
+        }
+      }
+    ]
+  }
+}
