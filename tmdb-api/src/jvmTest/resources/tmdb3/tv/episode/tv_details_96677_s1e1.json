@@ -2513,5 +2513,459 @@
         ]
       }
     }
+  },
+  "translations": {
+    "translations": [
+      {
+        "iso_3166_1": "CZ",
+        "iso_639_1": "cs",
+        "name": "Český",
+        "english_name": "Czech",
+        "data": {
+          "name": "1. kapitola",
+          "overview": "Po mnoha letech se Assanovi naskytne možnost pomstít křivdu, která se stala jeho rodině, a to tím, že se pokusí ukrást diamantový náhrdelník. Loupež však dostane nečekaný zvrat."
+        }
+      },
+      {
+        "iso_3166_1": "DK",
+        "iso_639_1": "da",
+        "name": "Dansk",
+        "english_name": "Danish",
+        "data": {
+          "name": "Kapitel 1",
+          "overview": "Flere år efter en tragisk og uretfærdig hændelse vil Assane have hævn – og betale en gæld – ved at stjæle en diamanthalskæde, men kuppet tager en uventet drejning."
+        }
+      },
+      {
+        "iso_3166_1": "DE",
+        "iso_639_1": "de",
+        "name": "Deutsch",
+        "english_name": "German",
+        "data": {
+          "name": "Kapitel 1",
+          "overview": "Mit dem Diebstahl eines wertvollen Colliers will Assane eine schmerzliche alte Rechnung – und eine Schuld – begleichen. Doch der Coup nimmt eine unerwartete Wendung."
+        }
+      },
+      {
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "name": "English",
+        "english_name": "English",
+        "data": {
+          "name": "Chapter 1",
+          "overview": "Years after a tragic injustice, Assane seeks to settle a score — and a debt — by stealing a diamond necklace, but the heist takes an unexpected turn."
+        }
+      },
+      {
+        "iso_3166_1": "ES",
+        "iso_639_1": "es",
+        "name": "Español",
+        "english_name": "Spanish",
+        "data": {
+          "name": "Capítulo 1",
+          "overview": "Años después de una trágica injusticia, Assane se propone ajustar cuentas (y una deuda) robando un collar de diamantes, pero las cosas no salen según lo previsto."
+        }
+      },
+      {
+        "iso_3166_1": "FR",
+        "iso_639_1": "fr",
+        "name": "Français",
+        "english_name": "French",
+        "data": {
+          "name": "Chapitre 1",
+          "overview": "Hanté par l'injustice qui a frappé sa famille, Assane veut régler ses comptes en volant un collier de diamants. Mais rien ne se passe comme prévu."
+        }
+      },
+      {
+        "iso_3166_1": "HU",
+        "iso_639_1": "hu",
+        "name": "Magyar",
+        "english_name": "Hungarian",
+        "data": {
+          "name": "1. fejezet - A királynő nyaklánca",
+          "overview": "Sok évvel egy tragikus igazságtalanság után Assane rendezni kívánja a számlát, ezért ellop egy gyémánt nyakláncot, ám az akció váratlan fordulatot vesz."
+        }
+      },
+      {
+        "iso_3166_1": "IT",
+        "iso_639_1": "it",
+        "name": "Italiano",
+        "english_name": "Italian",
+        "data": {
+          "name": "Capitolo 1",
+          "overview": "Anni dopo una tragica ingiustizia, Assane vuole regolare i conti e un debito rubando un collier di diamanti... ma il colpo prende una piega inaspettata."
+        }
+      },
+      {
+        "iso_3166_1": "KR",
+        "iso_639_1": "ko",
+        "name": "한국어/조선말",
+        "english_name": "Korean",
+        "data": {
+          "name": "챕터 1",
+          "overview": "그가 오늘 밤 큰 한탕을 노린다. 훔칠 물건은 루브르 경매에 나올 마리 앙투아네트의 목걸이. 최고의 박물관을 뚫을 트릭과 반전은 이미 준비되었다. '빚'을 청산할 계획도."
+        }
+      },
+      {
+        "iso_3166_1": "NL",
+        "iso_639_1": "nl",
+        "name": "Nederlands",
+        "english_name": "Dutch",
+        "data": {
+          "name": "Hoofdstuk 1",
+          "overview": "Jaren na een onrechtvaardige gebeurtenis wil Assane een oude rekening (en schuld) vereffenen door een diamanten ketting te stelen maar de overval loopt onverwacht anders."
+        }
+      },
+      {
+        "iso_3166_1": "BR",
+        "iso_639_1": "pt",
+        "name": "Português",
+        "english_name": "Portuguese",
+        "data": {
+          "name": "Capítulo 1",
+          "overview": "Anos depois de uma trágica injustiça, Assane tenta acertar as contas – e quitar uma dívida – roubando um colar de diamante, mas o roubo não sai como esperado."
+        }
+      },
+      {
+        "iso_3166_1": "PT",
+        "iso_639_1": "pt",
+        "name": "Português",
+        "english_name": "Portuguese",
+        "data": {
+          "name": "Capítulo 1",
+          "overview": "Anos após uma trágica injustiça, Assane procura ajustar contas — e saldar uma dívida — ao roubar um colar de diamantes, mas o golpe sofre uma inesperada reviravolta."
+        }
+      },
+      {
+        "iso_3166_1": "RU",
+        "iso_639_1": "ru",
+        "name": "Pусский",
+        "english_name": "Russian",
+        "data": {
+          "name": "1 глава",
+          "overview": "Чтобы заплатить по счетам, а еще свести счеты спустя годы после трагической несправедливости, Ассан похищает бриллиантовое колье. Но дело принимает неожиданный оборот."
+        }
+      },
+      {
+        "iso_3166_1": "TR",
+        "iso_639_1": "tr",
+        "name": "Türkçe",
+        "english_name": "Turkish",
+        "data": {
+          "name": "No. 1",
+          "overview": "Trajik bir adaletsizlikten yıllar sonra, Assane elmas bir kolye çalarak hesabını ve bir borcu kapatmak ister, ancak soygun beklenmedik bir yola girer."
+        }
+      },
+      {
+        "iso_3166_1": "PL",
+        "iso_639_1": "pl",
+        "name": "Polski",
+        "english_name": "Polish",
+        "data": {
+          "name": "Rozdział 1",
+          "overview": "Wiele lat po doświadczeniu niesprawiedliwości Assane zamierza wyrównać rachunki i odebrać dług, kradnąc diamentowy naszyjnik. Jednak nie wszystko idzie zgodnie z planem."
+        }
+      },
+      {
+        "iso_3166_1": "CN",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "name": "第 1 章",
+          "overview": "悲惨不公的事件发生多年后，阿桑试图清算旧帐，顺便解决债务，方法是窃取一条钻石项链，然而这桩劫案的发展却出现意外的转折。"
+        }
+      },
+      {
+        "iso_3166_1": "TW",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "name": "第 1 章",
+          "overview": "悲慘不公的事件發生多年後，亞森試圖清算舊帳，順便解決債務，方法是竊取一條鑽石項鍊，然而這樁劫案的發展卻出現意外的轉折。"
+        }
+      },
+      {
+        "iso_3166_1": "UA",
+        "iso_639_1": "uk",
+        "name": "Український",
+        "english_name": "Ukrainian",
+        "data": {
+          "name": "Глава 1",
+          "overview": "Колись із ним вчинили несправедливо. Тепер Ассан шукає помсти. Він прагне поквитатися, викравши діамантове кольє. Але пограбування іде не за планом."
+        }
+      },
+      {
+        "iso_3166_1": "CA",
+        "iso_639_1": "fr",
+        "name": "Français",
+        "english_name": "French",
+        "data": {
+          "name": "Chapitre 1",
+          "overview": "Des années après une injustice tragique, Assane veut régler des comptes – et une dette – en volant un collier de diamants, mais la mission prend une tournure inattendue."
+        }
+      },
+      {
+        "iso_3166_1": "IL",
+        "iso_639_1": "he",
+        "name": "עִבְרִית",
+        "english_name": "Hebrew",
+        "data": {
+          "name": "פרשה 1",
+          "overview": "שנים לאחר שאירוע טרגי הרס את חייו, אסאן נחוש לסגור חשבון – וחוב גדול. הוא יוצא לגנוב שרשרת יהלומים היסטורית, אבל השוד משתבש בעקבות תפנית לא צפויה."
+        }
+      },
+      {
+        "iso_3166_1": "VN",
+        "iso_639_1": "vi",
+        "name": "Tiếng Việt",
+        "english_name": "Vietnamese",
+        "data": {
+          "name": "Chương 1",
+          "overview": "Nhiều năm sau bất công đầy bi kịch, Assane tìm cách đánh cắp sợi dây chuyền kim cương hòng trả thù và đòi lại món nợ xưa, nhưng vụ trộm đã bất ngờ chuyển hướng."
+        }
+      },
+      {
+        "iso_3166_1": "MX",
+        "iso_639_1": "es",
+        "name": "Español",
+        "english_name": "Spanish",
+        "data": {
+          "name": "Capítulo 1",
+          "overview": "Años después de una fatal injusticia, Assane busca saldar cuentas —y una deuda— robándose un collar de diamantes, pero el golpe tiene un desenlace imprevisto."
+        }
+      },
+      {
+        "iso_3166_1": "TH",
+        "iso_639_1": "th",
+        "name": "ภาษาไทย",
+        "english_name": "Thai",
+        "data": {
+          "name": "บทที่ 1",
+          "overview": "หลายปีหลังความอยุติธรรมนำพามาซึ่งโศกนาฏกรรม อัสซานหาทางปลดหนี้และสะสางบัญชีแค้นด้วยการขโมยสร้อยเพชรเส้นหนึ่ง ทว่าแผนโจรกรรมกลับมีเหตุให้พลิกผัน"
+        }
+      },
+      {
+        "iso_3166_1": "GR",
+        "iso_639_1": "el",
+        "name": "ελληνικά",
+        "english_name": "Greek",
+        "data": {
+          "name": "Κεφάλαιο 1",
+          "overview": "Χρόνια μετά από μια αδικία με τραγική κατάληξη, ο Ασάν θέλει να πάρει το αίμα του πίσω κλέβοντας ένα διαμαντένιο περιδέραιο, αλλά η ληστεία παίρνει μια απροσδόκητη τροπή."
+        }
+      },
+      {
+        "iso_3166_1": "JP",
+        "iso_639_1": "ja",
+        "name": "日本語",
+        "english_name": "Japanese",
+        "data": {
+          "name": "第1章",
+          "overview": "少年時代、理不尽な事件によって家族を失ったアサンは、過去の因縁と借金にかたをつけるため首飾りの窃盗を企む。だが事態は思わぬ方向に転がり出す。"
+        }
+      },
+      {
+        "iso_3166_1": "SA",
+        "iso_639_1": "ar",
+        "name": "العربية",
+        "english_name": "Arabic",
+        "data": {
+          "name": "فصل 1",
+          "overview": "بعد سنوات من ظلم مأساوي، يسعى \"أسان\" إلى تصفية حساب وسداد دين بسرقة عقد من الألماس، لكن عملية السرقة تأخذ منعطفًا لم يكن في الحسبان."
+        }
+      },
+      {
+        "iso_3166_1": "LT",
+        "iso_639_1": "lt",
+        "name": "Lietuvių",
+        "english_name": "Lithuanian",
+        "data": {
+          "name": "",
+          "overview": ""
+        }
+      },
+      {
+        "iso_3166_1": "BG",
+        "iso_639_1": "bg",
+        "name": "български език",
+        "english_name": "Bulgarian",
+        "data": {
+          "name": "",
+          "overview": ""
+        }
+      },
+      {
+        "iso_3166_1": "SK",
+        "iso_639_1": "sk",
+        "name": "Slovenčina",
+        "english_name": "Slovak",
+        "data": {
+          "name": "",
+          "overview": "Assane sa rozhodne ukradnúť diamantový náhrdelník, aby vyrovnal účty za dávnu tragickú krivdu a tiež zmazal dlh. Lenže lúpež sa nečakane zvrtne."
+        }
+      },
+      {
+        "iso_3166_1": "HR",
+        "iso_639_1": "hr",
+        "name": "Hrvatski",
+        "english_name": "Croatian",
+        "data": {
+          "name": "1. poglavlje",
+          "overview": "Mnogo godina nakon tragične nepravde Assane želi izravnati račune krađom dijamantne ogrlice, no pljačka krene u neočekivanom smjeru."
+        }
+      },
+      {
+        "iso_3166_1": "SE",
+        "iso_639_1": "sv",
+        "name": "svenska",
+        "english_name": "Swedish",
+        "data": {
+          "name": "Kapitel 1",
+          "overview": "Många år efter en tragisk orättvisa är Assane ute efter att göra upp – genom att stjäla ett diamanthalsband. Men kuppen tar en oväntad vändning."
+        }
+      },
+      {
+        "iso_3166_1": "ID",
+        "iso_639_1": "id",
+        "name": "Bahasa indonesia",
+        "english_name": "Indonesian",
+        "data": {
+          "name": "Bab 1",
+          "overview": "Bertahun-tahun usai mengalami ketidakadilan tragis, Assane berniat membayar dendam dan utang dengan mencuri kalung berlian. Namun, perampokannya berujung di luar dugaan."
+        }
+      },
+      {
+        "iso_3166_1": "RS",
+        "iso_639_1": "sr",
+        "name": "Srpski",
+        "english_name": "Serbian",
+        "data": {
+          "name": "",
+          "overview": ""
+        }
+      },
+      {
+        "iso_3166_1": "GE",
+        "iso_639_1": "ka",
+        "name": "ქართული",
+        "english_name": "Georgian",
+        "data": {
+          "name": "",
+          "overview": ""
+        }
+      },
+      {
+        "iso_3166_1": "IR",
+        "iso_639_1": "fa",
+        "name": "فارسی",
+        "english_name": "Persian",
+        "data": {
+          "name": "",
+          "overview": ""
+        }
+      },
+      {
+        "iso_3166_1": "HK",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "name": "第 1 章",
+          "overview": "悲慘不公的事件發生多年後，亞森試圖清算舊帳，順便解決債務，方法是竊取一條鑽石項鍊，然而這樁劫案的發展卻出現意外的轉折。"
+        }
+      },
+      {
+        "iso_3166_1": "SI",
+        "iso_639_1": "sl",
+        "name": "Slovenščina",
+        "english_name": "Slovenian",
+        "data": {
+          "name": "",
+          "overview": ""
+        }
+      },
+      {
+        "iso_3166_1": "MY",
+        "iso_639_1": "ms",
+        "name": "Bahasa melayu",
+        "english_name": "Malay",
+        "data": {
+          "name": "Babak 1",
+          "overview": "Bertahun-tahun selepas ketidakadilan tragis, Assane mahu melepaskan dendam — dan hutang — dengan mencuri rantai berlian, namun suatu mengejutkan berlaku ketika rompakan."
+        }
+      },
+      {
+        "iso_3166_1": "IN",
+        "iso_639_1": "hi",
+        "name": "हिन्दी",
+        "english_name": "Hindi",
+        "data": {
+          "name": "चैप्टर 1",
+          "overview": "एक दर्दनाक अन्याय के कई साल बाद, हीरों का हार चुराकर असान एक हिसाब — और एक एहसान — दोनों चुकता करना चाहता है, पर वह लूट एक अप्रत्याशित मोड़ ले लेती है."
+        }
+      },
+      {
+        "iso_3166_1": "RO",
+        "iso_639_1": "ro",
+        "name": "Română",
+        "english_name": "Romanian",
+        "data": {
+          "name": "Capitolul 1",
+          "overview": "La ani de zile după o injustiție cu urmări tragice, Assane vrea să regleze niște conturi furând un colier cu diamante, dar jaful ia o turnură neașteptată."
+        }
+      },
+      {
+        "iso_3166_1": "SG",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "name": "第 1 章",
+          "overview": "一起悲惨的不公正事件发生多年之后，阿桑试图通过窃取钻石项链进行报复并偿清债务，而抢劫行动却发生了意想不到的转折。"
+        }
+      },
+      {
+        "iso_3166_1": "AE",
+        "iso_639_1": "ar",
+        "name": "العربية",
+        "english_name": "Arabic",
+        "data": {
+          "name": "فصل 1",
+          "overview": "بعد سنوات من ظلم مأساوي، يسعى \"أسان\" إلى تصفية حساب وسداد دين بسرقة عقد من الألماس، لكن عملية السرقة تأخذ منعطفًا لم يكن في الحسبان."
+        }
+      },
+      {
+        "iso_3166_1": "FI",
+        "iso_639_1": "fi",
+        "name": "suomi",
+        "english_name": "Finnish",
+        "data": {
+          "name": "",
+          "overview": ""
+        }
+      },
+      {
+        "iso_3166_1": "BE",
+        "iso_639_1": "nl",
+        "name": "Nederlands",
+        "english_name": "Dutch",
+        "data": {
+          "name": "",
+          "overview": ""
+        }
+      },
+      {
+        "iso_3166_1": "ES",
+        "iso_639_1": "ca",
+        "name": "Català",
+        "english_name": "Catalan",
+        "data": {
+          "name": "",
+          "overview": ""
+        }
+      }
+    ]
   }
 }

@@ -23,3 +23,12 @@ data class TmdbCollectionPageResult(
     @SerialName("total_results") override val totalResults: Int,
     @SerialName("total_pages") override val totalPages: Int
 ) : TmdbPageResult<TmdbCollection>
+
+typealias TmdbCollectionTranslations = TmdbTranslations<TmdbCollectionTranslationData>
+
+@Serializable
+data class TmdbCollectionTranslationData(
+    val title: String,
+    val overview: String,
+    val homepage: String
+)

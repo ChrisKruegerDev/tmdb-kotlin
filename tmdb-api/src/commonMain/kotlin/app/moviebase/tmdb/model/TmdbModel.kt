@@ -84,17 +84,18 @@ data class TmdbStatusResult(
 )
 
 @Serializable
-data class TmdbTranslations(
-    val id: Int,
-    val translations: List<TmdbTranslation>
+data class TmdbTranslations<out DATA>(
+    val id: Int? = null,
+    val translations: List<TmdbTranslation<DATA>>
 )
 
 @Serializable
-data class TmdbTranslation(
+data class TmdbTranslation<out DATA>(
     @SerialName("iso_3166_1") val iso3166: String,
     @SerialName("iso_639_1") val iso639: String,
     val name: String,
-    @SerialName("english_name") val englishName: String
+    @SerialName("english_name") val englishName: String,
+    @SerialName("data") val data: DATA
 )
 
 @Serializable

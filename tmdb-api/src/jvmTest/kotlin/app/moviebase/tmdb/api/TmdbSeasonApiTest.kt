@@ -2,6 +2,7 @@ package app.moviebase.tmdb.api
 
 import app.moviebase.tmdb.core.mockHttpClient
 import app.moviebase.tmdb.model.AppendResponse
+import com.google.common.truth.Truth.assertThat
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
 import kotlinx.coroutines.test.runTest
@@ -12,7 +13,7 @@ class TmdbSeasonApiTest {
     val client = mockHttpClient(
         version = 3,
         responses = mapOf(
-            "tv/63333/season/1?append_to_response=release_dates,images,credits,tv_credits,external_ids&include_image_language="
+            "tv/63333/season/1?append_to_response=release_dates,images,credits,tv_credits,external_ids,translations&include_image_language="
                 to "tv/tv_season_63333_season_1.json",
             "tv/19849/season/1?append_to_response=credits,tv_credits"
                 to "tv/tv_season_19849_season_1.json",
@@ -47,14 +48,21 @@ class TmdbSeasonApiTest {
                 AppendResponse.CREDITS,
                 AppendResponse.TV_CREDITS,
                 AppendResponse.EXTERNAL_IDS,
+                AppendResponse.TRANSLATIONS,
             ),
             "",
         )
 
         assertEquals(68878, seasonDetails.id)
         assertNotNull(seasonDetails.images)
+        assertNotNull(seasonDetails.translations)
 
         val imageFile = seasonDetails.images?.posters?.firstOrNull()
         assertEquals("/oQasSKPcBLcEG5rOUg3s1Ozpr4s.jpg", imageFile?.filePath)
+
+        val czechTranslation = seasonDetails.translations.translations.first { it.iso639 == "cs" }
+        assertThat(czechTranslation).isNotNull()
+        assertThat(czechTranslation.data.name).isEqualTo("1. řada")
+        assertThat(czechTranslation.data.overview).isEqualTo("V první řadě se mladý saský šlechtic Uhtred promění ve válečníka, který se snaží získat zpět své území usurpované mazaným strýcem.")
     }
 }
