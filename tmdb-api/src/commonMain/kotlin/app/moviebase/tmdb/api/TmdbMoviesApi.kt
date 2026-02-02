@@ -15,12 +15,12 @@ import app.moviebase.tmdb.model.TmdbImages
 import app.moviebase.tmdb.model.TmdbKeyword
 import app.moviebase.tmdb.model.TmdbMovieDetail
 import app.moviebase.tmdb.model.TmdbMoviePageResult
+import app.moviebase.tmdb.model.TmdbMovieTranslations
 import app.moviebase.tmdb.model.TmdbPageResult
 import app.moviebase.tmdb.model.TmdbReleaseDates
 import app.moviebase.tmdb.model.TmdbResult
 import app.moviebase.tmdb.model.TmdbReview
 import app.moviebase.tmdb.model.TmdbStatusResponse
-import app.moviebase.tmdb.model.TmdbTranslations
 import app.moviebase.tmdb.model.TmdbVideo
 import app.moviebase.tmdb.model.TmdbWatchProviderResult
 import io.ktor.client.HttpClient
@@ -64,7 +64,7 @@ class TmdbMoviesApi internal constructor(private val client: HttpClient) {
     suspend fun getExternalIds(movieId: Int): TmdbExternalIds =
         client.get(moviePath(movieId, "external_ids").joinToString(separator = "/")).body()
 
-    suspend fun getTranslations(movieId: Int): TmdbTranslations =
+    suspend fun getTranslations(movieId: Int): TmdbMovieTranslations =
         client.get(moviePath(movieId, "translations").joinToString(separator = "/")).body()
 
     suspend fun getWatchProviders(movieId: Int): TmdbWatchProviderResult =

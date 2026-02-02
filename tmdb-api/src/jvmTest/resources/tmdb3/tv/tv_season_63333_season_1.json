@@ -2311,5 +2311,409 @@
     },
     "videos": {
         "results": []
+    },
+    "translations": {
+        "translations": [
+            {
+                "iso_3166_1": "US",
+                "iso_639_1": "en",
+                "name": "English",
+                "english_name": "English",
+                "data": {
+                    "name": "",
+                    "overview": "In Season 1, young Saxon noble Uhtred transforms into a warrior and seeks to regain the lands annexed by his cunning uncle."
+                }
+            },
+            {
+                "iso_3166_1": "FR",
+                "iso_639_1": "fr",
+                "name": "Français",
+                "english_name": "French",
+                "data": {
+                    "name": "",
+                    "overview": "Au cours de la saison 1, le jeune et noble Saxon Uhtred aux mœurs vikings devient un guerrier et s'efforce de récupérer les terres dont son oncle félon l'a dépossédé."
+                }
+            },
+            {
+                "iso_3166_1": "GR",
+                "iso_639_1": "el",
+                "name": "ελληνικά",
+                "english_name": "Greek",
+                "data": {
+                    "name": "",
+                    "overview": "Στην πρώτη σεζόν, ο νεαρός ευγενής Σάξονας Ούτρεντ μεταμορφώνεται σε πολεμιστή και επιδιώκει να πάρει πίσω τη γη που σφετερίστηκε ο πανούργος θείος του."
+                }
+            },
+            {
+                "iso_3166_1": "RU",
+                "iso_639_1": "ru",
+                "name": "Pусский",
+                "english_name": "Russian",
+                "data": {
+                    "name": "",
+                    "overview": "В первом сезоне молодой саксонский дворянин Утред надевает доспехи воина, чтобы отвоевать земли, захваченные его коварным дядей."
+                }
+            },
+            {
+                "iso_3166_1": "ES",
+                "iso_639_1": "es",
+                "name": "Español",
+                "english_name": "Spanish",
+                "data": {
+                    "name": "",
+                    "overview": "En la temporada 1, el joven noble sajón Uhtred se transforma en un guerrero y busca recuperar las tierras anexadas por su astuto tío."
+                }
+            },
+            {
+                "iso_3166_1": "CZ",
+                "iso_639_1": "cs",
+                "name": "Český",
+                "english_name": "Czech",
+                "data": {
+                    "name": "1. řada",
+                    "overview": "V první řadě se mladý saský šlechtic Uhtred promění ve válečníka, který se snaží získat zpět své území usurpované mazaným strýcem."
+                }
+            },
+            {
+                "iso_3166_1": "ID",
+                "iso_639_1": "id",
+                "name": "Bahasa indonesia",
+                "english_name": "Indonesian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "TR",
+                "iso_639_1": "tr",
+                "name": "Türkçe",
+                "english_name": "Turkish",
+                "data": {
+                    "name": "",
+                    "overview": "Birinci sezonda genç Sakson soylusu Uhtred bir savaşçıya dönüşür ve kurnaz amcası tarafından ele geçirilen toprakları geri kazanmaya çalışır."
+                }
+            },
+            {
+                "iso_3166_1": "PT",
+                "iso_639_1": "pt",
+                "name": "Português",
+                "english_name": "Portuguese",
+                "data": {
+                    "name": "",
+                    "overview": "Na temporada 1, o jovem nobre saxão Uhtred transforma-se num guerreiro e procura recuperar os territórios anexados pelo seu manipulador tio."
+                }
+            },
+            {
+                "iso_3166_1": "DE",
+                "iso_639_1": "de",
+                "name": "Deutsch",
+                "english_name": "German",
+                "data": {
+                    "name": "",
+                    "overview": "The Last Kingdom – Staffel 1 basiert auf dem gleichnamigen Bestseller von Bernard Cornwell und erzählt die Geschichte von Uhtred, der als Junge von Wikingern entführt wurde und nun das Kind zweier Welten ist."
+                }
+            },
+            {
+                "iso_3166_1": "BS",
+                "iso_639_1": "bs",
+                "name": "Bosanski",
+                "english_name": "Bosnian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "RO",
+                "iso_639_1": "ro",
+                "name": "Română",
+                "english_name": "Romanian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "IL",
+                "iso_639_1": "he",
+                "name": "עִבְרִית",
+                "english_name": "Hebrew",
+                "data": {
+                    "name": "",
+                    "overview": "כשאלפרד הגדול מגן על ממלכתו מפני פולשים נורבגיים, אות'רד – שנולד סקסוני אך גדל בקרב ויקינגים – מבקש לתבוע את זכות אבותיו."
+                }
+            },
+            {
+                "iso_3166_1": "BR",
+                "iso_639_1": "pt",
+                "name": "Português",
+                "english_name": "Portuguese",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "UA",
+                "iso_639_1": "uk",
+                "name": "Український",
+                "english_name": "Ukrainian",
+                "data": {
+                    "name": "Сезон 1",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "IT",
+                "iso_639_1": "it",
+                "name": "Italiano",
+                "english_name": "Italian",
+                "data": {
+                    "name": "",
+                    "overview": "Nella prima stagione, il giovane nobile sassone Uhtred diventa un vero guerriero e cerca di riconquistare le terre annesse dallo scaltro zio."
+                }
+            },
+            {
+                "iso_3166_1": "DK",
+                "iso_639_1": "da",
+                "name": "Dansk",
+                "english_name": "Danish",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "NL",
+                "iso_639_1": "nl",
+                "name": "Nederlands",
+                "english_name": "Dutch",
+                "data": {
+                    "name": "",
+                    "overview": "De Saksische adellijke jongeling Uhtred wordt een krijgsman en tracht de gebieden die zijn geannexeerd door zijn listige oom te heroveren."
+                }
+            },
+            {
+                "iso_3166_1": "ES",
+                "iso_639_1": "ca",
+                "name": "Català",
+                "english_name": "Catalan",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "SE",
+                "iso_639_1": "sv",
+                "name": "svenska",
+                "english_name": "Swedish",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "CN",
+                "iso_639_1": "zh",
+                "name": "普通话",
+                "english_name": "Mandarin",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "KR",
+                "iso_639_1": "ko",
+                "name": "한국어/조선말",
+                "english_name": "Korean",
+                "data": {
+                    "name": "",
+                    "overview": "바이킹의 손에 친부를 잃고 바이킹의 아들로 키워진 우트레드. 또 한 번의 참사로 양부까지 잃자, 본격적으로 전사의 길을 걷기 시작한다. 아비의 원수를 갚고, 빼앗긴 땅을 찾아라. 지금부터는 이것이 그가 사는 이유다."
+                }
+            },
+            {
+                "iso_3166_1": "PL",
+                "iso_639_1": "pl",
+                "name": "Polski",
+                "english_name": "Polish",
+                "data": {
+                    "name": "",
+                    "overview": "Młody saski arystokrata Uhtred przeobraża się w wojownika i przymierza się do odzyskania ziem zagarniętych przez swojego chciwego wuja."
+                }
+            },
+            {
+                "iso_3166_1": "BG",
+                "iso_639_1": "bg",
+                "name": "български език",
+                "english_name": "Bulgarian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "HU",
+                "iso_639_1": "hu",
+                "name": "Magyar",
+                "english_name": "Hungarian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "TW",
+                "iso_639_1": "zh",
+                "name": "普通话",
+                "english_name": "Mandarin",
+                "data": {
+                    "name": "",
+                    "overview": "在第 1 季中，年輕的撒克遜貴族烏特雷德成為戰士，力圖奪回被狡猾的叔叔強佔的土地。"
+                }
+            },
+            {
+                "iso_3166_1": "LT",
+                "iso_639_1": "lt",
+                "name": "Lietuvių",
+                "english_name": "Lithuanian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "IR",
+                "iso_639_1": "fa",
+                "name": "فارسی",
+                "english_name": "Persian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "MX",
+                "iso_639_1": "es",
+                "name": "Español",
+                "english_name": "Spanish",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "JP",
+                "iso_639_1": "ja",
+                "name": "日本語",
+                "english_name": "Japanese",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "SA",
+                "iso_639_1": "ar",
+                "name": "العربية",
+                "english_name": "Arabic",
+                "data": {
+                    "name": "",
+                    "overview": "في الموسم الاول ، يتحول الشاب الساكسوني النبيل أوتريد إلى محارب ويسعى لاستعادة الأراضي التي ضمها عمه الماكر."
+                }
+            },
+            {
+                "iso_3166_1": "TH",
+                "iso_639_1": "th",
+                "name": "ภาษาไทย",
+                "english_name": "Thai",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "RS",
+                "iso_639_1": "sr",
+                "name": "Srpski",
+                "english_name": "Serbian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "SK",
+                "iso_639_1": "sk",
+                "name": "Slovenčina",
+                "english_name": "Slovak",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "CA",
+                "iso_639_1": "fr",
+                "name": "Français",
+                "english_name": "French",
+                "data": {
+                    "name": "",
+                    "overview": "À la fin du IXème siècle, ce qu’on appelle l’Angleterre aujourd’hui est séparée en plusieurs royaumes. Les terres anglo-saxonnes sont attaquées et régies par les Danois. Uhtred est le fils orphelin d’un noble saxon. Kidnappé par les Scandinaves et élevé parmi eux, il devra sans cesse choisir entre le royaume de ses origines et le peuple qui l’a vu grandir."
+                }
+            },
+            {
+                "iso_3166_1": "VN",
+                "iso_639_1": "vi",
+                "name": "Tiếng Việt",
+                "english_name": "Vietnamese",
+                "data": {
+                    "name": "Mùa 1",
+                    "overview": "Trong mùa đầu, chàng quý tộc Saxon trẻ Uhtred mà nay đã trở thành chiến binh lên đường giành lại những vùng đất đã bị nẫng tay trên bởi ông chú mưu mô."
+                }
+            },
+            {
+                "iso_3166_1": "GE",
+                "iso_639_1": "ka",
+                "name": "ქართული",
+                "english_name": "Georgian",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "MY",
+                "iso_639_1": "my",
+                "name": "",
+                "english_name": "Burmese",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "FI",
+                "iso_639_1": "fi",
+                "name": "suomi",
+                "english_name": "Finnish",
+                "data": {
+                    "name": "",
+                    "overview": ""
+                }
+            },
+            {
+                "iso_3166_1": "HK",
+                "iso_639_1": "zh",
+                "name": "普通话",
+                "english_name": "Mandarin",
+                "data": {
+                    "name": "",
+                    "overview": "在第 1 季中，年輕的撒克遜貴族烏特雷德成為戰士，力圖奪回被狡猾的叔叔強佔的土地。"
+                }
+            }
+        ]
     }
 }

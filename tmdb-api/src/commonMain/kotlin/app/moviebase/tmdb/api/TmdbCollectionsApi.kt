@@ -25,7 +25,7 @@ class TmdbCollectionsApi internal constructor(private val client: HttpClient) {
         parameterIncludeImageLanguage(includeImageLanguage)
     }.body()
 
-    suspend fun getTranslations(collectionId: Int): TmdbTranslations = client.get {
+    suspend fun getTranslations(collectionId: Int): TmdbCollectionTranslations = client.get {
         endPointV3("collection", collectionId.toString(), "translations")
     }.body()
 }

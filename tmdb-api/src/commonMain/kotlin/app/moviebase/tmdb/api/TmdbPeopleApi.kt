@@ -64,7 +64,7 @@ class TmdbPeopleApi internal constructor(private val client: HttpClient) {
         parameterPage(page)
     }.body()
 
-    suspend fun getTranslations(personId: Int): TmdbTranslations = client.get {
+    suspend fun getTranslations(personId: Int): TmdbPersonTranslations = client.get {
         endPointPerson(personId, "translations")
     }.body()
 

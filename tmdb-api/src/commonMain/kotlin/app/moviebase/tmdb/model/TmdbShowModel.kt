@@ -137,7 +137,19 @@ data class TmdbShowDetail(
     @SerialName("images") val images: TmdbImages? = null,
     @SerialName("reviews") val reviews: TmdbResult<TmdbReview>? = null,
     @SerialName("created_by") val createdBy: List<TmdbShowCreatedBy>? = null,
+    @SerialName("translations") val translations: TmdbShowTranslations? = null,
 ) : TmdbAnyItem, TmdbBackdropItem, TmdbPosterItem, TmdbRatingItem
+
+
+typealias TmdbShowTranslations = TmdbTranslations<TmdbShowTranslationData>
+
+@Serializable
+data class TmdbShowTranslationData(
+    val name: String,
+    val overview: String,
+    val homepage: String,
+    val tagline: String,
+)
 
 fun TmdbResult<TmdbContentRating>.getContentRating(country: String): String? =
     results.firstOrNull { it.iso3166 == country }?.rating
@@ -179,10 +191,19 @@ data class TmdbSeasonDetail(
     @SerialName("videos") val videos: TmdbResult<TmdbVideo>? = null,
     @SerialName("images") val images: TmdbImages? = null,
     @SerialName("credits") val credits: TmdbCredits? = null,
+    @SerialName("translations") val translations: TmdbSeasonTranslations? = null,
 ) : TmdbAnyItem, TmdbPosterItem {
 
     val numberOfEpisodes get() = episodeCount ?: episodes?.size ?: 0
 }
+
+typealias TmdbSeasonTranslations = TmdbTranslations<TmdbSeasonTranslationData>
+
+@Serializable
+data class TmdbSeasonTranslationData(
+    val name: String,
+    val overview: String,
+)
 
 @Serializable
 data class TmdbEpisode(
@@ -223,6 +244,7 @@ data class TmdbEpisodeDetail(
     @SerialName("crew") val crew: List<TmdbCrew>? = null,
     @SerialName("guest_stars") val guestStars: List<TmdbCast>? = null,
     @SerialName("external_ids") val externalIds: TmdbExternalIds? = null,
+    @SerialName("translations") val translations: TmdbEpisodeTranslations? = null,
 ) : TmdbAnyItem, TmdbBackdropItem, TmdbRatingItem {
     override val backdropPath: String? get() = stillPath
 }
@@ -231,4 +253,12 @@ data class TmdbEpisodeDetail(
 data class TmdbContentRating(
     @SerialName("iso_3166_1") val iso3166: String,
     @SerialName("rating") val rating: String,
+)
+
+typealias TmdbEpisodeTranslations = TmdbTranslations<TmdbEpisodeTranslationData>
+
+@Serializable
+data class TmdbEpisodeTranslationData(
+    val name: String,
+    val overview: String,
 )

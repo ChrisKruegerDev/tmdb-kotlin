@@ -89,6 +89,8 @@ class TmdbPeopleApiTest {
         assertEquals(null, personDetail.externalIds?.tvdbId)
         assertEquals("", personDetail.externalIds?.twitter)
         assertEquals(null, personDetail.externalIds?.youtube)
+        val italianTranslation = personDetail.translations!!.translations.first { it.iso639 == "it" }
+        assertTrue(italianTranslation.data.biography.startsWith("Angelina Jolie è un'attrice americana"))
     }
 
     @Test

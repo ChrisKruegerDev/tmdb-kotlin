@@ -2461,5 +2461,549 @@
         ]
       }
     }
+  },
+  "translations": {
+    "translations": [
+      {
+        "iso_3166_1": "FR",
+        "iso_639_1": "fr",
+        "name": "Français",
+        "english_name": "French",
+        "data": {
+          "name": "",
+          "overview": "Inspiré par les aventures d'Arsène Lupin, le gentleman cambrioleur Assane Diop décide de venger son père d'une terrible injustice.",
+          "homepage": "",
+          "tagline": "Vous m'avez vu, mais vous ne m'avez pas regardé."
+        }
+      },
+      {
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "name": "English",
+        "english_name": "English",
+        "data": {
+          "name": "",
+          "overview": "Inspired by the adventures of Arsène Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "CZ",
+        "iso_639_1": "cs",
+        "name": "Český",
+        "english_name": "Czech",
+        "data": {
+          "name": "",
+          "overview": "Zloděj gentleman Assane Diop se ve šlépějích Arsèna Lupina vydává pomstít příkoří, které jeho otci způsobila jedna bohatá rodina.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "KR",
+        "iso_639_1": "ko",
+        "name": "한국어/조선말",
+        "english_name": "Korean",
+        "data": {
+          "name": "뤼팽",
+          "overview": "한 남자가 뼈아픈 배신을 겪은 가족을 위해 복수의 칼을 품는다. 그리고 새로운 전설이 시작된다. 오마르 시 주연으로, 괴도 아르센 뤼팽을 현대적으로 재해석한 작품.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "IT",
+        "iso_639_1": "it",
+        "name": "Italiano",
+        "english_name": "Italian",
+        "data": {
+          "name": "Lupin",
+          "overview": "Ispirandosi alle avventure di Arsenio Lupin, il ladro gentiluomo Assane Diop decide di vendicare il padre per un'ingiustizia subita per colpa di una ricca famiglia.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "BR",
+        "iso_639_1": "pt",
+        "name": "Português",
+        "english_name": "Portuguese",
+        "data": {
+          "name": "",
+          "overview": "Inspirado pelas aventuras de Arsène Lupin, o ladrão gentil Assane Diop quer se vingar de uma família rica por uma injustiça cometida contra o pai dele.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "DE",
+        "iso_639_1": "de",
+        "name": "Deutsch",
+        "english_name": "German",
+        "data": {
+          "name": "",
+          "overview": "Inspiriert von den Abenteuern Arsène Lupins beschließt der Meisterdieb Assane Diop, seinen Vater zu rächen, dem von einer reichen Familie großes Unrecht zugefügt wurde.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "PT",
+        "iso_639_1": "pt",
+        "name": "Português",
+        "english_name": "Portuguese",
+        "data": {
+          "name": "",
+          "overview": "Inspirado pelas aventuras de Arsène Lupin, o ladrão de casaca Assane Diop está decidido a vingar o pai por uma injustiça acometida por uma família abastada.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "TR",
+        "iso_639_1": "tr",
+        "name": "Türkçe",
+        "english_name": "Turkish",
+        "data": {
+          "name": "",
+          "overview": "Arsen Lüpen'in maceralarından esinlenen kibar hırsız Assane Diop, varlıklı bir aile yüzünden haksızlığa uğrayan babasının intikamını almak için kolları sıvar.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "HU",
+        "iso_639_1": "hu",
+        "name": "Magyar",
+        "english_name": "Hungarian",
+        "data": {
+          "name": "",
+          "overview": "Assane Diop, az úri tolvaj Arsène Lupin kalandjaiból merít ihletet, amikor bosszút áll az igazságtalanságokért, amelyeket egy gazdag család követett el az apja ellen.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "DK",
+        "iso_639_1": "da",
+        "name": "Dansk",
+        "english_name": "Danish",
+        "data": {
+          "name": "",
+          "overview": "Inspireret af Arsène Lupins eventyr drager gentlemantyven Assane Diop ud for at hævne sin far for en uretfærdighed, der blev begået af en velhavende familie.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "RU",
+        "iso_639_1": "ru",
+        "name": "Pусский",
+        "english_name": "Russian",
+        "data": {
+          "name": "Люпен",
+          "overview": "Ассан Диоп ещё в детстве прочитал книгу о приключениях грабителя Арсена Люпена и теперь собирается обчистить Лувр. Он сделает это красиво - во время аукциона, где выставляется дорогое колье. Но дело не только в деньгах: это месть богатому семейству, из-за которого 25 лет назад отца Диопа незаслуженно осудили за преступление.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "NL",
+        "iso_639_1": "nl",
+        "name": "Nederlands",
+        "english_name": "Dutch",
+        "data": {
+          "name": "",
+          "overview": "Toen Assane Diop nog maar een tiener was werd zijn vader beschuldigd van een misdaad die hij niet gepleegd had. Zijn vader stierf en vijfentwintig jaar later is het tijd om wraak te nemen. Nu is Lupin een charmante inbreker die zijn talenten graag inzet om gestolen sieraden van vrouwen terug te vinden. Voor deze heldendaden zet hij veel op het spel. De crimineel sluipt namelijk het Louvre binnen voor een groot misdrijf. Of hij de grote klus geklaard krijgt is echter nog maar de vraag.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "ES",
+        "iso_639_1": "es",
+        "name": "Español",
+        "english_name": "Spanish",
+        "data": {
+          "name": "",
+          "overview": "Inspirado por las aventuras de Arsène Lupin, el ladrón de guante blanco Assane Diop se propone vengar la injusticia sufrida por su padre a manos de una familia rica.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "PL",
+        "iso_639_1": "pl",
+        "name": "Polski",
+        "english_name": "Polish",
+        "data": {
+          "name": "",
+          "overview": "Zainspirowany przygodami Arsène’a Lupina złodziej gentleman Assane Diop obmyśla zemstę na zamożnej rodzinie, która wyrządziła niesprawiedliwość jego ojcu.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "CN",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "name": "",
+          "overview": "在阿桑·迪奥普十几岁的时候，他的父亲因含冤入狱而离开人世，此后他的生活发生了翻天覆地的变化。25年后，阿桑受到“怪盗绅士亚森·罗宾”的启发，决心为父报仇。",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "TW",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "name": "亞森·羅蘋",
+          "overview": "本劇靈感來自亞森·羅蘋的精采冒險，怪盜紳士亞森·迪歐籌劃為父報仇大計，要向一個富有的家族討回公道。",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "UA",
+        "iso_639_1": "uk",
+        "name": "Український",
+        "english_name": "Ukrainian",
+        "data": {
+          "name": "Люпен",
+          "overview": "Натхненний пригодами Арсена Люпена, благородний грабіжник Ассан Діоп вирішує помститися за свого батька, життя якого безкарно зруйнувала одна заможна родина.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "CA",
+        "iso_639_1": "fr",
+        "name": "Français",
+        "english_name": "French",
+        "data": {
+          "name": "",
+          "overview": "Inspiré par les aventures d'Arsène Lupin, le gentleman cambrioleur Assane Diop entreprend de venger son père pour une injustice infligée par une famille bien nantie.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "IL",
+        "iso_639_1": "he",
+        "name": "עִבְרִית",
+        "english_name": "Hebrew",
+        "data": {
+          "name": "לופן",
+          "overview": "הגנב הג'נטלמני אסאן דיופ שואב השראה מהרפתקאותיו של ארסן לופן, ויוצא להתנקם במשפחה העשירה שאחראית למות אביו.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "VN",
+        "iso_639_1": "vi",
+        "name": "Tiếng Việt",
+        "english_name": "Vietnamese",
+        "data": {
+          "name": "",
+          "overview": "Lấy cảm hứng từ những cuộc phiêu lưu của Arsène Lupin, tên trộm lịch lãm Assane Diop tiến hành trả thù một gia đình giàu có để đòi lại công lý cho cha.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "MX",
+        "iso_639_1": "es",
+        "name": "Español",
+        "english_name": "Spanish",
+        "data": {
+          "name": "",
+          "overview": "Inspirado en las aventuras de Arsène Lupin, el caballeroso ladrón Assane Diop se propone vengar a su padre de las injusticias sufridas a manos de una familia adinerada.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "TH",
+        "iso_639_1": "th",
+        "name": "ภาษาไทย",
+        "english_name": "Thai",
+        "data": {
+          "name": "จอมโจรลูแปง",
+          "overview": "อัสซาน จ็อปผู้ได้รับแรงบันดาลใจจากวีรกรรมของสุภาพบุรุษจอมโจรอาร์แซน ลูแปง ตั้งใจแก้แค้นให้พ่อที่ได้รับความอยุติธรรมจากครอบครัวที่มั่งคั่ง",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "GR",
+        "iso_639_1": "el",
+        "name": "ελληνικά",
+        "english_name": "Greek",
+        "data": {
+          "name": "Λουπέν",
+          "overview": "Από τις περιπέτειες του Αρσέν Λουπέν, ο ευγενής λωποδύτης Ασάν Ντιόπ θέλει να πάρει εκδίκηση για τον πατέρα του για μια αδικία που προκάλεσε μια πλούσια οικογένεια.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "JP",
+        "iso_639_1": "ja",
+        "name": "日本語",
+        "english_name": "Japanese",
+        "data": {
+          "name": "Lupin/ルパン",
+          "overview": "父を陥れた裕福な一家への報復に乗り出したアサン・ディオプ。怪盗紳士アルセーヌ・ルパンのごとく、あくまでもスマートに計画を実行していく。",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "SA",
+        "iso_639_1": "ar",
+        "name": "العربية",
+        "english_name": "Arabic",
+        "data": {
+          "name": "لوبين",
+          "overview": "متأثّرًا بأسلوب مغامرات \"أرسين لوبين\" ومهارته، ينطلق اللصّ النبيل \"أسان ديوب\" في مسعاه للانتقام من عائلة ثريّة ألحقت بوالده الضرر والظلم.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "LT",
+        "iso_639_1": "lt",
+        "name": "Lietuvių",
+        "english_name": "Lithuanian",
+        "data": {
+          "name": "Lupenas",
+          "overview": "Įkvėptas Arsenijaus Lupeno nuotykių, ponas vagis Asanas Diopas siekia atkeršyti turtuolių šeimai už neteisingumą prieš jo tėvą.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "BG",
+        "iso_639_1": "bg",
+        "name": "български език",
+        "english_name": "Bulgarian",
+        "data": {
+          "name": "Люпен",
+          "overview": "Животът на Асан Диоп се преобръща, когато баща му умира, след като е обвинен в престъпление, което не е извършил. 25 години по-късно Асан ще използва „Арсен Люпен“ като свое вдъхновение, за да отмъсти за баща си.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "SK",
+        "iso_639_1": "sk",
+        "name": "Slovenčina",
+        "english_name": "Slovak",
+        "data": {
+          "name": "",
+          "overview": "Zlodej gentleman Assane Diop, inšpirovaný dobrodružstvami Arsèna Lupina, sa vydáva pomstiť svojho otca za nespravodlivosti, ktoré mu spôsobila bohatá rodina.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "HR",
+        "iso_639_1": "hr",
+        "name": "Hrvatski",
+        "english_name": "Croatian",
+        "data": {
+          "name": "",
+          "overview": "Nadahnut pustolovinama Arsènea Lupina, lopov džentlmen Assane Diop kreće u osvetnički pohod zbog nepravde koju je njegovu ocu nanijela imućna obitelj.",
+          "homepage": "",
+          "tagline": "Profesionalni lopov kreće u osvetnički pohod kako bi osvetio oca"
+        }
+      },
+      {
+        "iso_3166_1": "SE",
+        "iso_639_1": "sv",
+        "name": "svenska",
+        "english_name": "Swedish",
+        "data": {
+          "name": "",
+          "overview": "Med inspiration från gentlemannatjuven Arsène Lupin börjar Assane Diop planera sin hämnd på den rika familjen som begick en stor oförrätt mot hans pappa.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "ID",
+        "iso_639_1": "id",
+        "name": "Bahasa indonesia",
+        "english_name": "Indonesian",
+        "data": {
+          "name": "",
+          "overview": "Terinspirasi petualangan Arsène Lupin, Assane Diop, sang pencuri karismatik, bertekad membalaskan dendam ayahnya atas ketidakadilan yang ditimbulkan sebuah keluarga kaya.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "RS",
+        "iso_639_1": "sr",
+        "name": "Srpski",
+        "english_name": "Serbian",
+        "data": {
+          "name": "Лупин",
+          "overview": "Инспирисан авантурама Арсена Лупена, лопов господин Асан Диоп креће да освети свог оца за неправду коју је нанела богата породица.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "GE",
+        "iso_639_1": "ka",
+        "name": "ქართული",
+        "english_name": "Georgian",
+        "data": {
+          "name": "ლუპენი",
+          "overview": "ქურდი, ბავშვობაში ნაჩუქარი წიგნის გმირის, ვირტუოზი ჯენტლმენი ქურდის, არსენ ლუპენის სახელით ბრუნდება, რომელიც ახლა წიგნს შთაგონების წყაროდ იყენებს, და მამის სიკვდილის გამო შურისძიებას ცდილობს.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "IR",
+        "iso_639_1": "fa",
+        "name": "فارسی",
+        "english_name": "Persian",
+        "data": {
+          "name": "لویپن",
+          "overview": "با الهام از ماجراهای آرسن لوپین، دزد لوطی آسان دیوپ تصمیم می‌گیرد تا انتقام پدرش را به‌خاطر بی‌عدالتی که توسط یک خانواده ثروتمند تحمیل شده است، بگیرد.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "HK",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "name": "怪盜羅蘋",
+          "overview": "本劇靈感來自亞森·羅蘋的精採冒險，怪盜紳士亞森·迪歐籌劃為父報仇大計，要向一個富有的家族討回公道。",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "SI",
+        "iso_639_1": "sl",
+        "name": "Slovenščina",
+        "english_name": "Slovenian",
+        "data": {
+          "name": "Lupin",
+          "overview": "Dogajanje je postavljeno v sodobni Pariz, kjer spremljamo gentlemanskega lopova Assana Diopa v iskanju pravice, skozi retrospektive pa postopoma odkrivamo njegovo zgodovino, razmerja in predvsem motivacijo za dejanja v sedanjosti. Še v najstniških letih so njegovega očeta Babakarja Diopa obsodili kraje dragocene ogrlice, zaradi česar si je v zaporu vzel življenje; v spomin nanj je mlademu Assanu ostala zgolj Leblancova kriminalka, iz katere je kmalu začel črpati navdih za svoj 'poklic'.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "MY",
+        "iso_639_1": "ms",
+        "name": "Bahasa melayu",
+        "english_name": "Malay",
+        "data": {
+          "name": "",
+          "overview": "Diinspirasikan oleh pengembaraan Arsène Lupin, pencuri berbudi bahasa Assane Diop mahu menuntut bela terhadap keluarga kaya kerana bersikap tidak adil terhadap ayahnya.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "IN",
+        "iso_639_1": "hi",
+        "name": "हिन्दी",
+        "english_name": "Hindi",
+        "data": {
+          "name": "लूपां",
+          "overview": "आर्सेन ल्यूपिन के कारनामों से प्रेरित, जेंटलमैन चोर असान डिऑप अपने पिता पर एक अमीर परिवार द्वारा किए गए अन्याय का बदला लेने निकल पड़ता है.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "RO",
+        "iso_639_1": "ro",
+        "name": "Română",
+        "english_name": "Romanian",
+        "data": {
+          "name": "",
+          "overview": "Inspirat de aventurile lui Arsène Lupin, hoțul gentilom Assane Diop vrea să-și răzbune tatăl, victima unei nedreptăți provocate de o familie înstărită.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "SG",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "name": "绅士怪盗",
+          "overview": "本剧以亚森·罗宾的冒险经历为灵感，讲述了绅士怪盗阿桑·迪奥普因父亲的冤屈而向一个富有家族展开复仇的故事。",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "AE",
+        "iso_639_1": "ar",
+        "name": "العربية",
+        "english_name": "Arabic",
+        "data": {
+          "name": "لوبين",
+          "overview": "متأثّرًا بأسلوب مغامرات \"أرسين لوبين\" ومهارته، ينطلق اللصّ النبيل \"أسان ديوب\" في مسعاه للانتقام من عائلة ثريّة ألحقت بوالده الضرر والظلم.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "FI",
+        "iso_639_1": "fi",
+        "name": "suomi",
+        "english_name": "Finnish",
+        "data": {
+          "name": "",
+          "overview": "Herrasmiesvaras Arsène Lupinin seikkailujen innoittamana Assane Diop päättää kostaa isänsä kokeman vääryyden sen aiheuttaneelle varakkaalle suvulle.",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "BE",
+        "iso_639_1": "nl",
+        "name": "Nederlands",
+        "english_name": "Dutch",
+        "data": {
+          "name": "",
+          "overview": "",
+          "homepage": "",
+          "tagline": ""
+        }
+      },
+      {
+        "iso_3166_1": "ES",
+        "iso_639_1": "ca",
+        "name": "Català",
+        "english_name": "Catalan",
+        "data": {
+          "name": "",
+          "overview": "Inspirat per les aventures d'Arsène Lupin, el lladre de guant blanc Assane Diop es proposa venjar la injustícia patida pel seu pare a les mans d'una família rica.",
+          "homepage": "",
+          "tagline": ""
+        }
+      }
+    ]
   }
 }

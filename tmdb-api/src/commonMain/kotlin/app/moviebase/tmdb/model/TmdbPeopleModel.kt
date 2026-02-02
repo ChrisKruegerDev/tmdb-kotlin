@@ -198,23 +198,13 @@ data class TmdbTaggedImage(
     @SerialName("media") val media: TmdbTaggedMedia,
 )
 
-@Serializable
-data class TmdbPersonTranslations(
-    @SerialName("translations") val translations: List<TmdbPersonTranslation>,
-)
-
-@Serializable
-data class TmdbPersonTranslation(
-    @SerialName("iso_3166_1") val iso3166: String,
-    @SerialName("iso_639_1") val iso639: String,
-    @SerialName("name") val name: String,
-    @SerialName("english_name") val englishName: String,
-    @SerialName("data") val data: TmdbPersonTranslationData
-)
+typealias TmdbPersonTranslations = TmdbTranslations<TmdbPersonTranslationData>
 
 @Serializable
 data class TmdbPersonTranslationData(
-    @SerialName("biography")  val biography: String
+    @SerialName("biography")  val biography: String,
+    val name: String,
+    val primary: Boolean
 )
 
 @Serializable

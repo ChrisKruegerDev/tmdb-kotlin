@@ -91,9 +91,7 @@
         "width": 3840
       }
     ],
-    "logos": [
-
-    ],
+    "logos": [],
     "posters": [
       {
         "aspect_ratio": 0.667,
@@ -5064,5 +5062,581 @@
         ]
       }
     }
+  },
+  "translations": {
+    "translations": [
+      {
+        "iso_3166_1": "US",
+        "iso_639_1": "en",
+        "name": "English",
+        "english_name": "English",
+        "data": {
+          "homepage": "",
+          "overview": "This time around Edmund and Lucy Pevensie, along with their pesky cousin Eustace Scrubb find themselves swallowed into a painting and on to a fantastic Narnian ship headed for the very edges of the world.",
+          "runtime": 113,
+          "tagline": "Return to magic. Return to hope. Return to Narnia.",
+          "title": ""
+        }
+      },
+      {
+        "iso_3166_1": "DE",
+        "iso_639_1": "de",
+        "name": "Deutsch",
+        "english_name": "German",
+        "data": {
+          "homepage": "http://www.narnia.com/de/",
+          "overview": "Die Geschwister Edmund und Lucy verbringen einen langen, lausigen Sommer bei ihrem unausstehlich besserwisserischen Cousin Eustacius Knilch. Ihre bedauerliche, an Abenteuern arme Lage ändert sich, als sie von einem Gemälde verschlungen und auf das Schiff Morgenröte, dass den Ozean von Narnia druchquert, gespült werden. Dort treffen sie auf alte Bekannte: Ihr blaublütiger Freund Kaspian und die Krieger-Maus Reepicheep warten schon auf sie. Gemeinsam werden sie von dem Löwen Aslan auf eine geheimnissvolle Mission geschickt...",
+          "runtime": 113,
+          "tagline": "Rückkehr zur Magie. Rückkehr zur Hoffnung. Rückkehr nach Narnia",
+          "title": "Die Chroniken von Narnia: Die Reise auf der Morgenröte"
+        }
+      },
+      {
+        "iso_3166_1": "RU",
+        "iso_639_1": "ru",
+        "name": "Pусский",
+        "english_name": "Russian",
+        "data": {
+          "homepage": "",
+          "overview": "Эдмунд, Люси, их кузен Юстас и король Каспиан отплывают на корабле «Покоритель Зари» на поиски друзей отца Каспиана - семи лордов: Ревелиана, Берна, Аргоза, Мавроморна, Октезиана, Рестимара и Рупа, изгнанных во время недолгого правления тирана Мираза...",
+          "runtime": 112,
+          "tagline": "«Назад в Волшебство! Назад к Надежде! Назад в Нарнию!»",
+          "title": "Хроники Нарнии: Покоритель Зари"
+        }
+      },
+      {
+        "iso_3166_1": "FR",
+        "iso_639_1": "fr",
+        "name": "Français",
+        "english_name": "French",
+        "data": {
+          "homepage": "",
+          "overview": "Happés à l’intérieur d’un intriguant tableau, Edmund et Lucy Pevensie, ainsi que leur détestable cousin Eustache, se retrouvent subitement projetés dans le royaume de Narnia, à bord d’un navire majestueux : le Passeur d’Aurore. Rejoignant Caspian, devenu roi, et l’intrépide souris guerrière Ripitchip, ils embarquent pour une périlleuse mission dont dépend le sort même de Narnia. À la recherche de sept seigneurs disparus, nos voyageurs entament un envoûtant périple vers les îles mystérieuses de l’Est, où ils ne manqueront pas de rencontrer tant de créatures magiques que de merveilles inimaginables. Mais ils devront surtout vaincre leurs peurs les plus profondes en affrontant de sinistres ennemis, tout en résistant à de terribles tentations auxquelles ils seront confrontés. Il est temps pour eux de faire preuve d’un courage légendaire au cours d’une odyssée qui les transformera à jamais et les emportera au bout du monde, où le grand Lion Aslan les attend.",
+          "runtime": 115,
+          "tagline": "Retrouvez LA MAGIE. Retrouvez L'AVENTURE. Retournez à NARNIA.",
+          "title": "Le Monde de Narnia : L'Odyssée du passeur d'aurore"
+        }
+      },
+      {
+        "iso_3166_1": "ES",
+        "iso_639_1": "es",
+        "name": "Español",
+        "english_name": "Spanish",
+        "data": {
+          "homepage": "http://peliculasmegahdd.net/",
+          "overview": "Tercera entrega de la saga literaria creada por C.S. Lewis. En esta ocasión, los hermanos Edmund y Lucy Pevensie y su primo Eustace embarcan en la nave \"El Viajero del Alba\" para buscar a los siete caballeros que han sido expulsados del reino por Miraz, el usurpador del trono de Narnia.",
+          "runtime": 113,
+          "tagline": "Emprende el viaje. Vive la aventura. Descubre Narnia como nunca antes la habías visto.",
+          "title": "Las crónicas de Narnia: La travesía del viajero del alba"
+        }
+      },
+      {
+        "iso_3166_1": "IT",
+        "iso_639_1": "it",
+        "name": "Italiano",
+        "english_name": "Italian",
+        "data": {
+          "homepage": "https://www.narnia.com/uk",
+          "overview": "Edmund e Lucy Pevensie vengono inghiottiti con il cugino Eustace in un quadro e portati a Narnia su un fantastico veliero. Lì si uniscono al principe Caspian, ora re, e al topo guerriero Reepicheep in una missione da cui dipende il destino della stessa Narnia: la ricerca dei sette signori perduti di Narnia, che Caspian ha promesso al \"Gran Leone\" Aslan di ritrovare. I nostri eroi questa volta dovranno raggiungere i confini del Mondo attraversando oceani e terre lontane e scontrandosi con creature sinistre per salvare la loro amata Narnia da un destino avverso.",
+          "runtime": 112,
+          "tagline": "La magia di una grande e spettacolare avventura illuminerà il tuo Natale.",
+          "title": "Le cronache di Narnia - Il viaggio del veliero"
+        }
+      },
+      {
+        "iso_3166_1": "CN",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "homepage": "",
+          "overview": "爱德蒙和妹妹露西以及常闯祸的表哥尤斯提意外进入油画中的纳尼亚世界，并登上航行中的“黎明踏浪号”。 在这艘船上，他们和已成为国王的凯斯宾王子和老鼠长“老脾气”重逢。凯斯宾此行的任务，是必须要寻找以前被叛徒叔叔放逐的忠心老臣们。在这次冒险中，他们不但与老朋友亚斯蓝相逢，更结识了新朋友，包括受到诅咒而蹦蹦跳跳的蹩独脚仙、为大家指点迷津身穿红袍的柯瑞金魔法师、会喷火的飞龙、插入亚斯蓝之桌就会发挥超强能量的亚斯蓝之剑、以及拥有神奇力量的魔法书等…凭着勇气和毅力，他们不但突破一关又一关的挑战，也为彼此的生命写下了惊奇!",
+          "runtime": 0,
+          "tagline": "",
+          "title": "纳尼亚传奇3：黎明踏浪号"
+        }
+      },
+      {
+        "iso_3166_1": "FI",
+        "iso_639_1": "fi",
+        "name": "suomi",
+        "english_name": "Finnish",
+        "data": {
+          "homepage": "",
+          "overview": "Huikeassa koko perheen fantasiaseikkailussa palataan takaisin tarunhohtoiseen ja upeaan C.S. Lewisin luomaan Narnia-maailmaan – tällä kertaa meriaiheisen taulun kautta. Edmund (Skandar Keynes) ja Lucy Pevensie (Georgie Henley) ovat viettämässä kesälomaansa, kun he löytävät serkkunsa Eustancen (Will Poulter) kanssa taulun, joka toimii porttina Narnia-maailmaan ja Sarastus-laivalle (The Dawn Treader). Jälleen uusi valloittava seikkailu odottaa heitä ja heidän kuninkaallista ystäväänsä prinssi Kaspiania (Ben Barnes).",
+          "runtime": 115,
+          "tagline": "",
+          "title": "Narnian tarinat: Kaspianin matka maailman ääriin"
+        }
+      },
+      {
+        "iso_3166_1": "CZ",
+        "iso_639_1": "cs",
+        "name": "Český",
+        "english_name": "Czech",
+        "data": {
+          "homepage": "",
+          "overview": "Edmund a Lucinka, dvě nejmladší z dětí Pevensieových, tráví prázdniny u svých příbuzných společně se svým nesnesitelným bratrancem Eustacem. Často tu vzpomínají na Narnii a na dobrodužství, které tam zažili, když jednoho dne z ničeho nic ožije obraz lodi, který visí v Lucinčině pokoji a oni se skrz něj dostávají zpátky do Narnie. Bohužel i s bratrancem Eustacem. Z moře, kam se pomocí obrazu přenesli, je zachraňuje král Kaspian desátý, kterému děti v předchozím díle, společně se sourozenci Petrem a Zuzanou, pomohly ke královskému trůnu. Nyní se mladý král na své lodi s podivným názvem Jitřní Poutník vydává splnit svou přísahu a najít sedm ztracených lordů z Narnie, kteří se kdysi dávno ztratili během nebezpečné výpravy. Pevensieovi si samozřejmě takové dobrodružství nemohou nechat ujít, jsou štastni, že jsou zpět v kouzelném království, a tak opět stanou po Kaspianově boku a plují s ním podél nebezpečných ostrovů, ale také přátelskými vodami a všude zažívají veliká dobrodužství.",
+          "runtime": 108,
+          "tagline": "Návrat k magii. Návrat k naději. Návrat do Narnie.",
+          "title": "Letopisy Narnie: Plavba Jitřního poutníka"
+        }
+      },
+      {
+        "iso_3166_1": "TR",
+        "iso_639_1": "tr",
+        "name": "Türkçe",
+        "english_name": "Turkish",
+        "data": {
+          "homepage": "",
+          "overview": "Cambridge-İngiltere’de İkinci Dünya Savaşı sırasında Pevensie kardeşler, sinir bozucu kuzenleri Eustace Clarence Scrubb’ın evinde kalmalarıyla başlarlar. Bir gün çocukların üçü de, açık denizde duran bir geminin resmedildiği tablonun içine çekilirler. Kendilerini okyanusun altında bulan çocuklar gözleri önündeki görkemli Şafak Yıldızı’nı görmek için su yüzüne çıkarlar; artık Caspian ve Reepicheep ile beraberdirler. Caspian’ın görevi, kötü amcası tarafından sürgün edilen yedi soylu Telmarlı Narnia Lordu’nun akıbetini keşfetmektir ve Pevensie kardeşler, Eustace ve Reepicheep de ona yardım ederler. Büyüleyici macera boyunca sihirli Dufflepudlarla, kötü niyetli köle tüccarları, ejderhalar ve büyülü mer halkıyla baş etmek zorundadırlar. Narnia’nın geleceği tehlikededir...",
+          "runtime": 0,
+          "tagline": "",
+          "title": "Narnia Günlükleri: Şafak Yıldızının Yolculuğu"
+        }
+      },
+      {
+        "iso_3166_1": "SK",
+        "iso_639_1": "sk",
+        "name": "Slovenčina",
+        "english_name": "Slovak",
+        "data": {
+          "homepage": "",
+          "overview": "Peter a Susan sú už na návrat do Narnie pristarí, a tak sa cez magický obraz dostávajú iba Edmund a Lucy. Nechtiac so sebou priberú aj veľmi nepríjemného bratanca Eustacea, ktorý sa však pobytom v Narnii zmení na nepoznanie. Podobne ako predtým Edmundovi, aj jemu hrozí smrteľné nebezpečenstvo. Kráľ Kaspián spolu s myšiakom Reepicheepom sa vydávajú na dobrodružnú výpravu. Jej cieľom je nájsť sedem šľachticov, ktorých strýko Miraz poslal na smrť v diaľavách.",
+          "runtime": 113,
+          "tagline": "",
+          "title": "Narnia: Dobrodružstvá lode Ranný pútnik"
+        }
+      },
+      {
+        "iso_3166_1": "HU",
+        "iso_639_1": "hu",
+        "name": "Magyar",
+        "english_name": "Hungarian",
+        "data": {
+          "homepage": "",
+          "overview": "A Pevensie-gyerekek körül a leghétköznapibb dolgok is csodává válnak. Ezúttal egy festménnyel kezdődik minden: a vásznon árválkodó hajó életre kel, és Lucy, Edmund és a kissé elviselhetetlen unokatestvérük az óceánba zuhannak. Szerencsére a Hajnalvándor legénysége kimenti őket és így az ifjú kalandoroknak egyre újabb, izgalmasabb és veszélyesebb próbákat kell kiállniuk. A hajó és rajta Caspian király Narnia hét elveszett urát keresi a Magányos Szigetek környékén, ahol rabszolga-kereskedők, trónbitorlók, tengeri viharok, a mélység fenekén élő szörnyek és láthatatlan lények várnak az expedíció tagjaira. Narnia mesés teremtményei az angol gyerekek segítsége nélkül ismét benne volnának a slamasztikában!",
+          "runtime": 113,
+          "tagline": "",
+          "title": "Narnia krónikái: A Hajnalvándor útja"
+        }
+      },
+      {
+        "iso_3166_1": "NL",
+        "iso_639_1": "nl",
+        "name": "Nederlands",
+        "english_name": "Dutch",
+        "data": {
+          "homepage": "",
+          "overview": "Edmund en Lucy moeten heel de zomer bij hun vervelende neefje Eustace verblijven, wat ze niet leuk vinden. Terwijl ze op een dag, samen met Eustace in een kamer zitten, komt een schilderij met het schip de 'Dawn Treader' erop tot leven en voor ze het weten bevinden ze zich op het magische schip. Daar ontmoeten ze hun vriend, koning Caspian.",
+          "runtime": 113,
+          "tagline": "",
+          "title": "De Kronieken van Narnia: De Reis van het Drakenschip"
+        }
+      },
+      {
+        "iso_3166_1": "SE",
+        "iso_639_1": "sv",
+        "name": "svenska",
+        "english_name": "Swedish",
+        "data": {
+          "homepage": "",
+          "overview": "Genom en magisk tavla transporteras syskonen Lucy och Edmund återigen till landet Narnia, denna gång med deras odrägliga kusin Eustace i släptåg. Väl där återförenas de med Kung Caspian ombord på det mäktiga skeppet Gryningen. I Narnia hotar en ondskefull dimma att sluka landet och med hjälp av Caspian, musen Ripipip och resten av den modiga besättningen måste Lucy, Edmund och Eustace slåss mot nya faror för att återigen rädda landet från undergång.",
+          "runtime": 113,
+          "tagline": "",
+          "title": "Narnia: Kung Caspian och skeppet Gryningen"
+        }
+      },
+      {
+        "iso_3166_1": "PT",
+        "iso_639_1": "pt",
+        "name": "Português",
+        "english_name": "Portuguese",
+        "data": {
+          "homepage": "",
+          "overview": "As personagens da extraordinária história criada pelo irlandês C.S. Lewis voltam a ganhar vida na terceira aventura da série \"As Crónicas de Nárnia\". Através de um estranho quadro, Lucy e Edmund Pevensie (Georgie Henley e Skandar Keynes), na companhia do seu antipático primo Eustace (Will Poulter), são transportados através de Inglaterra para o mundo mágico de Nárnia onde reencontram o outrora príncipe Caspian (Ben Barnes), agora soberano. A bordo do Caminheiro da Alvorada, um navio colossal, farão uma excitante e perigosa viagem a umas ilhas misteriosas, o que será, uma vez mais, um enorme teste à sua coragem e autodomínio. E, no fim da jornada, algo de muito importante estará à sua espera...",
+          "runtime": 127,
+          "tagline": "Regresse à magia. Regresse à esperança. Regresse a Nárnia.",
+          "title": "As Crónicas de Nárnia: A Viagem do Caminheiro da Alvorada"
+        }
+      },
+      {
+        "iso_3166_1": "DK",
+        "iso_639_1": "da",
+        "name": "Dansk",
+        "english_name": "Danish",
+        "data": {
+          "homepage": "",
+          "overview": "Nye eventyr venter Edmund og Lucy Pevensie. Sammen med deres fætter Eustace og deres fælles royale ven, Prins Caspian går de ombord på skibet ’The Dawn Treader’. Her forsvinder de ind i et mystisk og magisk maleri og firkløveret er nu pludselig blevet kastet ud i en faretruende mission, hvor de er nødt til at samle alt deres mod. For Narnias skæbne afhænger udelukkende af deres mod og evner.",
+          "runtime": 113,
+          "tagline": "",
+          "title": "Narnia: Morgenvandrerens rejse"
+        }
+      },
+      {
+        "iso_3166_1": "PL",
+        "iso_639_1": "pl",
+        "name": "Polski",
+        "english_name": "Polish",
+        "data": {
+          "homepage": "",
+          "overview": "Trzecia z cyklu ekranizacji słynnych książek C.S. Lewisa, zrealizowana w cyfrowej technice 3D.  Widowiskowa opowieść o wyprawie rodzeństwa Pevensie i księcia Kaspiana, którzy na pokładzie statku zwanego \"Wędrowcem do Świtu\" docierają do krainy, z której pochodzi lew Aslan.",
+          "runtime": 113,
+          "tagline": "Wybierz się w podróż. Przeżyj przygodę. Odkryj Narnię, jakiej nigdy nie widziałeś.",
+          "title": "Opowieści z Narnii: Podróż Wędrowca do Świtu"
+        }
+      },
+      {
+        "iso_3166_1": "NO",
+        "iso_639_1": "nb",
+        "name": "Bokmål",
+        "english_name": "Norwegian Bokmål",
+        "data": {
+          "homepage": "",
+          "overview": "",
+          "runtime": 113,
+          "tagline": "",
+          "title": "Legenden om Narnia - Reisen til det ytterste hav"
+        }
+      },
+      {
+        "iso_3166_1": "NO",
+        "iso_639_1": "no",
+        "name": "Norsk",
+        "english_name": "Norwegian",
+        "data": {
+          "homepage": "",
+          "overview": "Edmund og Lucy Pevensie, samt deres fetter Eustace blir via et maleri transportert tilbake til Narnia og det fantastiske skipet \"Morgenrødmens Vind\". De blir med Prins Caspian og den fryktløse musen Ripipip på et tokt som Narnias skjebne er avhengig av. Den modige gruppen møter fristelser de må kjempe i mot når de beveger seg til de mystiske øyene i Narnia. De blir konfrontert med magiske skikkelser og skumle fiender til de endelig møter deres venn og beskytter, Aslan.",
+          "runtime": 113,
+          "tagline": "",
+          "title": "Legenden om Narnia - Reisen til det ytterste hav"
+        }
+      },
+      {
+        "iso_3166_1": "BG",
+        "iso_639_1": "bg",
+        "name": "български език",
+        "english_name": "Bulgarian",
+        "data": {
+          "homepage": "",
+          "overview": "Едмънд и Луси Певънзи, заедно с досадния си братовчед Юстис Скръб, влизат отново в света на Нарния, този път погълнати от картина. Тримата се оказват на фантастичен кораб, запътил се към самия край на света. Обединявайки сили за пореден път с техния приятел Принц Каспиян и мишката боец, Рийпчийп, героите са изпратени на мистериозна мисия към Самотните Острови и отвъд. Там те се изправят срещу магически Дъфълпъди (митични същества с 1 крак), зловещи търговци на роби, дракони и водни хуманоиди.",
+          "runtime": 113,
+          "tagline": "Завърнете се при магията на Нарния",
+          "title": "Хрониките на Нарния: Плаването на \"Разсъмване\""
+        }
+      },
+      {
+        "iso_3166_1": "GR",
+        "iso_639_1": "el",
+        "name": "ελληνικά",
+        "english_name": "Greek",
+        "data": {
+          "homepage": "http://www.narnia.com/",
+          "overview": "Ο Έντμουντ και η Λούσι, μαζί με τον ξάδερφό τους Γιουστέις, τον μεγαλοπρεπή φίλο τους Κάσπιαν και ένα ριψοκίνδυνο ποντίκι με το όνομα Ρίπιτσιπ, βρίσκονται ξαφνικά μέσα σε έναν πίνακα και στο πλοίο Dawn Treader. Η αποστολή τους - από την οποία εξαρτάται η μοίρα ολόκληρης της Νάρνια - θα τους οδηγήσει σε μυστηριώδη νησιά, σε μοιραίες αναμετρήσεις με μαγικά πλάσματα και απειλητικούς εχθρούς, αλλά και στην επανασύνδεση με τον φίλο και προστάτη τους, το λιοντάρι Άσλαν.",
+          "runtime": 115,
+          "tagline": "Κάντε το ταξίδι. Ζήστε την περιπέτεια. Ανακαλύψτε τη Νάρνια όπως δεν την έχετε ξαναδεί.",
+          "title": "Το Χρονικό της Νάρνια: Ο Ταξιδιώτης της Αυγής"
+        }
+      },
+      {
+        "iso_3166_1": "KR",
+        "iso_639_1": "ko",
+        "name": "한국어/조선말",
+        "english_name": "Korean",
+        "data": {
+          "homepage": "",
+          "overview": "2차 세계대전이 한창인 영국. 페번시가의 막내들인 에드먼드(스캔다 케인스)와 루시(조지 헨리)는 까탈스럽고 불평 많은 사촌 유스터스(윌 폴터)의 집에 얹혀살고 있다. 어느 날 루시의 방에 걸려 있는 그림 속에서 갑자기 바닷물이 쏟아져 나오며 세 아이는 나니아의 세계로 빨려들어간다. 그들이 망망대해에서 만난 것은 새벽 출정호를 타고 실종된 일곱명의 영주를 찾아 헤매던 캐스피언 왕자(벤 반스) 일행. 이들은 첫 번째 항해지인 론 제도의 영주 베른에게, 아슬란에게서 받은 일곱개의 마법검을 소유한 일곱명의 영주가 사라지면서 언제부터인가 바다에서 녹색 안개가 나타나 배와 사람들을 집어삼켜왔다는 사실을 전해듣는다.",
+          "runtime": 0,
+          "tagline": "위협적인 녹색 안개의 유혹에 얽힌 미스터리",
+          "title": "나니아 연대기: 새벽 출정호의 항해"
+        }
+      },
+      {
+        "iso_3166_1": "IL",
+        "iso_639_1": "he",
+        "name": "עִבְרִית",
+        "english_name": "Hebrew",
+        "data": {
+          "homepage": "",
+          "overview": "הדמויות שבתמונה החלו לנוע לפתע. הגלים געשו, חרטום האונייה עלה וירד, והקצף הכה בפניהם של אדמונד, לוסי ויוסטס. לא עבר רגע והשלושה מצאו את עצמם על סיפונה של האונייה המלכותית \"דורך השחר\", שם הם פגשו את כספיאן, מלכה הצעיר של נרניה, ואת האביר הנועז, העכבר ריפיצ'יפ. יחד הם יוצאים למסע בעקבות שבעת הלורדים שגורשו מנרניה על ידי המלך מירז האכזר. הרפתקאות מופלאות מחכות להם בלב ים, שעה שהם מפליגים הרחק אל האיים הנידחים שבמזרח, ומעבר להם אל המקום שבו לא ביקר איש לפניהם, אל ממלכתו של האריה האגדי אסלן, שבסוף העולם.",
+          "runtime": 0,
+          "tagline": "",
+          "title": "סיפורי נרניה: המסע בדורך השחר"
+        }
+      },
+      {
+        "iso_3166_1": "JP",
+        "iso_639_1": "ja",
+        "name": "日本語",
+        "english_name": "Japanese",
+        "data": {
+          "homepage": "",
+          "overview": "両親と上の兄姉が渡米中、エドマンドとルーシーのペベンシー兄妹はいとこのユースチスの家に預けられた。ある時、壁に掛けられた船の絵を見ていた3人は、突然動き出した絵の中に吸い込まれ、ナルニアの海へと放り出された。王となったカスピアンやネズミの騎士リーピチープが乗る船・朝びらき丸に救われた彼らは、懐かしい友人たちとの再会を喜ぶ間もなく、ナルニアを悪から守る7つの魔法の剣を探す冒険に加わることになる。",
+          "runtime": 112,
+          "tagline": "誰も知らないナルニアへ。",
+          "title": "ナルニア国物語／第3章：アスラン王と魔法の島"
+        }
+      },
+      {
+        "iso_3166_1": "RO",
+        "iso_639_1": "ro",
+        "name": "Română",
+        "english_name": "Romanian",
+        "data": {
+          "homepage": "",
+          "overview": "De data aceasta, Edmund și Lucy Pevensie, împreună cu vărul lor enervant, Eustace Scrubb, se trezesc înghițiți într-un tablou și urcați pe o navă narniană fantastică care se îndreaptă spre marginile lumii.",
+          "runtime": 0,
+          "tagline": "Întoarcerea la magie. Întoarcerea la speranță. Întoarcerea la Narnia.",
+          "title": "Cronicile din Narnia: Călătoria pe mare cu Zori de Zi"
+        }
+      },
+      {
+        "iso_3166_1": "BR",
+        "iso_639_1": "pt",
+        "name": "Português",
+        "english_name": "Portuguese",
+        "data": {
+          "homepage": "",
+          "overview": "Lúcia, Edmundo e Eustáquio retornam para Nárnia, onde encontram com príncipe Caspian, agora rei, e outros amigos. Buscando os Sete Fidalgos Desaparecidos de Telmar, eles começam uma nova aventura a bordo do navio Peregrino da Alvorada e irão encarar guerreiros, dragões, anões e tritões.",
+          "runtime": 113,
+          "tagline": "Embarque nessa viagem. Viva a aventura.",
+          "title": "As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada"
+        }
+      },
+      {
+        "iso_3166_1": "UA",
+        "iso_639_1": "uk",
+        "name": "Український",
+        "english_name": "Ukrainian",
+        "data": {
+          "homepage": "",
+          "overview": "Едмунд, Люсі, їхній кузен Юстас і король Каспіан відпливають на кораблі «Підкорювач світанку» на пошуки друзів батька Каспіана — семи лордів: Ревеліана, Берна, Арґоса, Мавроморна, Октезіана, Рестімара та Рупа, вигнаних під час недовгого правління тирана Міраза...",
+          "runtime": 0,
+          "tagline": "Повернення до магії. Повернення до надії. Повернення до Нарнії.",
+          "title": "Хроніки Нарнії: Підкорювач світанку"
+        }
+      },
+      {
+        "iso_3166_1": "CA",
+        "iso_639_1": "fr",
+        "name": "Français",
+        "english_name": "French",
+        "data": {
+          "homepage": "",
+          "overview": "Happés à l’intérieur d’un intriguant tableau, Edmund et Lucy Pevensie, ainsi que leur détestable cousin Eustache, se retrouvent subitement projetés dans le royaume de Narnia, à bord d’un navire majestueux : le Passeur d’Aurore. Rejoignant Caspian, devenu roi, et l’intrépide souris guerrière Ripitchip, ils embarquent pour une périlleuse mission dont dépend le sort même de Narnia. À la recherche de sept seigneurs disparus, nos voyageurs entament un envoûtant périple vers les îles mystérieuses de l’Est, où ils ne manqueront pas de rencontrer tant de créatures magiques que de merveilles inimaginables. Mais ils devront surtout vaincre leurs peurs les plus profondes en affrontant de sinistres ennemis, tout en résistant à de terribles tentations auxquelles ils seront confrontés. Il est temps pour eux de faire preuve d’un courage légendaire au cours d’une odyssée qui les transformera à jamais et les emportera au bout du monde, où le grand Lion Aslan les attend.",
+          "runtime": 113,
+          "tagline": "Retouvez LA MAGIE. Retrouvez L'AVENTURE. Retournez à NARNIA.",
+          "title": "Les Chroniques de Narnia : L'Odyssée du Passeur d'Aurore"
+        }
+      },
+      {
+        "iso_3166_1": "ES",
+        "iso_639_1": "ca",
+        "name": "Català",
+        "english_name": "Catalan",
+        "data": {
+          "homepage": "",
+          "overview": "Tercer lliurament de la saga literària creada per C.S. Lewis. Els germans Edmund i Lucy Pevensie i el seu cosí Eustace s'embarquen en la nau “El Viatger de l'Alba” per buscar els set cavallers que han estat expulsats del regne per Miraz.",
+          "runtime": 0,
+          "tagline": "",
+          "title": "Les cròniques de Nàrnia: La travessa del viatger de l’alba"
+        }
+      },
+      {
+        "iso_3166_1": "LV",
+        "iso_639_1": "lv",
+        "name": "Latviešu",
+        "english_name": "Latvian",
+        "data": {
+          "homepage": "",
+          "overview": "",
+          "runtime": 0,
+          "tagline": "",
+          "title": "Nārnijas hronikas: Rītausmas iekarotājs"
+        }
+      },
+      {
+        "iso_3166_1": "TW",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "homepage": "",
+          "overview": "愛德蒙和妹妹露西以及常闖禍的表哥尤斯提意外被牆上的油畫捲入其中，來到畫中的“黎明行者號”，在這艘船上，他們和成為國王的賈斯潘王子和老鼠勇士雷佩契普重逢。  賈斯潘此行的目的，要尋找以前被叛徒叔叔放逐的忠心老臣們，在這次任務中，他們也得償宿願的遇見了老朋友—亞斯藍! 憑著勇氣和毅力，他們再一次共同對抗惡勢力，穿越一關又一關的冒險挑戰，並且還有更多神奇的事物在等著他們，這趟未知的旅程又會為彼此的生命寫下什麼驚奇的故事呢？",
+          "runtime": 113,
+          "tagline": "魔法再起 冒險啟航 進入前所未見的納尼亞",
+          "title": "納尼亞傳奇：黎明行者號"
+        }
+      },
+      {
+        "iso_3166_1": "HK",
+        "iso_639_1": "zh",
+        "name": "普通话",
+        "english_name": "Mandarin",
+        "data": {
+          "homepage": "",
+          "overview": "《黎明行者號》中，艾文及露西加上麻煩表兄弟尤達斯，突然被姨媽家中房間牆上一幅航海油畫吸走，當驚魂未定時他們已霎眼間匯合登基成功的卡斯柏王子，搭乘其『黎明行者號』航海啟程，一同出海尋找坦摩七勳爵。巨船在茫茫大海中經歷重重驚險難關，大小邪魔紛紛出籠搗亂，滿途荊棘。他們發現每個島嶼上多個誘人秘密，從聯串意外中瞭解到一定要團結一致，憑著勇氣及膽識才能破解危機，走到世界盡頭完成不可能的任務，解救納尼亞的危機﹗",
+          "runtime": 0,
+          "tagline": "",
+          "title": "魔幻王國：黎明行者號"
+        }
+      },
+      {
+        "iso_3166_1": "MX",
+        "iso_639_1": "es",
+        "name": "Español",
+        "english_name": "Spanish",
+        "data": {
+          "homepage": "",
+          "overview": "Tercera entrega de la saga literaria creada por C.S. Lewis. En esta ocasión, los hermanos Edmund y Lucy Pevensie y su primo Eustace embarcan en la nave \"El Viajero del Alba\" para buscar a los siete caballeros que han sido expulsados del reino por Miraz, el usurpador del trono de Narnia.",
+          "runtime": 115,
+          "tagline": "Emprende el viaje. Vive la aventura. Descubre Narnia como nunca antes la habías visto.",
+          "title": "Las Crónicas de Narnia 3: La Travesía del Viajero del Alba"
+        }
+      },
+      {
+        "iso_3166_1": "TH",
+        "iso_639_1": "th",
+        "name": "ภาษาไทย",
+        "english_name": "Thai",
+        "data": {
+          "homepage": "",
+          "overview": "อภินิหารตำนานแห่งนาร์เนีย: ผจญภัยโพ้นทะเล มหกรรมภาพยนตร์สำหรับฤดูกาลวันหยุด เอ็ดมันด์ และลูซี่ พีเวนซี่ พร้อมกับยูซตาสลูกพี่ลูกน้องของพวกเขาถูกดูดกลืนเข้าไปยังภาพวาด ถูกส่งกลับไปยังนาร์เนียและเรือดอว์น เทรดเดอร์อันงดงาม พวกเขาร่วมมือกับกษัตริย์แคสเปี้ยน และหนูนักรบผู้มีนามว่า รีปพิชีป เพื่อภารกิจที่กุมชะตาแห่งนาร์เนียเอาไว้ เหล่านักเดินทางผู้กล้าผ่านพ้นสิ่งล่อตาล่อใจอันยิ่งใหญ่ เมื่อพวกเขาเดินทางไปยังเกาะลึกลับต่าง ๆ มีการเผชิญหน้าอย่างเอาเป็นเอาตายกับสิ่งมีชีวิตแห่งเวทมนตร์ และเหล่าศัตรูผู้ชั่วร้าย รวมไปถึงการกลับมารวมตัวกับเพื่อนและผู้คุ้มกันของพวกเขาอย่าง ราชสีห์ผู้ยิ่งใหญ่ อัสลาน",
+          "runtime": 115,
+          "tagline": "อภินิหารตำนานแห่งนาร์เนีย ตอน ผจญภัยโพ้นทะเล",
+          "title": "อภินิหารตำนานแห่งนาร์เนีย ตอน ผจญภัยโพ้นทะเล"
+        }
+      },
+      {
+        "iso_3166_1": "RS",
+        "iso_639_1": "sr",
+        "name": "Srpski",
+        "english_name": "Serbian",
+        "data": {
+          "homepage": "",
+          "overview": "Едмунд и Луси Певенси, заједно с рођаком Еустахијем, њиховим краљевским пријатељем Каспијаном и мишом ратником по имену Рипичип, бивају увучени у једну слику и на величанствен краљевски брод, Намерник зоре.",
+          "runtime": 0,
+          "tagline": "",
+          "title": "Летописи Нарније: Путовање намерника зоре"
+        }
+      },
+      {
+        "iso_3166_1": "VN",
+        "iso_639_1": "vi",
+        "name": "Tiếng Việt",
+        "english_name": "Vietnamese",
+        "data": {
+          "homepage": "",
+          "overview": "Số phận của The Chronicles of Narnia phiên bản điện ảnh cũng long đong, ly kỳ không kém gì cuộc phiêu lưu tại vùng đất huyền bí Narnia của bốn anh em nhà Pevensie. Sau khi thực hiện hai phần đầu (The Lion, the Witch and the Wardrobe và Prince Caspian), hãng Walt Disney bỗng nhiên từ bỏ đứa con cưng của mình. Dự án chuyển thể bộ tiểu thuyết thần thoại nổi tiếng của nhà văn C.S Lewis được “chuyển giao” cho hãng 20th Century Fox. The Voyage of the Dawn Treader (Hành trình trên tàu Dawn Treader) là tập thứ 3 trong Biên niên sử Narnia được dựng thành phim và cũng là tập đầu tiên do hãng 20th Century Fox (đồng) sản xuất và phát hành. Số phận của series The Chronicles of Narnia cũng phụ thuộc rất nhiều vào doanh thu phòng vé của The Voyage of the Dawn Treader. Nếu ăn khách, ...",
+          "runtime": 0,
+          "tagline": "Trở về với phép thuật. Trở về với hy vọng. Trở về với Narnia.",
+          "title": "Biên Niên Sử Narnia: Hành Trình Trên Tàu Dawn Treader"
+        }
+      },
+      {
+        "iso_3166_1": "LT",
+        "iso_639_1": "lt",
+        "name": "Lietuvių",
+        "english_name": "Lithuanian",
+        "data": {
+          "homepage": "",
+          "overview": "Trečiojoje sagos dalyje jau gerai pažįstami vaikai Liusė ir Edmundas vėl sugrįžta į Narniją, lydimi savo pusbrolio. Šįkart į stebuklingąją šalį vaikai patenka pro paveikslą. Ten prie jų prisijungia iš antrojo filmo pažįstamas princas Kaspijanas ir dar vienas žavus veikėjas – kovinė pelė Ripičypas.  Stebuklingu karališkuoju laivu „Aušros užkariautojas“ kompanija nukeliauja į Nuošaliąsias Salas, kuriose jų laukia slapta misija. Šioje kelionėje vaikai patirs daugybę nuotykių bei išmėginimų protui ir širdžiai. Stos akis į akį su daugybe įstabiausių ir ne visuomet geranoriškai nusiteikusių būtybių; turės pasitelkti visą savo drąsą, išmintį ir meilę, kad ir vėl išgelbėtų stebuklingąją liūto Aslano valdomą Narniją ir visus šalies gyventojus.",
+          "runtime": 0,
+          "tagline": "",
+          "title": "Narnijos kronikos: „Aušros užkariautojo“ kelionė"
+        }
+      },
+      {
+        "iso_3166_1": "SA",
+        "iso_639_1": "ar",
+        "name": "العربية",
+        "english_name": "Arabic",
+        "data": {
+          "homepage": "",
+          "overview": "تنتقل (لوسي) وشقيقها (إدموند) إلى عالم (نارنيا) الساحر بصحبة ابن عمهما (إيوستاس)، هذه المرة يتم الانتقال عن طريق لوحة جدارية لسفينة عظيمة تمخر عباب البحر. يفاجأ الأبطال أن الماء يندفع من اللوحة ويغرق الغرفة، وحين تمتلئ عن آخرها يكتشف الأبطال الثلاثة أنهم انتقلوا إلى عالم نارنيا، فى وسط المحيط.",
+          "runtime": 0,
+          "tagline": "",
+          "title": "سجلات نارنيا: رحلة سفينة داون تريدر"
+        }
+      },
+      {
+        "iso_3166_1": "IR",
+        "iso_639_1": "fa",
+        "name": "فارسی",
+        "english_name": "Persian",
+        "data": {
+          "homepage": "",
+          "overview": "",
+          "runtime": 0,
+          "tagline": "",
+          "title": "سرگذشت نارنیا: سفر کشتی سپیده‌پیما"
+        }
+      },
+      {
+        "iso_3166_1": "GE",
+        "iso_639_1": "ka",
+        "name": "ქართული",
+        "english_name": "Georgian",
+        "data": {
+          "homepage": "",
+          "overview": "",
+          "runtime": 0,
+          "tagline": "",
+          "title": "ნარნიის ქრონიკები: განთიადის დამმორჩილებლის მოგზაურობა"
+        }
+      },
+      {
+        "iso_3166_1": "HR",
+        "iso_639_1": "hr",
+        "name": "Hrvatski",
+        "english_name": "Croatian",
+        "data": {
+          "homepage": "",
+          "overview": "U novoj pustolovini koja se odvija u fantastičnoj zemlji Narniji Lucy i Edmund Pevensie te njhov rođak Eustace Scrubb, bivaju uvučeni u sliku, u narnijski brod koji plovi prema rubu svijeta. Lucy i Edmund ponovo se udružuju se sa svojim prijateljem, kraljevićem Kaspijanom, i mišem-ratnikom Reepicheepom i kreću u tajanstvenu misiju do otočja Lone, a i dalje… Na mističnom putovanju bit će stavljeni na kušnju, susrest će opake trgovce robljem, zmajeve koji rigaju vatru, začarane morske ljude… Jedino putovanje u Aslanovu neistraženu zemlju, sudbonosno putovanje koje će promijeniti sve putnike na brodu Zorogaz, može spasiti Narniju njene tajnovite sudbine.",
+          "runtime": 0,
+          "tagline": "Povratak magiji. Povratak nadi. Povratak u Narniju.",
+          "title": "Kronike iz Narnije: Plovidba broda Zorogaza"
+        }
+      },
+      {
+        "iso_3166_1": "SI",
+        "iso_639_1": "sl",
+        "name": "Slovenščina",
+        "english_name": "Slovenian",
+        "data": {
+          "homepage": "",
+          "overview": "Po dveh nepozabnih dogodivščinah se Lucija in Edmund Pevensie znova vrneta v čarobno Narnijo in s seboj pripeljeta nadležnega bratranca Evstahija. Pridružijo se princu Kaspijanu, ki s kraljevo ladjo Potepuška zarja pluje na rob sveta, da bi rešil magično domovino pred grozečim propadom. Na poti se morajo spopasti s temačnimi trgovci s sužnji, čarobnimi škrati, divjimi zmaji in uročenimi bitji iz morskih globin, cilj pa lahko dosežejo le tisti, ki premorejo največ poguma, premetenosti in srčnosti.",
+          "runtime": 0,
+          "tagline": "Potovanje. Pustolovščina.",
+          "title": "Zgodbe iz Narnije: Potovanje Potepuške zarje"
+        }
+      },
+      {
+        "iso_3166_1": "IS",
+        "iso_639_1": "is",
+        "name": "Íslenska",
+        "english_name": "Icelandic",
+        "data": {
+          "homepage": "",
+          "overview": "",
+          "runtime": 0,
+          "tagline": "",
+          "title": "Ævintýralandið Narnía: Sigling Dagfara"
+        }
+      },
+      {
+        "iso_3166_1": "AT",
+        "iso_639_1": "de",
+        "name": "Deutsch",
+        "english_name": "German",
+        "data": {
+          "homepage": "",
+          "overview": "",
+          "runtime": 0,
+          "tagline": "",
+          "title": ""
+        }
+      }
+    ]
   }
 }

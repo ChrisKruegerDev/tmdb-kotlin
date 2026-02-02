@@ -32,7 +32,7 @@ class TmdbShowSeasonsApi(private val client: HttpClient) {
         parameterLanguage(language)
     }.body()
 
-    suspend fun getTranslations(showId: Int, seasonNumber: Int): TmdbTranslations = client.get {
+    suspend fun getTranslations(showId: Int, seasonNumber: Int): TmdbSeasonTranslations = client.get {
         endPointSeason(showId, seasonNumber, "translations")
     }.body()
 
