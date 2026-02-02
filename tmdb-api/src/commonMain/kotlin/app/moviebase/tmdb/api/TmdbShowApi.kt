@@ -24,8 +24,8 @@ import app.moviebase.tmdb.model.TmdbReview
 import app.moviebase.tmdb.model.TmdbScreenedTheatrically
 import app.moviebase.tmdb.model.TmdbShowDetail
 import app.moviebase.tmdb.model.TmdbShowPageResult
+import app.moviebase.tmdb.model.TmdbShowTranslations
 import app.moviebase.tmdb.model.TmdbStatusResponse
-import app.moviebase.tmdb.model.TmdbTranslations
 import app.moviebase.tmdb.model.TmdbVideo
 import app.moviebase.tmdb.model.TmdbWatchProviderResult
 import io.ktor.client.HttpClient
@@ -56,7 +56,7 @@ class TmdbShowApi internal constructor(private val client: HttpClient) {
         parameterIncludeVideoLanguage(includeVideoLanguages)
     }.body()
 
-    suspend fun getTranslations(showId: Int): TmdbTranslations = client.get {
+    suspend fun getTranslations(showId: Int): TmdbShowTranslations = client.get {
         endPointShow(showId, "translations")
     }.body()
 

@@ -13,7 +13,7 @@ class TmdbShowsApiTest {
     val client = mockHttpClient(
         version = 3,
         responses = mapOf(
-            "tv/96677?language=en-US&append_to_response=external_ids,videos,credits,aggregate_credits,reviews,content_ratings,watch/providers"
+            "tv/96677?language=en-US&append_to_response=external_ids,videos,credits,aggregate_credits,reviews,content_ratings,watch/providers,translations"
                 to "tv/tv_details_96677.json",
             "tv/96677?language=de-DE&append_to_response=images" to "tv/tv_details_96677_with_images.json",
             "tv/96677/images?language=en&include_image_language=en,null" to "tv/tv_images_96677.json",
@@ -40,7 +40,8 @@ class TmdbShowsApiTest {
                     AppendResponse.AGGREGATE_CREDITS,
                     AppendResponse.REVIEWS,
                     AppendResponse.CONTENT_RATING,
-                    AppendResponse.WATCH_PROVIDERS
+                    AppendResponse.WATCH_PROVIDERS,
+                    AppendResponse.TRANSLATIONS
                 )
             )
 
@@ -51,6 +52,7 @@ class TmdbShowsApiTest {
             assertThat(showDetails.voteCount).isEqualTo(742)
             assertThat(showDetails.homepage).isEqualTo("https://www.netflix.com/title/80994082")
             assertThat(showDetails.overview).isEqualTo("Inspired by the adventures of Arsène Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.")
+            assertThat(showDetails.translations).isNotNull()
 
             val tmdbVideo = showDetails.videos?.results?.first()
             assertThat(tmdbVideo).isNotNull()
@@ -61,6 +63,11 @@ class TmdbShowsApiTest {
             assertThat(network).isNotNull()
             assertThat(network.name).isEqualTo("Netflix")
             assertThat(network.logoPath).isEqualTo("/wwemzKWzjKYJFfCeiB57q3r4Bcm.png")
+
+            val lithuanianTranslation = showDetails.translations!!.translations.first { it.iso639 == "lt" }
+            assertThat(lithuanianTranslation).isNotNull()
+            assertThat(lithuanianTranslation.data.name).isEqualTo("Lupenas")
+            assertThat(lithuanianTranslation.data.overview).isEqualTo("Įkvėptas Arsenijaus Lupeno nuotykių, ponas vagis Asanas Diopas siekia atkeršyti turtuolių šeimai už neteisingumą prieš jo tėvą.")
         }
 
         @Test

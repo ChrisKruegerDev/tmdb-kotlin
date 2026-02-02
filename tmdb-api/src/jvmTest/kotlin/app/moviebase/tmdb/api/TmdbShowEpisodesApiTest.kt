@@ -1,7 +1,6 @@
 package app.moviebase.tmdb.api
 
 import app.moviebase.tmdb.model.AppendResponse
-import app.moviebase.tmdb.model.TmdbVideoType
 import app.moviebase.tmdb.core.mockHttpClient
 import com.google.common.truth.Truth.assertThat
 import kotlinx.coroutines.test.runTest
@@ -14,7 +13,7 @@ class TmdbShowEpisodesApiTest {
     val client = mockHttpClient(
         version = 3,
         responses = mapOf(
-            "tv/96677/season/1/episode/1?language=en-US&append_to_response=external_ids,videos,credits,aggregate_credits,reviews,content_ratings,watch/providers"
+            "tv/96677/season/1/episode/1?language=en-US&append_to_response=external_ids,videos,credits,aggregate_credits,reviews,content_ratings,watch/providers,translations"
                     to "tv/episode/tv_details_96677_s1e1.json",
             "tv/96677/season/1/episode/1?language=de-DE&append_to_response=images" to "tv/episode/tv_details_96677_s1e1_with_images.json"
         )
@@ -39,7 +38,8 @@ class TmdbShowEpisodesApiTest {
                     AppendResponse.AGGREGATE_CREDITS,
                     AppendResponse.REVIEWS,
                     AppendResponse.CONTENT_RATING,
-                    AppendResponse.WATCH_PROVIDERS
+                    AppendResponse.WATCH_PROVIDERS,
+                    AppendResponse.TRANSLATIONS
                 )
             )
 
@@ -50,6 +50,12 @@ class TmdbShowEpisodesApiTest {
             assertThat(episodeDetails.airDate).isEqualTo(LocalDate.parse("2021-01-08"))
             assertThat(episodeDetails.voteAverage).isEqualTo(8.189f)
             assertThat(episodeDetails.voteCount).isEqualTo(90)
+            assertThat(episodeDetails.translations).isNotNull()
+
+            val germanTranslation = episodeDetails.translations!!.translations.first { it.iso639 == "de" }
+            assertThat(germanTranslation).isNotNull()
+            assertThat(germanTranslation.data.name).isEqualTo("Kapitel 1")
+            assertThat(germanTranslation.data.overview).isEqualTo("Mit dem Diebstahl eines wertvollen Colliers will Assane eine schmerzliche alte Rechnung – und eine Schuld – begleichen. Doch der Coup nimmt eine unerwartete Wendung.")
         }
 
         @Test
