@@ -48,7 +48,7 @@ data class TmdbCredits(
      */
     fun getGroupedCrew(): Map<String, List<TmdbCrew>> {
         val jobsSet = TmdbCrewJobType.importantJobs.toSet()
-        return crew.filter { jobsSet.contains(it.job) }.groupBy { it.job }
+        return crew.filter { jobsSet.contains(it.job) }.filter { it.job != null }.groupBy { it.job!! }
     }
 
     /**
@@ -63,7 +63,7 @@ data class TmdbCredits(
 }
 
 interface TmdbAnyPerson : TmdbAnyItem, TmdbProfileItem {
-    val name: String
+    val name: String?
     val popularity: Float?
 }
 
@@ -122,30 +122,30 @@ data class TmdbPersonDetail(
 data class TmdbCrew(
     @SerialName("adult") val adult: Boolean = false,
     @SerialName("gender") val gender: TmdbGender = TmdbGender.UNKNOWN,
-    @SerialName("id") override val id: Int,
+    @SerialName("id") override val id: Int = 0,
     @SerialName("known_for_department") val knownForDepartment: TmdbDepartment? = null,
-    @SerialName("name") override val name: String,
+    @SerialName("name") override val name: String? = null,
     @SerialName("original_name") val originalName: String? = null,
     @SerialName("popularity") override val popularity: Float? = null,
     @SerialName("profile_path") override val profilePath: String? = null,
-    @SerialName("credit_id") val creditId: String,
+    @SerialName("credit_id") val creditId: String? = null,
     @SerialName("department") val department: TmdbDepartment? = null,
-    @SerialName("job") val job: String,
+    @SerialName("job") val job: String? = null,
 ) : TmdbAnyPerson
 
 @Serializable
 data class TmdbCast(
     @SerialName("adult") val adult: Boolean = false,
     @SerialName("gender") val gender: TmdbGender = TmdbGender.UNKNOWN,
-    @SerialName("id") override val id: Int,
+    @SerialName("id") override val id: Int = 0,
     @SerialName("known_for_department") val knownForDepartment: TmdbDepartment? = null,
-    @SerialName("name") override val name: String,
+    @SerialName("name") override val name: String? = null,
     @SerialName("original_name") val originalName: String? = null,
     @SerialName("popularity") override val popularity: Float? = null,
     @SerialName("profile_path") override val profilePath: String? = null,
     @SerialName("cast_id") val castId: Int? = null,
-    @SerialName("character") val character: String = "",
-    @SerialName("credit_id") val creditId: String = "",
+    @SerialName("character") val character: String? = null,
+    @SerialName("credit_id") val creditId: String? = null,
     @SerialName("order") val order: Int = 0,
 ) : TmdbAnyPerson
 
@@ -153,9 +153,9 @@ data class TmdbCast(
 data class TmdbAggregateCast(
     @SerialName("adult") val adult: Boolean = false,
     @SerialName("gender") val gender: TmdbGender = TmdbGender.UNKNOWN,
-    @SerialName("id") val id: Int,
+    @SerialName("id") val id: Int = 0,
     @SerialName("known_for_department") val knownForDepartment: TmdbDepartment? = null,
-    @SerialName("name") val name: String,
+    @SerialName("name") val name: String? = null,
     @SerialName("original_name") val originalName: String? = null,
     @SerialName("popularity") val popularity: Float? = null,
     @SerialName("profile_path") val profilePath: String? = null,
@@ -168,9 +168,9 @@ data class TmdbAggregateCast(
 data class TmdbAggregateCrew(
     @SerialName("adult") val adult: Boolean = false,
     @SerialName("gender") val gender: TmdbGender = TmdbGender.UNKNOWN,
-    @SerialName("id") override val id: Int,
+    @SerialName("id") override val id: Int = 0,
     @SerialName("known_for_department") val knownForDepartment: TmdbDepartment? = null,
-    @SerialName("name") override val name: String,
+    @SerialName("name") override val name: String? = null,
     @SerialName("original_name") val originalName: String? = null,
     @SerialName("popularity") override val popularity: Float? = null,
     @SerialName("profile_path") override val profilePath: String? = null,
@@ -181,16 +181,16 @@ data class TmdbAggregateCrew(
 
 @Serializable
 data class TmdbRole(
-    @SerialName("credit_id") val creditId: String,
-    @SerialName("character") val character: String,
-    @SerialName("episode_count") val episodeCount: Int,
+    @SerialName("credit_id") val creditId: String? = null,
+    @SerialName("character") val character: String? = null,
+    @SerialName("episode_count") val episodeCount: Int = 0,
 )
 
 @Serializable
 data class TmdbJob(
-    @SerialName("credit_id") val creditId: String,
-    @SerialName("job") val job: String,
-    @SerialName("episode_count") val episodeCount: Int,
+    @SerialName("credit_id") val creditId: String? = null,
+    @SerialName("job") val job: String? = null,
+    @SerialName("episode_count") val episodeCount: Int = 0,
 )
 
 @Serializable
@@ -219,10 +219,10 @@ data class TmdbPersonTranslationData(
 
 @Serializable
 data class TmdbShowCreatedBy(
-    @SerialName("id") val id: Int,
+    @SerialName("id") val id: Int = 0,
     @SerialName("credit_id") val creditId: String? = null,
     @SerialName("gender") val gender: TmdbGender? = null,
-    @SerialName("name") val name: String,
+    @SerialName("name") val name: String? =null,
     @SerialName("profile_path") val profilePath: String? = null,
 )
 
