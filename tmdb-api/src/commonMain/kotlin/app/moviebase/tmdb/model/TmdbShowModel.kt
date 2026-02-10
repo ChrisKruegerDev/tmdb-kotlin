@@ -97,7 +97,7 @@ data class TmdbShowPageResult(
 data class TmdbShowDetail(
     @SerialName("id") override val id: Int,
     @SerialName("adult") val adult: Boolean = false,
-    val name: String = "",
+    val name: String? = null,
     @SerialName("poster_path") override val posterPath: String? = null,
     @SerialName("backdrop_path") override val backdropPath: String? = null,
     val popularity: Float = 0f,
@@ -230,7 +230,7 @@ data class TmdbEpisode(
 data class TmdbEpisodeDetail(
     @SerialName("id") override val id: Int,
     @SerialName("runtime") val runtime: Int? = null,
-    @SerialName("overview") val overview: String,
+    @SerialName("overview") val overview: String? = null,
     @SerialName("episode_number") val episodeNumber: Int,
     @SerialName("season_number") val seasonNumber: Int,
     @SerialName("air_date")
