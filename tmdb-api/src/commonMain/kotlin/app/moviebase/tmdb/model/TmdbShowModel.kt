@@ -81,7 +81,7 @@ data class TmdbShow(
     @SerialName("original_language") override val originalLanguage: String = "",
     @SerialName("vote_count") override val voteCount: Int = 0,
     @SerialName("popularity") override val popularity: Float = 0f,
-    @SerialName("name") val name: String,
+    @SerialName("name") val name: String? = null,
     @SerialName("original_name") val originalName: String? = null,
 ) : TmdbMediaListItem, TmdbSearchableListItem
 
@@ -161,8 +161,8 @@ data class TmdbSeason(
     @Serializable(LocalDateSerializer::class)
     val airDate: LocalDate? = null,
     @SerialName("episode_count") val episodeCount: Int? = null,
-    @SerialName("name") val name: String,
-    @SerialName("poster_path") override val posterPath: String?,
+    @SerialName("name") val name: String? = null,
+    @SerialName("poster_path") override val posterPath: String? = null,
     @SerialName("season_number") val seasonNumber: Int,
     @SerialName("overview") val overview: String? = null,
     @SerialName("vote_average") val voteAverage: Float? = null,
@@ -180,10 +180,10 @@ data class TmdbSeasonDetail(
     @Serializable(LocalDateSerializer::class)
     val airDate: LocalDate? = null,
     @SerialName("episode_count") val episodeCount: Int? = null,
-    @SerialName("name") val name: String,
-    @SerialName("poster_path") override val posterPath: String?,
+    @SerialName("name") val name: String? = null,
+    @SerialName("poster_path") override val posterPath: String? = null,
     @SerialName("season_number") val seasonNumber: Int,
-    @SerialName("overview") val overview: String,
+    @SerialName("overview") val overview: String? = null,
     @SerialName("vote_average") val voteAverage: Float? = null,
     @SerialName("vote_count") val voteCount: Int? = null,
     @SerialName("episodes") val episodes: List<TmdbEpisode>? = null,

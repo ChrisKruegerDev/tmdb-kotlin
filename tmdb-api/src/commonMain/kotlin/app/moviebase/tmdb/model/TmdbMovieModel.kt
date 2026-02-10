@@ -70,7 +70,7 @@ data class TmdbMovie(
     @SerialName("id") override val id: Int,
     @SerialName("original_title") val originalTitle: String,
     @SerialName("original_language") override val originalLanguage: String,
-    @SerialName("title") val title: String,
+    @SerialName("title") val title: String? = null,
     @SerialName("backdrop_path") override val backdropPath: String?,
     @SerialName("popularity") override val popularity: Float = 0f,
     @SerialName("vote_count") override val voteCount: Int = 0,
@@ -94,10 +94,10 @@ data class TmdbMovieDetail(
     @SerialName("budget") val budget: Long = 0,
     @SerialName("genres") val genres: List<TmdbGenre> = emptyList(),
     @SerialName("homepage") val homepage: String? = null,
-    @SerialName("id")val id: Int,
+    @SerialName("id") val id: Int,
     @SerialName("imdb_id") val imdbId: String? = null,
     @SerialName("origin_country") val originCountry: List<String> = emptyList(),
-    @SerialName("title") val title: String,
+    @SerialName("title") val title: String? = null,
     @SerialName("runtime") val runtime: Int? = null,
     @SerialName("original_title") val originalTitle: String? = null,
     @SerialName("original_language") val originalLanguage: String? = null,
@@ -172,7 +172,7 @@ data class TmdbBelongsToCollection(
 @Serializable
 data class TmdbAlternativeTitle(
     @SerialName("iso_3166_1") val iso3166: String,
-    @SerialName("title") val title: String,
+    @SerialName("title") val title: String? = null,
     @SerialName("type") val type: String? = null
 )
 
