@@ -2,6 +2,7 @@ package app.moviebase.tmdb.api
 
 import app.moviebase.tmdb.model.*
 import app.moviebase.tmdb.core.endPointV3
+import app.moviebase.tmdb.core.parameterAppendResponses
 import app.moviebase.tmdb.core.parameterLanguage
 import app.moviebase.tmdb.core.parameterIncludeImageLanguage
 import io.ktor.client.*
@@ -10,9 +11,14 @@ import io.ktor.client.request.*
 
 class TmdbCollectionsApi internal constructor(private val client: HttpClient) {
 
-    suspend fun getDetails(collectionId: Int, language: String? = null): TmdbBelongsToCollection = client.get {
+    suspend fun getDetails(
+        collectionId: Int,
+        language: String? = null,
+        appendResponses: Iterable<AppendResponse>? = null,
+    ): TmdbCollectionDetail = client.get {
         endPointV3("collection", collectionId.toString())
         parameterLanguage(language)
+        parameterAppendResponses(appendResponses)
     }.body()
 
     suspend fun getImages(
