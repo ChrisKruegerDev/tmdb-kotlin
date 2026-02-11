@@ -30,16 +30,16 @@ data class TmdbList(
 
 @Serializable
 data class TmdbListDetail(
-    @SerialName("id") val id: String,
-    @SerialName("name") val name: String,
-    @SerialName("description") val description: String,
-    @SerialName("favorite_count") val favoriteCount: Int,
-    @SerialName("item_count") val itemCount: Int,
-    @SerialName("iso_639_1") val iso639: String,
-    @SerialName("list_type") val listType: String,
+    @SerialName("id") val id: String = "",
+    @SerialName("name") val name: String? = null,
+    @SerialName("description") val description: String? = null,
+    @SerialName("favorite_count") val favoriteCount: Int = 0,
+    @SerialName("item_count") val itemCount: Int = 0,
+    @SerialName("iso_639_1") val iso639: String? = null,
+    @SerialName("list_type") val listType: String? = null,
     @SerialName("poster_path") val posterPath: String? = null,
-    @SerialName("created_by") val createdBy: String,
-    @SerialName("items") val items: List<TmdbMovie>
+    @SerialName("created_by") val createdBy: String? = null,
+    @SerialName("items") val items: List<TmdbMovie> = emptyList()
 )
 
 @Serializable

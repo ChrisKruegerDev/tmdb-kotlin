@@ -33,9 +33,9 @@ data class TmdbCompanyPageResult(
 
 @Serializable
 data class TmdbCompanyDetail(
-    @SerialName("id") val id: Int,
-    @SerialName("headquarters") val headquarters: String,
-    @SerialName("homepage") val homepage: String,
+    @SerialName("id") val id: Int = 0,
+    @SerialName("headquarters") val headquarters: String? = null,
+    @SerialName("homepage") val homepage: String? = null,
     @SerialName("logo_path") val logoPath: String? = null,
     @SerialName("name") val name: String? = null,
     @SerialName("origin_country") val originCountry: String? = null // e. g. US
