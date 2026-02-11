@@ -184,15 +184,15 @@ data class TmdbSeasonDetail(
     @SerialName("poster_path") override val posterPath: String? = null,
     @SerialName("season_number") val seasonNumber: Int = 0,
     @SerialName("overview") val overview: String? = null,
-    @SerialName("vote_average") val voteAverage: Float? = null,
-    @SerialName("vote_count") val voteCount: Int? = null,
+    @SerialName("vote_average") override val voteAverage: Float? = null,
+    @SerialName("vote_count") override val voteCount: Int? = null,
     @SerialName("episodes") val episodes: List<TmdbEpisode>? = null,
     @SerialName("external_ids") val externalIds: TmdbExternalIds? = null,
     @SerialName("videos") val videos: TmdbResult<TmdbVideo>? = null,
     @SerialName("images") val images: TmdbImages? = null,
     @SerialName("credits") val credits: TmdbCredits? = null,
     @SerialName("translations") val translations: TmdbSeasonTranslations? = null,
-) : TmdbAnyItem, TmdbPosterItem {
+) : TmdbAnyItem, TmdbPosterItem, TmdbRatingItem {
 
     val numberOfEpisodes get() = episodeCount ?: episodes?.size ?: 0
 }
@@ -216,12 +216,12 @@ data class TmdbEpisode(
     val airDate: LocalDate? = null,
     @SerialName("name") val name: String? = null,
     @SerialName("runtime") val runtime: Int? = null,
-    @SerialName("vote_average") val voteAverage: Float? = null,
-    @SerialName("vote_count") val voteCount: Int? = null,
+    @SerialName("vote_average") override val voteAverage: Float? = null,
+    @SerialName("vote_count") override val voteCount: Int? = null,
     @SerialName("still_path") val stillPath: String? = null,
     @SerialName("crew") val crew: List<TmdbCrew>? = null,
     @SerialName("guest_stars") val guestStars: List<TmdbCast>? = null,
-) : TmdbAnyItem, TmdbBackdropItem {
+) : TmdbAnyItem, TmdbBackdropItem, TmdbRatingItem {
 
     override val backdropPath: String? get() = stillPath
 }

@@ -193,9 +193,9 @@ data class TmdbFileImage(
     @SerialName("height") val height: Int,
     @SerialName("width") val width: Int,
     @SerialName("iso_639_1") val iso639: String? = null,
-    @SerialName("vote_average") val voteAverage: Float? = null,
-    @SerialName("vote_count") val voteCount: Int? = null
-)
+    @SerialName("vote_average") override val voteAverage: Float? = null,
+    @SerialName("vote_count") override val voteCount: Int? = null
+) : TmdbRatingItem
 
 @Serializable
 data class TmdbLogoImage(
