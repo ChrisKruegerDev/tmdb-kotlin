@@ -247,10 +247,10 @@ data class TmdbPersonCredits<T : TmdbPersonCredit>(
 
 @Polymorphic
 @Serializable
-sealed interface TmdbPersonCredit : TmdbAnyItem, TmdbBackdropItem, TmdbPosterItem {
+sealed interface TmdbPersonCredit : TmdbAnyItem, TmdbBackdropItem, TmdbPosterItem, TmdbRatingItem {
 
-    val voteAverage: Float
-    val voteCount: Int
+    override val voteAverage: Float
+    override val voteCount: Int
     val overview: String
     val genreIds: List<Int>
     val popularity: Float?
