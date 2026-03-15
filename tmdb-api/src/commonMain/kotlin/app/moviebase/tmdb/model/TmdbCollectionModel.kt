@@ -1,5 +1,6 @@
 package app.moviebase.tmdb.model
 
+import app.moviebase.tmdb.core.LocalDateSerializer
 import kotlinx.datetime.LocalDate
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
@@ -52,7 +53,7 @@ data class TmdbCollectionPart(
     @SerialName("original_language") val originalLanguage: String,
     @SerialName("genre_ids") val genreIds: List<Int>,
     @SerialName("popularity") val popularity: Float = 0f,
-    @SerialName("release_date") val releaseDate: LocalDate?,
+    @SerialName("release_date") @Serializable(LocalDateSerializer::class) val releaseDate: LocalDate? = null,
     @SerialName("video") val video: Boolean = false,
     @SerialName("vote_average") override val voteAverage: Float = 0f,
     @SerialName("vote_count") override val voteCount: Int = 0,
