@@ -3,6 +3,8 @@ package app.moviebase.tmdb.api
 import app.moviebase.tmdb.model.AppendResponse
 import app.moviebase.tmdb.model.TmdbVideoType
 import app.moviebase.tmdb.core.mockHttpClient
+import app.moviebase.tmdb.model.TmdbAlternativeTitle
+import app.moviebase.tmdb.model.TmdbKeyword
 import com.google.common.truth.Truth.assertThat
 import kotlinx.coroutines.test.runTest
 import org.junit.jupiter.api.Nested
@@ -13,7 +15,7 @@ class TmdbShowsApiTest {
     val client = mockHttpClient(
         version = 3,
         responses = mapOf(
-            "tv/96677?language=en-US&append_to_response=external_ids,videos,credits,aggregate_credits,reviews,content_ratings,watch/providers,translations"
+            "tv/96677?language=en-US&append_to_response=external_ids,videos,credits,aggregate_credits,reviews,content_ratings,watch/providers,translations,keywords,recommendations,alternative_titles"
                 to "tv/tv_details_96677.json",
             "tv/96677?language=de-DE&append_to_response=images" to "tv/tv_details_96677_with_images.json",
             "tv/96677/images?language=en&include_image_language=en,null" to "tv/tv_images_96677.json",
@@ -41,7 +43,10 @@ class TmdbShowsApiTest {
                     AppendResponse.REVIEWS,
                     AppendResponse.CONTENT_RATING,
                     AppendResponse.WATCH_PROVIDERS,
-                    AppendResponse.TRANSLATIONS
+                    AppendResponse.TRANSLATIONS,
+                    AppendResponse.KEYWORDS,
+                    AppendResponse.RECOMMENDATIONS,
+                    AppendResponse.ALTERNATIVE_TITLES
                 )
             )
 
@@ -68,6 +73,19 @@ class TmdbShowsApiTest {
             assertThat(lithuanianTranslation).isNotNull()
             assertThat(lithuanianTranslation.data.name).isEqualTo("Lupenas")
             assertThat(lithuanianTranslation.data.overview).isEqualTo("Įkvėptas Arsenijaus Lupeno nuotykių, ponas vagis Asanas Diopas siekia atkeršyti turtuolių šeimai už neteisingumą prieš jo tėvą.")
+
+            val keywords = showDetails.keywords!!.results
+            assertThat(keywords).hasSize(14)
+            assertThat(keywords.first()).isEqualTo(TmdbKeyword(90, "paris, france"))
+            assertThat(keywords.last()).isEqualTo(TmdbKeyword(322496, "action"))
+
+            val recommendations = showDetails.recommendations!!.results
+            assertThat(recommendations).hasSize(20)
+
+            val alternativeTitles = showDetails.alternativeTitles!!.results
+            assertThat(alternativeTitles).hasSize(8)
+            assertThat(alternativeTitles.first()).isEqualTo(TmdbAlternativeTitle("CN", "绅士怪盗", ""))
+            assertThat(alternativeTitles.last()).isEqualTo(TmdbAlternativeTitle("UA", "Арсен Люпен", ""))
         }
 
         @Test

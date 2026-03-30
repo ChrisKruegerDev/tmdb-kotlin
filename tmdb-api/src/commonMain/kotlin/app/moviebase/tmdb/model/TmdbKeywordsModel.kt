@@ -22,3 +22,8 @@ data class TmdbKeywordPageResult(
     @SerialName("total_results") override val totalResults: Int,
     @SerialName("total_pages") override val totalPages: Int
 ) : TmdbPageResult<TmdbKeywordDetail>
+
+@Serializable
+data class TmdbKeywords(
+    @SerialName("keywords") val keywords: List<TmdbKeyword> = emptyList()
+)

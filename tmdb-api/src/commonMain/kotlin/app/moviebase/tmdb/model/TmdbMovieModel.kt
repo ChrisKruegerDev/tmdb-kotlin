@@ -122,6 +122,9 @@ data class TmdbMovieDetail(
     @SerialName("reviews") val reviews: TmdbResult<TmdbReview>? = null,
     @SerialName("images") val images: TmdbImages? = null,
     @SerialName("translations") val translations: TmdbMovieTranslations? = null,
+    @SerialName("keywords") val keywords: TmdbKeywords? = null,
+    @SerialName("recommendations") val recommendations: TmdbResult<TmdbMovie>? = null,
+    @SerialName("alternative_titles") val alternativeTitles: TmdbAlternativeTitlesResult? = null,
     @SerialName("belongs_to_collection") val belongsToCollection: TmdbBelongsToCollection? = null,
 ) : TmdbRatingItem {
 
@@ -167,6 +170,11 @@ data class TmdbBelongsToCollection(
     @SerialName("name") val name: String,
     @SerialName("backdrop_path") val backdropPath: String? = null,
     @SerialName("parts") val parts: List<TmdbMovie> = emptyList()
+)
+
+@Serializable
+data class TmdbAlternativeTitlesResult(
+    @SerialName("titles") val titles: List<TmdbAlternativeTitle> = emptyList()
 )
 
 @Serializable

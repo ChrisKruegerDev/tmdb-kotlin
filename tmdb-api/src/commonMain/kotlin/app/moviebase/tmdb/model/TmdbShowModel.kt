@@ -138,6 +138,9 @@ data class TmdbShowDetail(
     @SerialName("reviews") val reviews: TmdbResult<TmdbReview>? = null,
     @SerialName("created_by") val createdBy: List<TmdbShowCreatedBy>? = null,
     @SerialName("translations") val translations: TmdbShowTranslations? = null,
+    @SerialName("keywords") val keywords: TmdbResult<TmdbKeyword>? = null,
+    @SerialName("recommendations") val recommendations: TmdbResult<TmdbShow>? = null,
+    @SerialName("alternative_titles") val alternativeTitles: TmdbResult<TmdbAlternativeTitle>? = null,
 ) : TmdbAnyItem, TmdbBackdropItem, TmdbPosterItem, TmdbRatingItem
 
 
