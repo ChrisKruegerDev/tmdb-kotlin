@@ -2,6 +2,7 @@ package app.moviebase.tmdb.model
 
 import app.moviebase.tmdb.image.TmdbImage
 import app.moviebase.tmdb.core.LocalDateSerializer
+import app.moviebase.tmdb.core.TmdbInstantSerializer
 import kotlin.time.Instant
 import kotlinx.datetime.LocalDate
 import kotlinx.serialization.SerialName
@@ -153,7 +154,7 @@ data class TmdbReleaseDates(
 @Serializable
 data class TmdbReleaseDate(
     @SerialName("iso_639_1") val iso639: String? = null,
-    @SerialName("release_date") val releaseDate: Instant?,
+    @SerialName("release_date") @Serializable(TmdbInstantSerializer::class) val releaseDate: Instant?,
     @SerialName("certification") val certification: String? = null,
     @SerialName("type") val type: TmdbReleaseType
 )

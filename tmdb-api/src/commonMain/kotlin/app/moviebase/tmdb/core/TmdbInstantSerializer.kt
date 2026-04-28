@@ -18,9 +18,15 @@ internal class TmdbInstantSerializer : KSerializer<Instant> {
 
     override fun deserialize(decoder: Decoder): Instant {
         val string = decoder.decodeString()
-        val splits = string.split(" ")
-        val isoString = "${splits[0]}T${splits[1]}Z"
-        return Instant.parse(isoString)
+        if (string.contains(" ")) {
+            val splits = string.split(" ")
+            if (splits.size >= 2) {
+                val isoString = "${splits[0]}T${splits[1]}Z"
+                return Instant.parse(isoString)
+            }
+        }
+
+        return Instant.parse(string)
     }
 
     override fun serialize(encoder: Encoder, value: Instant) {
