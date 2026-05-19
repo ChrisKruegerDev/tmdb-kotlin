@@ -113,8 +113,6 @@ sealed interface TmdbDiscover {
     data class Movie(
         val includeAdult: Boolean = false,
         val includeVideo: Boolean = false,
-        val language: String? = null,
-        val region: String? = null,
         val sortBy: TmdbDiscoverMovieSortBy = TmdbDiscoverMovieSortBy.POPULARITY,
         override val sortOrder: TmdbSortOrder = TmdbSortOrder.DESC,
         override val voteAverageGte: Float? = null,
@@ -160,9 +158,6 @@ sealed interface TmdbDiscover {
             if (includeVideo) {
                 params[DiscoverParam.Movie.INCLUDE_VIDEO] = includeVideo.toString()
             }
-
-            language?.let { params[DiscoverParam.LANGUAGE] = it }
-            region?.let { params[DiscoverParam.Movie.REGION] = it }
 
             certification?.let { params[DiscoverParam.Movie.CERTIFICATION] = it }
             certificationGte?.let { params[DiscoverParam.Movie.CERTIFICATION_GTE] = it }
@@ -276,7 +271,6 @@ sealed interface TmdbDiscover {
         override val voteCountLte: Int? = null,
         override val withGenres: TmdbDiscoverFilter<String>? = null,
         override val withoutGenres: TmdbDiscoverFilter<String>? = null,
-        val language: String? = null,
         val firstAirDate: TmdbDiscoverTimeRange? = null,
         val airDateGte: String? = null,
         val airDateLte: String? = null,
@@ -310,8 +304,6 @@ sealed interface TmdbDiscover {
             if (includeNullFirstAirDates) {
                 params[DiscoverParam.Show.INCLUDE_NULL_FIRST_AIR_DATES] = includeNullFirstAirDates.toString()
             }
-
-            language?.let { params[DiscoverParam.LANGUAGE] = it }
 
             airDateGte?.let {
                 params[DiscoverParam.Show.AIR_DATE_GTE] = airDateGte
