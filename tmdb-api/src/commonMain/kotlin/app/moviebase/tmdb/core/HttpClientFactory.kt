@@ -8,7 +8,6 @@ import io.ktor.client.HttpClient
 import io.ktor.client.HttpClientConfig
 import io.ktor.client.network.sockets.ConnectTimeoutException
 import io.ktor.client.network.sockets.SocketTimeoutException
-import io.ktor.client.plugins.ClientRequestException
 import io.ktor.client.plugins.HttpRequestRetry
 import io.ktor.client.plugins.HttpRequestTimeoutException
 import io.ktor.client.plugins.HttpResponseValidator
@@ -100,26 +99,21 @@ internal object HttpClientFactory {
             }
 
             // see https://ktor.io/docs/client-retry.html
-            config.maxRequestRetries?.let {
+            config.maxRequestRetries?.takeIf { it > 0 }?.let { maxRetries ->
                 install(HttpRequestRetry) {
-                    exponentialDelay()
-                    retryIf(it) { _, httpResponse ->
-                        when {
-                            httpResponse.status.value in 500..599 -> true
-                            httpResponse.status == HttpStatusCode.TooManyRequests -> true
-                            else -> false
-                        }
+                    retryIf(maxRetries) { _, response ->
+                        response.status.value in 500..599 ||
+                            response.status == HttpStatusCode.TooManyRequests
                     }
 
-                    retryOnExceptionIf(maxRetries = it) { _, cause ->
-                        when {
-                            cause.isTimeoutException() -> false
-                            cause is CancellationException -> false
-                            cause is TmdbException -> false
-                            // only retry transient network/IO failures, not serialization or other errors
-                            else -> cause.unwrapCancellationException() is IOException
-                        }
+                    retryOnExceptionIf(maxRetries) { _, cause ->
+                        cause !is CancellationException && cause.isRetryableException()
                     }
+
+                    exponentialDelay(
+                        maxDelayMs = 30_000,
+                        respectRetryAfterHeader = true,
+                    )
                 }
             }
 
@@ -147,8 +141,6 @@ internal object HttpClientFactory {
     }
 
     private suspend fun Json.decodeTmdbErrorResponse(response: HttpResponse): TmdbErrorResponse? {
-//        if (!response.isTmdbStatusHandled) return null
-
         return try {
             val exceptionResponseText = response.bodyAsText()
             decodeFromString(TmdbErrorResponse.serializer(), exceptionResponseText)
@@ -158,15 +150,11 @@ internal object HttpClientFactory {
         }
     }
 
-    private val HttpResponse.isTmdbStatusHandled: Boolean
-        get() = status == HttpStatusCode.NotFound ||
-            status == HttpStatusCode.Unauthorized ||
-            status == HttpStatusCode.InternalServerError
-
-    private fun Throwable.isTimeoutException(): Boolean {
+    private fun Throwable.isRetryableException(): Boolean {
         val exception = unwrapCancellationException()
         return exception is HttpRequestTimeoutException ||
             exception is ConnectTimeoutException ||
-            exception is SocketTimeoutException
+            exception is SocketTimeoutException ||
+            exception is IOException
     }
 }
