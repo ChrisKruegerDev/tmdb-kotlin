@@ -17,6 +17,7 @@ import io.ktor.client.plugins.auth.Auth
 import io.ktor.client.plugins.auth.providers.BearerTokens
 import io.ktor.client.plugins.auth.providers.bearer
 import io.ktor.client.plugins.cache.HttpCache
+import io.ktor.client.plugins.compression.ContentEncoding
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.plugins.defaultRequest
 import io.ktor.client.plugins.logging.Logging
@@ -25,8 +26,10 @@ import io.ktor.client.statement.bodyAsText
 import io.ktor.client.utils.unwrapCancellationException
 import io.ktor.http.HttpStatusCode
 import io.ktor.http.URLProtocol
+import io.ktor.http.isSuccess
 import io.ktor.http.path
 import io.ktor.serialization.kotlinx.json.json
+import kotlinx.io.IOException
 import kotlinx.serialization.json.Json
 import kotlin.coroutines.cancellation.CancellationException
 
@@ -52,6 +55,12 @@ internal object HttpClientFactory {
                 json(json)
             }
 
+            // see https://ktor.io/docs/client-content-encoding.html
+            install(ContentEncoding) {
+                gzip()
+                deflate()
+            }
+
             // see https://ktor.io/docs/auth.html
             if (useAuthentication) {
                 install(Auth) {
@@ -71,11 +80,22 @@ internal object HttpClientFactory {
             }
 
             // see https://ktor.io/docs/response-validation.html
+            // Keep Ktor's built-in validation disabled so all errors surface as a single TmdbException,
+            // including non-2xx responses whose body isn't a TMDB-shaped error (e.g. a CDN/gateway page).
             expectSuccess = config.expectSuccess
             HttpResponseValidator {
                 validateResponse { response ->
-                    val tmdbErrorResponse = json.decodeTmdbErrorResponse(response) ?: return@validateResponse
-                    throw TmdbException(tmdbErrorResponse, requestUrl = response.call.request.url.toString())
+                    if (response.status.isSuccess()) return@validateResponse
+
+                    // Fall back to the HTTP status when the body isn't a TMDB-shaped error
+                    // so every non-2xx response still surfaces as a TmdbException.
+                    val tmdbResponse = json.decodeTmdbErrorResponse(response)
+                        ?: TmdbErrorResponse(
+                            statusCode = response.status.value,
+                            statusMessage = response.status.description,
+                            success = false,
+                        )
+                    throw TmdbException(tmdbResponse, requestUrl = response.call.request.url.toString())
                 }
             }
 
@@ -96,7 +116,8 @@ internal object HttpClientFactory {
                             cause.isTimeoutException() -> false
                             cause is CancellationException -> false
                             cause is TmdbException -> false
-                            else -> true
+                            // only retry transient network/IO failures, not serialization or other errors
+                            else -> cause.unwrapCancellationException() is IOException
                         }
                     }
                 }
@@ -109,9 +130,9 @@ internal object HttpClientFactory {
 
             if (config.useTimeout) {
                 install(HttpTimeout) {
-                    requestTimeoutMillis = 60_000
-                    connectTimeoutMillis = 60_000
-                    socketTimeoutMillis = 60_000
+                    connectTimeoutMillis = 10_000   // host reachability — fail fast
+                    socketTimeoutMillis  = 30_000   // stall detection mid-response
+                    requestTimeoutMillis = 30_000   // total ceiling per attempt
                 }
             }
 

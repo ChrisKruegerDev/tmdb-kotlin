@@ -49,6 +49,7 @@ kotlin {
             implementation(libs.ktor.logging)
             implementation(libs.ktor.serialization.json)
             implementation(libs.ktor.content.negotiation)
+            implementation(libs.ktor.encoding)
             implementation(libs.ktor.auth)
         }
 
