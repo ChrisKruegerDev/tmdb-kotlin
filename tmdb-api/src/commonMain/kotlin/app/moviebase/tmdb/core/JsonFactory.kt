@@ -14,6 +14,7 @@ object JsonFactory {
     fun buildJson(): Json = Json {
         encodeDefaults = false
         ignoreUnknownKeys = true
+        coerceInputValues = true
         isLenient = true
         allowSpecialFloatingPointValues = true
         prettyPrint = false
