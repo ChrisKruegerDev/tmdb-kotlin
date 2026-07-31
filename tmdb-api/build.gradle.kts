@@ -1,7 +1,6 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 import org.gradle.kotlin.dsl.withType
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
@@ -15,10 +14,11 @@ kotlin {
     jvm {
         compilerOptions {
             jvmTarget.set(JvmTarget.JVM_17)
+            freeCompilerArgs.add("-Xjdk-release=17")
         }
     }
 
-    js(IR) {
+    js {
         browser()
         nodejs()
     }
@@ -31,12 +31,6 @@ kotlin {
         target.binaries.framework {
             baseName = "app-moviebase-tmdb-api"
         }
-    }
-
-    sourceSets.all {
-        languageSettings.optIn("kotlin.time.ExperimentalTime")
-        languageSettings.optIn("kotlinx.coroutines.ExperimentalCoroutinesApi")
-        languageSettings.optIn("kotlinx.coroutines.FlowPreview")
     }
 
     sourceSets {
@@ -68,7 +62,6 @@ kotlin {
             implementation(libs.kotlinx.coroutines.core)
             implementation(libs.kotlinx.coroutines.test)
             implementation(libs.kotlin.junit5)
-            implementation(libs.junit)
             implementation(libs.junit.jupiter.api)
             runtimeOnly(libs.junit.jupiter.engine)
             implementation(libs.truth)
@@ -84,13 +77,6 @@ kotlin {
     }
 }
 
-tasks.withType<KotlinCompile> {
-    compilerOptions {
-        jvmTarget.set(JvmTarget.JVM_17)
-        freeCompilerArgs.add("-Xjvm-default=all")
-    }
-}
-
 tasks.withType<Test>().configureEach {
     useJUnitPlatform()
     testLogging {
@@ -99,7 +85,7 @@ tasks.withType<Test>().configureEach {
     }
 }
 
-tasks.withType<DependencyUpdatesTask> {
+tasks.withType<DependencyUpdatesTask>().configureEach {
     rejectVersionIf {
         isNonStable(candidate.version)
     }

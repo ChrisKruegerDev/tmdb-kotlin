@@ -15,12 +15,6 @@ This is a Kotlin Multiplatform library for The Movie Database (TMDB) API. It pro
 # Run tests (JVM platform)
 ./gradlew jvmTest
 
-# Run linting
-./gradlew spotlessCheck
-
-# Apply linting fixes
-./gradlew spotlessApply
-
 # Publish to Maven Central (requires credentials)
 ./gradlew publish
 

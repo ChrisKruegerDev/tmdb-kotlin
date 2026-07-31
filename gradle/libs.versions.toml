@@ -1,15 +1,14 @@
 [versions]
-kotlin = "2.3.21"
-ben-manes-versions = "0.53.0"
+kotlin = "2.4.10"
+ben-manes-versions = "0.54.0"
 dokka = "2.2.0"
 kotlinx-datetime = "0.8.0"
 kotlinx-serialization = "1.11.0"
 coroutines = "1.11.0"
-ktor = "3.5.0"
-junit-jupiter = "6.1.0"
+ktor = "3.5.1"
+junit-jupiter = "6.1.2"
 truth = "1.4.5"
-junit = "4.13.2"
-maven-publish = "0.34.0"
+maven-publish = "0.37.0"
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
@@ -38,7 +37,6 @@ ktor-mock = { module = "io.ktor:ktor-client-mock", version.ref = "ktor" }
 kotlin-junit5 = { module = "org.jetbrains.kotlin:kotlin-test-junit5", version.ref = "kotlin" }
 kotlin-test-common = { module = "org.jetbrains.kotlin:kotlin-test-common", version.ref = "kotlin" }
 kotlin-test-annotations = { module = "org.jetbrains.kotlin:kotlin-test-annotations-common", version.ref = "kotlin" }
-junit = { module = "junit:junit", version.ref = "junit" }
 
 junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit-jupiter" }
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit-jupiter" }
