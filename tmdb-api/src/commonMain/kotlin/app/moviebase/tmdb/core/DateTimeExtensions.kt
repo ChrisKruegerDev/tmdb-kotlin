@@ -14,6 +14,8 @@ internal fun currentLocalDate(timeZone: TimeZone = TimeZone.UTC): LocalDate = Cl
 internal fun LocalDate.plusDays(days: Int) = plus(days, DateTimeUnit.DAY)
 internal fun LocalDate.plusWeeks(weeks: Int) = plus(weeks, DateTimeUnit.WEEK)
 internal fun LocalDate.minusWeeks(weeks: Int) = minus(weeks, DateTimeUnit.WEEK)
+internal fun LocalDate.plusYears(years: Int) = plus(years, DateTimeUnit.YEAR)
+internal fun LocalDate.minusYears(years: Int) = minus(years, DateTimeUnit.YEAR)
 
 internal fun String.tryLocalDate(): LocalDate? = try {
     if (isBlank()) null else LocalDate.parse(this)

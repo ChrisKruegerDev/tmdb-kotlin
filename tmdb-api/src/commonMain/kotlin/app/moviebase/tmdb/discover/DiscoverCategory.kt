@@ -13,7 +13,15 @@ sealed interface DiscoverCategory {
     data class TopRated(val mediaType: TmdbMediaType) : DiscoverCategory
     data object AiringToday : DiscoverCategory
     data object OnTv : DiscoverCategory
+    data object CurrentlyAiring : DiscoverCategory
     data class OnDvd(val mediaType: TmdbMediaType) : DiscoverCategory
+
+    data class Genre(
+        val mediaType: TmdbMediaType,
+        val genres: TmdbDiscoverFilter<String>,
+    ) : DiscoverCategory
+
+    data class Networks(val networks: TmdbDiscoverFilter<Int>) : DiscoverCategory
 
     data class Network(val network: Int) : DiscoverCategory {
         companion object {
