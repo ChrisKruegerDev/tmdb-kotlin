@@ -40,7 +40,7 @@ enum class TmdbSortOrder(val value: String) {
     ASC("asc"), DESC("desc")
 }
 
-fun TmdbSortOrder?.getValueOrDefault() = this?.value ?: TmdbSortOrder.DESC?.value
+fun TmdbSortOrder?.getValueOrDefault(): String = this?.value ?: TmdbSortOrder.DESC.value
 
 /**
  * TMDB returns some errors like no resources, invalid API key, no token has been granted.

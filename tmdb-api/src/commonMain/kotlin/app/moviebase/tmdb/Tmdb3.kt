@@ -25,12 +25,10 @@ import app.moviebase.tmdb.api.TmdbShowEpisodesApi
 import app.moviebase.tmdb.api.TmdbShowSeasonsApi
 import app.moviebase.tmdb.api.TmdbTrendingApi
 import app.moviebase.tmdb.core.HttpClientFactory
-import app.moviebase.tmdb.core.TmdbDsl
 import app.moviebase.tmdb.core.interceptRequest
 import io.ktor.client.HttpClient
 import io.ktor.client.request.parameter
 
-@TmdbDsl
 fun Tmdb3(block: TmdbClientConfig.() -> Unit): Tmdb3 {
     val config = TmdbClientConfig().apply(block)
     return Tmdb3(config)

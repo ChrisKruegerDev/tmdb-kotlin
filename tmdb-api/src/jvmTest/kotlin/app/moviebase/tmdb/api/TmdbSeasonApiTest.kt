@@ -57,7 +57,7 @@ class TmdbSeasonApiTest {
         assertNotNull(seasonDetails.images)
         assertNotNull(seasonDetails.translations)
 
-        val imageFile = seasonDetails.images?.posters?.firstOrNull()
+        val imageFile = seasonDetails.images.posters.firstOrNull()
         assertEquals("/oQasSKPcBLcEG5rOUg3s1Ozpr4s.jpg", imageFile?.filePath)
 
         val czechTranslation = seasonDetails.translations.translations.first { it.iso639 == "cs" }

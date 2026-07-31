@@ -4,7 +4,7 @@ import app.moviebase.tmdb.model.TmdbVideo
 import app.moviebase.tmdb.model.TmdbVideoSite
 import app.moviebase.tmdb.url.TmdbUrlBuilder
 import com.google.common.truth.Truth.assertThat
-import org.junit.Test
+import org.junit.jupiter.api.Test
 
 internal class TmdbVideoUrlBuilderTest {
 

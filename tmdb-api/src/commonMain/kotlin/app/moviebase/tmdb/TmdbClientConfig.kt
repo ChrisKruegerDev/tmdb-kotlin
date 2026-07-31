@@ -5,7 +5,6 @@ import io.ktor.client.*
 import io.ktor.client.engine.*
 import io.ktor.client.plugins.logging.*
 
-@TmdbDsl
 class TmdbClientConfig {
 
     var tmdbApiKey: String? = null
@@ -56,7 +55,6 @@ class TmdbClientConfig {
     }
 }
 
-@TmdbDsl
 class TmdbAuthCredentials {
 
     // used in version 4

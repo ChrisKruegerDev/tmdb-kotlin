@@ -4,12 +4,10 @@ import app.moviebase.tmdb.api.Tmdb4AccountApi
 import app.moviebase.tmdb.api.Tmdb4AuthenticationApi
 import app.moviebase.tmdb.api.Tmdb4ListApi
 import app.moviebase.tmdb.core.HttpClientFactory
-import app.moviebase.tmdb.core.TmdbDsl
 import app.moviebase.tmdb.core.interceptRequest
 import io.ktor.client.*
 import io.ktor.client.request.*
 
-@TmdbDsl
 fun Tmdb4(block: TmdbClientConfig.() -> Unit): Tmdb4 {
     val config = TmdbClientConfig().apply(block)
     return Tmdb4(config)
