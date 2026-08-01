@@ -11,6 +11,20 @@ import io.ktor.client.request.*
 
 class TmdbTrendingApi internal constructor(private val client: HttpClient) {
 
+    /**
+     * Gets the movies, TV shows and people trending across TMDB.
+     * See https://developer.themoviedb.org/reference/trending-all
+     */
+    suspend fun getTrendingAll(
+        timeWindow: TmdbTimeWindow,
+        page: Int,
+        language: String? = null
+    ): TmdbMultiPageResult = client.get {
+        endPointV3("trending", TmdbRequestMediaType.ALL.value, timeWindow.value)
+        parameterLanguage(language)
+        parameterPage(page)
+    }.body()
+
     suspend fun getTrendingMovies(
         timeWindow: TmdbTimeWindow,
         page: Int,

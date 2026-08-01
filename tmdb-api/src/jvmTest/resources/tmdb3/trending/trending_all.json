@@ -1,0 +1,51 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/movie-backdrop.jpg",
+      "genre_ids": [18],
+      "id": 101,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Trending Movie",
+      "overview": "A movie trending this week.",
+      "popularity": 100.0,
+      "poster_path": "/movie-poster.jpg",
+      "release_date": "2026-07-30",
+      "title": "Trending Movie",
+      "video": false,
+      "vote_average": 8.0,
+      "vote_count": 100
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/show-backdrop.jpg",
+      "first_air_date": "2026-07-28",
+      "genre_ids": [18],
+      "id": 202,
+      "media_type": "tv",
+      "name": "Trending Show",
+      "origin_country": ["US"],
+      "original_language": "en",
+      "original_name": "Trending Show",
+      "overview": "A show trending this week.",
+      "popularity": 90.0,
+      "poster_path": "/show-poster.jpg",
+      "vote_average": 7.5,
+      "vote_count": 90
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 303,
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Trending Person",
+      "popularity": 80.0,
+      "profile_path": "/person-profile.jpg"
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 3
+}
