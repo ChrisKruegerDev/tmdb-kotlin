@@ -13,6 +13,12 @@ object TmdbCompanyId {
     const val WARNER_BROS_PICTURES = 174
     const val COLUMBIA_PICTURES = 5
     const val TRISTAR_PICTURES = 559
+    const val MARVEL_STUDIOS = 420
+    const val LUCASFILM = 1
+    const val PIXAR = 3
+    const val STUDIO_GHIBLI = 10342
+    const val LIONSGATE = 1632
+    const val A24 = 41077
 }
 
 @Serializable
