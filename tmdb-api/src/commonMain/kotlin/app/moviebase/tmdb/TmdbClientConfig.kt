@@ -46,6 +46,12 @@ class TmdbClientConfig {
         }
     }
 
+    fun httpClient(engine: HttpClientEngine, block: HttpClientConfig<*>.() -> Unit = {}) {
+        httpClientBuilder = {
+            HttpClient(engine, block)
+        }
+    }
+
     companion object {
 
         internal fun withKey(tmdbApiKey: String) = TmdbClientConfig().apply {
