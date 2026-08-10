@@ -1,0 +1,147 @@
+{
+  "backdrop_path": "/j9fRIimor0AMFJR9kjZubXcABzZ.jpg",
+  "first_air_date": "2021-01-11",
+  "id": 94664,
+  "name": "Mushoku Tensei: Jobless Reincarnation",
+  "number_of_episodes": 61,
+  "number_of_seasons": 3,
+  "overview": "When a 34-year-old underachiever gets run over by a truck, his story doesn't end there. Reincarnated in a new world as an infant, Rudy will seize every opportunity to live the life he's always wanted. Armed with new friends, some freshly acquired magical abilities, and the courage to do the things he's always dreamed of, he's embarking on an epic adventure—with all of his past experience intact!",
+  "poster_path": "/gLKOYIMyKlUHW0SVdskhgf9C0yy.jpg",
+  "seasons": [
+    {
+      "air_date": "2022-03-16",
+      "episode_count": 3,
+      "id": 219489,
+      "name": "Specials",
+      "overview": "",
+      "poster_path": "/oxH1Ls6Nj2PGEy5TKtBddI4msuA.jpg",
+      "season_number": 0,
+      "vote_average": 0.0
+    },
+    {
+      "air_date": "2021-01-11",
+      "episode_count": 23,
+      "id": 134338,
+      "name": "Season 1",
+      "overview": "When a 34-year-old underachiever gets run over by a truck, his story doesn't end there. Reincarnated in a new world as an infant, Rudy will seize every opportunity to live the life he's always wanted. Armed with new friends, some freshly acquired magical abilities, and the courage to do the things he's always dreamed of, he's embarking on an epic adventure—with all of his past experience intact!",
+      "poster_path": "/4vEel9ztoC3PtQFOkthVPtdlWQr.jpg",
+      "season_number": 1,
+      "vote_average": 5.0
+    },
+    {
+      "air_date": "2023-07-10",
+      "episode_count": 24,
+      "id": 334394,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/kVHnRfj5c7rzetzMPlRQXEZRzkH.jpg",
+      "season_number": 2,
+      "vote_average": 4.1
+    },
+    {
+      "air_date": "2026-07-04",
+      "episode_count": 14,
+      "id": 400493,
+      "name": "Season 3",
+      "overview": "",
+      "poster_path": "/kZNFYvX1brcjubHXNa1naMwRoov.jpg",
+      "season_number": 3,
+      "vote_average": 5.4
+    }
+  ],
+  "status": "Returning Series",
+  "season/1": {
+    "_id": "5da9ea359661fc00123f5f16",
+    "air_date": "2021-01-11",
+    "episodes": [
+      {
+        "air_date": "2021-01-11",
+        "episode_number": 1,
+        "id": 1956859,
+        "name": "Jobless Reincarnation",
+        "overview": "A 34-year-old unemployed recluse get hit by a truck... and wakes up as a newborn baby in a fantasy world! With loving parents, a lifetime of regrets, and a beginner’s magic textbook, he sets out to make the most of his second chance at life.",
+        "runtime": 24,
+        "season_number": 1,
+        "still_path": "/sS93JaHkWvhecsmgSdg5MFel3y5.jpg",
+        "vote_average": 5.5,
+        "vote_count": 63
+      },
+      {
+        "air_date": "2021-01-18",
+        "episode_number": 2,
+        "id": 2602034,
+        "name": "Master",
+        "overview": "Rudy begins training with his new magic tutor and learning swordsmanship from his father. He makes rapid progress, but traumatic memories from his past life leave him too afraid to go outside. Is his second chance already doomed to failure?",
+        "runtime": 24,
+        "season_number": 1,
+        "still_path": "/gjktze6OF0wESkbHU4h3dxcWNoe.jpg",
+        "vote_average": 5.1,
+        "vote_count": 58
+      },
+      {
+        "air_date": "2021-01-25",
+        "episode_number": 3,
+        "id": 2602035,
+        "name": "A Friend",
+        "overview": "Rudy begins to explore the village and rescues a green-haired child from a group of bullies. The two grow close practicing magic, but is there more to Rudy’s new friend than he thinks?",
+        "runtime": 24,
+        "season_number": 1,
+        "still_path": "/d29kiiic7xbvsxCnJ4syiO3JxYy.jpg",
+        "vote_average": 4.9,
+        "vote_count": 58
+      }
+    ],
+    "name": "Season 1",
+    "overview": "When a 34-year-old underachiever gets run over by a truck, his story doesn't end there. Reincarnated in a new world as an infant, Rudy will seize every opportunity to live the life he's always wanted. Armed with new friends, some freshly acquired magical abilities, and the courage to do the things he's always dreamed of, he's embarking on an epic adventure—with all of his past experience intact!",
+    "poster_path": "/4vEel9ztoC3PtQFOkthVPtdlWQr.jpg",
+    "season_number": 1,
+    "vote_average": 5.0
+  },
+  "season/2": {
+    "_id": "642038ea8d22fc00cc0ecb4f",
+    "air_date": "2023-07-10",
+    "episodes": [
+      {
+        "air_date": "2023-07-10",
+        "episode_number": 1,
+        "id": 4472785,
+        "name": "The Brokenhearted Mage",
+        "overview": "Rudeus journeys to the harsh northlands in search of his lost mother. Or at least, that's what he tells himself. The scars of his parting from Eris run deep, and getting back on his feet may not be so easy.",
+        "runtime": 24,
+        "season_number": 2,
+        "still_path": "/mcSxW3rCNUN9FJkPugzIgnNdGBE.jpg",
+        "vote_average": 4.8,
+        "vote_count": 50
+      },
+      {
+        "air_date": "2023-07-17",
+        "episode_number": 2,
+        "id": 4556433,
+        "name": "The Forest in the Dead of Night",
+        "overview": "Rudeus doesn't want a new party, but he still grows closer to Counter Arrow as he settles into life as a northlands adventurer. When danger rears its head, he finds himself risking it all for his new friends.",
+        "runtime": 24,
+        "season_number": 2,
+        "still_path": "/tuP5fqtVZYA1UKW8n2hwgJtykYv.jpg",
+        "vote_average": 4.2,
+        "vote_count": 45
+      },
+      {
+        "air_date": "2023-07-24",
+        "episode_number": 3,
+        "id": 4573329,
+        "name": "Abrupt Approach",
+        "overview": "Things seem to be looking up for Rudeus. And when Sara asks him on a date, he decides to forget his heartbreak and start a new romance. But putting the past behind him may be easier said than done.",
+        "runtime": 24,
+        "season_number": 2,
+        "still_path": "/cDBi2NEvg3RiEKj9SuWpWh7BSBy.jpg",
+        "vote_average": 4.1,
+        "vote_count": 44
+      }
+    ],
+    "name": "Season 2",
+    "overview": "",
+    "poster_path": "/kVHnRfj5c7rzetzMPlRQXEZRzkH.jpg",
+    "season_number": 2,
+    "vote_average": 4.1
+  }
+}

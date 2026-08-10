@@ -54,6 +54,11 @@ internal fun HttpRequestBuilder.parameterPage(page: Int) {
     parameter("page", page)
 }
 
-internal fun HttpRequestBuilder.parameterAppendResponses(appendResponses: Iterable<AppendResponse>?) {
-    appendResponses?.let { parameter("append_to_response", AppendResponse.build(it)) }
+internal fun HttpRequestBuilder.parameterAppendResponses(
+    appendResponses: Iterable<AppendResponse>?,
+    additional: List<String> = emptyList(),
+) {
+    val values = appendResponses?.map { it.value }.orEmpty() + additional
+    if (values.isEmpty()) return
+    parameter("append_to_response", values.joinToString(","))
 }

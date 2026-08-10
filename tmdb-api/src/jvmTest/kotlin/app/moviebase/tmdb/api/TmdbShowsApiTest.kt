@@ -9,6 +9,7 @@ import com.google.common.truth.Truth.assertThat
 import kotlinx.coroutines.test.runTest
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.assertThrows
 
 class TmdbShowsApiTest {
 
@@ -22,10 +23,52 @@ class TmdbShowsApiTest {
             "tv/96677/aggregate_credits?language=en-US" to "tv/tv_aggregate_credits_96677.json",
             "tv/96677/recommendations?page=1&language=en-US" to "tv/tv_recommendations_96677.json",
             "tv/popular?page=1&language=en-US" to "tv/tv_popular.json",
+            "tv/94664?language=en&append_to_response=season/1,season/2,season/3"
+                to "tv/tv_show_94664_with_seasons.json",
         )
     )
 
     val classToTest = TmdbShowApi(client)
+
+    @Nested
+    inner class `when fetching show details with seasons` {
+
+        @Test
+        fun `it returns every appended season keyed by season number`() = runTest {
+            val result = classToTest.getDetailsWithSeasons(
+                showId = 94664,
+                seasonNumbers = listOf(1, 2, 3),
+                language = "en",
+            )
+
+            assertThat(result.show.id).isEqualTo(94664)
+            assertThat(result.seasons.keys).containsExactly(1, 2)
+            assertThat(result.seasons.getValue(1).seasonNumber).isEqualTo(1)
+            assertThat(result.seasons.getValue(1).episodes).hasSize(3)
+            assertThat(result.seasons.getValue(2).episodes).hasSize(3)
+        }
+
+        @Test
+        fun `it omits a requested season that does not exist`() = runTest {
+            val result = classToTest.getDetailsWithSeasons(
+                showId = 94664,
+                seasonNumbers = listOf(1, 2, 3),
+                language = "en",
+            )
+
+            assertThat(result.seasons).doesNotContainKey(3)
+        }
+
+        @Test
+        fun `it rejects more seasons than TMDB allows before requesting`() = runTest {
+            assertThrows<IllegalArgumentException> {
+                classToTest.getDetailsWithSeasons(
+                    showId = 94664,
+                    seasonNumbers = (1..TmdbShowApi.MAX_APPEND_SEASONS + 1).toList(),
+                )
+            }
+        }
+    }
 
     @Nested
     inner class `when fetching show details` {

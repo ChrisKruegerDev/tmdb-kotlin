@@ -1,6 +1,7 @@
 package app.moviebase.tmdb.model
 
 import app.moviebase.tmdb.core.LocalDateSerializer
+import app.moviebase.tmdb.core.TmdbShowDetailWithSeasonsSerializer
 import kotlinx.datetime.LocalDate
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
@@ -199,6 +200,16 @@ data class TmdbSeasonDetail(
 
     val numberOfEpisodes get() = episodeCount ?: episodes?.size ?: 0
 }
+
+/**
+ * Show details together with the seasons appended via `append_to_response=season/N`. Seasons that
+ * were requested but do not exist are simply absent from [seasons].
+ */
+@Serializable(with = TmdbShowDetailWithSeasonsSerializer::class)
+data class TmdbShowDetailWithSeasons(
+    val show: TmdbShowDetail,
+    val seasons: Map<Int, TmdbSeasonDetail>,
+)
 
 typealias TmdbSeasonTranslations = TmdbTranslations<TmdbSeasonTranslationData>
 

@@ -23,6 +23,7 @@ import app.moviebase.tmdb.model.TmdbResult
 import app.moviebase.tmdb.model.TmdbReview
 import app.moviebase.tmdb.model.TmdbScreenedTheatrically
 import app.moviebase.tmdb.model.TmdbShowDetail
+import app.moviebase.tmdb.model.TmdbShowDetailWithSeasons
 import app.moviebase.tmdb.model.TmdbShowPageResult
 import app.moviebase.tmdb.model.TmdbShowTranslations
 import app.moviebase.tmdb.model.TmdbStatusResponse
@@ -55,6 +56,31 @@ class TmdbShowApi internal constructor(private val client: HttpClient) {
         parameterIncludeImageLanguage(includeImageLanguages)
         parameterIncludeVideoLanguage(includeVideoLanguages)
     }.body()
+
+    /**
+     * Get show details with several seasons appended in a single request.
+     *
+     * Season numbers that do not exist are omitted from the result rather than failing, so callers
+     * can request a range without looking up the season count first.
+     *
+     * @param seasonNumbers at most [MAX_APPEND_SEASONS]; TMDB rejects more with HTTP 400.
+     */
+    suspend fun getDetailsWithSeasons(
+        showId: Int,
+        seasonNumbers: List<Int>,
+        language: String? = null,
+        appendResponses: Iterable<AppendResponse>? = null,
+    ): TmdbShowDetailWithSeasons {
+        require(seasonNumbers.size <= MAX_APPEND_SEASONS) {
+            "too many seasons appended: ${seasonNumbers.size}, max is $MAX_APPEND_SEASONS"
+        }
+
+        return client.get {
+            endPointShow(showId)
+            parameterLanguage(language)
+            parameterAppendResponses(appendResponses, seasonNumbers.map { "season/$it" })
+        }.body()
+    }
 
     suspend fun getTranslations(showId: Int): TmdbShowTranslations = client.get {
         endPointShow(showId, "translations")
@@ -248,5 +274,10 @@ class TmdbShowApi internal constructor(private val client: HttpClient) {
 
     private fun HttpRequestBuilder.endPointShow(showId: Int, vararg paths: String) {
         endPointV3("tv", showId.toString(), *paths)
+    }
+
+    companion object {
+        /** TMDB rejects an `append_to_response` with more than 20 sub-requests. */
+        const val MAX_APPEND_SEASONS = 20
     }
 }
