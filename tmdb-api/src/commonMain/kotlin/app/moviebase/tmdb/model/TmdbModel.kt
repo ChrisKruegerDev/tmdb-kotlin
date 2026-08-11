@@ -1,5 +1,6 @@
 package app.moviebase.tmdb.model
 
+import app.moviebase.tmdb.TmdbPaging
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
@@ -68,6 +69,14 @@ interface TmdbPageResult<T> {
     val totalResults: Int
     val totalPages: Int
 }
+
+/** Number of response pages that TMDB allows clients to request. */
+val TmdbPageResult<*>.accessibleTotalPages: Int
+    get() = TmdbPaging.accessibleTotalPages(totalPages)
+
+/** Next requestable page, or null when this is the last page exposed by TMDB. */
+val TmdbPageResult<*>.nextPage: Int?
+    get() = (page + 1).takeIf { page < accessibleTotalPages }
 
 @Serializable
 data class TmdbErrorResponse(

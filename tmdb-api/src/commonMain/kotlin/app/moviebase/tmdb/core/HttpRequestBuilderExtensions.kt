@@ -1,5 +1,6 @@
 package app.moviebase.tmdb.core
 
+import app.moviebase.tmdb.TmdbPaging
 import app.moviebase.tmdb.TmdbWebConfig
 import app.moviebase.tmdb.model.AppendResponse
 import io.ktor.client.request.HttpRequestBuilder
@@ -50,7 +51,9 @@ internal fun HttpRequestBuilder.parameterRegion(region: String?) {
 }
 
 internal fun HttpRequestBuilder.parameterPage(page: Int) {
-    require(page > 0) { "invalid page size: $page" }
+    require(page in TmdbPaging.FIRST_PAGE..TmdbPaging.MAX_PAGE) {
+        "invalid page: $page (expected ${TmdbPaging.FIRST_PAGE}..${TmdbPaging.MAX_PAGE})"
+    }
     parameter("page", page)
 }
 
