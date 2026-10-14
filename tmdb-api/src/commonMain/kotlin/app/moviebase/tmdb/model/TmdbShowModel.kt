@@ -240,6 +240,8 @@ data class TmdbEpisode(
     @SerialName("still_path") val stillPath: String? = null,
     @SerialName("crew") val crew: List<TmdbCrew>? = null,
     @SerialName("guest_stars") val guestStars: List<TmdbCast>? = null,
+    // Only /find sets it; an episode listed under its season has no show id.
+    @SerialName("show_id") val showId: Int? = null,
 ) : TmdbAnyItem, TmdbBackdropItem, TmdbRatingItem {
 
     override val backdropPath: String? get() = stillPath

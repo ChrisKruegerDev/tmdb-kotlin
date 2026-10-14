@@ -1,0 +1,24 @@
+{
+  "movie_results": [],
+  "person_results": [],
+  "tv_results": [],
+  "tv_episode_results": [
+    {
+      "id": 1313817,
+      "name": "A Mysterious Beauty Appears! The Enigma of the Tien Shin-Style Dojo?",
+      "overview": "Goku arrives at the dojo run by Tienshinhan to recruit him for the Tournament of Power.",
+      "media_type": "tv_episode",
+      "vote_average": 7.714,
+      "vote_count": 7,
+      "air_date": "2017-05-07",
+      "episode_number": 89,
+      "episode_type": "standard",
+      "production_code": "0",
+      "runtime": 24,
+      "season_number": 1,
+      "show_id": 62715,
+      "still_path": "/3Rome8Nbv1YoaYCUUp9KzF1M6K8.jpg"
+    }
+  ],
+  "tv_season_results": []
+}
