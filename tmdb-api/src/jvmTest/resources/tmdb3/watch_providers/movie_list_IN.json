@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "display_priority": 0,
+      "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png",
+      "provider_name": "Netflix",
+      "provider_id": 8
+    },
+    {
+      "display_priority": 3,
+      "logo_path": "/ledoS6EgdjTNq8F1e6wubUQer18.png",
+      "provider_name": "JioHotstar",
+      "provider_id": 2336
+    },
+    {
+      "display_priority": 2,
+      "logo_path": "/uQvhdtB8skccsGHmvKi3y5bqBsX.png",
+      "provider_name": "Zee5",
+      "provider_id": 232
+    }
+  ]
+}

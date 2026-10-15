@@ -50,6 +50,10 @@ internal fun HttpRequestBuilder.parameterRegion(region: String?) {
     region?.let { parameter("region", it) }
 }
 
+internal fun HttpRequestBuilder.parameterWatchRegion(watchRegion: String?) {
+    watchRegion?.let { parameter("watch_region", it) }
+}
+
 internal fun HttpRequestBuilder.parameterPage(page: Int) {
     require(page in TmdbPaging.FIRST_PAGE..TmdbPaging.MAX_PAGE) {
         "invalid page: $page (expected ${TmdbPaging.FIRST_PAGE}..${TmdbPaging.MAX_PAGE})"

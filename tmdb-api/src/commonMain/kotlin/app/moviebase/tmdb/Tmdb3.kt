@@ -24,6 +24,7 @@ import app.moviebase.tmdb.api.TmdbShowEpisodeGroupsApi
 import app.moviebase.tmdb.api.TmdbShowEpisodesApi
 import app.moviebase.tmdb.api.TmdbShowSeasonsApi
 import app.moviebase.tmdb.api.TmdbTrendingApi
+import app.moviebase.tmdb.api.TmdbWatchProvidersApi
 import app.moviebase.tmdb.core.HttpClientFactory
 import app.moviebase.tmdb.core.interceptRequest
 import io.ktor.client.HttpClient
@@ -87,6 +88,7 @@ class Tmdb3 internal constructor(private val config: TmdbClientConfig) {
     val showSeasons by buildApi(::TmdbShowSeasonsApi)
     val showEpisodes by buildApi(::TmdbShowEpisodesApi)
     val showEpisodeGroups by buildApi(::TmdbShowEpisodeGroupsApi)
+    val watchProviders by buildApi(::TmdbWatchProvidersApi)
 
     private inline fun <T> buildApi(crossinline builder: (HttpClient) -> T) = lazy {
         builder(client)

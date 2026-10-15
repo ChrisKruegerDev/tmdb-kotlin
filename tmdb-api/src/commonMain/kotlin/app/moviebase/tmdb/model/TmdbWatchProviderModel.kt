@@ -49,6 +49,12 @@ data class TmdbWatchProviderResult(
 )
 
 @Serializable
+data class TmdbWatchProviderListResponse(
+    // No default: TMDB error bodies carry no "results", and must fail rather than read as an empty region.
+    val results: List<TmdbProvider>
+)
+
+@Serializable
 data class TmdbProviders(
     val link: String? = null,
     val flatrate: List<TmdbProvider> = emptyList(),
